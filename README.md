@@ -15,7 +15,6 @@ This is a repository that I have created to showcase skills, share projects and 
   - R
     - [Legendary Pokémon Analysis (Study Project)](https://github.com/)
   - Excel / Google Sheets
-- [Education](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#education)  
 - [Certificates](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#certificates)
 - [Contact](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#contacts)
 
@@ -60,13 +59,6 @@ In this section I will list data analytics projects briefly describing the techn
 **Skills:** data cleaning, data analysis, data visualization.
 
 **Technology:** Tidyverse 
-
-
-## Education
-
-University of Applied Sciences, Bremen: 
-Bachelor of Arts - Business Administration,
-Jul 2021 - Mar 2025
 
 
 ## Certificates
