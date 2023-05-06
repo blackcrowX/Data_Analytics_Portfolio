@@ -78,6 +78,9 @@ In this section I will list data analytics projects briefly describing the techn
 
 
 ## Certificates
+- [Responsive Web Design](https://drive.google.com/file/d/1PO33pislQsTZ_XuU4AsNH7mIsVWd0e1n/view?usp=sharing) (April 2023) (freeCodeCamp)
+- [JavaScript Algorithms and Data Structures](https://drive.google.com/file/d/1oJ0w60LNJyLpO5dHZhpHK4Ge88vcVUvb/view?usp=sharing) (April 2023) (freeCodeCamp)
+- [Front End Development Libraries](https://drive.google.com/file/d/1qNTQjqRmA6KlArEhipUQRzaRKwCvD8TR/view?usp=sharing) (April 2023) (freeCodeCamp)
 - [Basics of Onlinemarketing](https://drive.google.com/file/d/1GniCDZSU1CODpTuh49TOUrBMx7VI9anY/view?usp=sharing) (May 2023) (Google Workshops)
 - [Data Analytics using Excel](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing) (May 2023) (Great Learning Academy)
 
