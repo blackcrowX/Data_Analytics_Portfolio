@@ -18,8 +18,6 @@
 ## About
 As a highly motivated and detail-oriented data analyst with a bachelor’s degree in Business Administration, I have gained experience in utilizing programming languages such as SQL and Python to gather and analyse large datasets. My passion for data analysis has driven me to develop a strong skill set in data modelling, data visualization, and statistical analysis. I am committed to delivering results and insights that will help businesses make informed deci-sions.
 
-This is a repository that I have created to showcase skills, share projects and track my progress in Data Analytics related topics.
-
 
 ## Projects
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
