@@ -8,9 +8,9 @@
     - [Covid 19](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Covid-2019.sql)
     - [Nashville Housing](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Nashville-Housing.sql)
   - Python
-    - [Pokémon Stats](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon%20Stats%20-%20Analysis.ipynb)
+    - [Pokémon Stats](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
   - R
-    - [Legendary Pokémon](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary%20Pok%C3%A9mon%20-%20%20Analysis.ipynb)
+    - [Legendary Pokémon](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
 - [Certificates](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#certificates)
 - [Contact](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#contacts)
 
