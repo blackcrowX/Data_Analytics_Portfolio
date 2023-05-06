@@ -1,7 +1,7 @@
 # Data Analysis Portfolio
 
 <p align="center">
-![image](https://i.postimg.cc/K8mbkyhz/Logo-Black.png)
+<img src="https://i.postimg.cc/K8mbkyhz/Logo-Black.png"/>
 </p>
 
 ## Table of Contents
