@@ -2,6 +2,23 @@
 
 This is a repository that I have created to showcase skills, share projects and track my progress in Data Analytics related topics.
 
+## Table of Contents
+- [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md)
+- Projects
+  - Python
+    - [Pokémon Stats Analysis](https://github.com/)
+  - SQL
+    - [Covid 19 Data Exploration](https://github.com/)
+  - R
+    - [Legendary Pokémon Analysis (Study Project)](https://github.com/)
+  - Excel / Google Sheets
+  - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
+  - Power BI
+- [Education](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#education)  
+- [Certificates](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#certificates)
+- [Contact](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#contacts)
+
+
 
 
 ### Covid 19 Data Exploration
@@ -42,3 +59,22 @@ This is a repository that I have created to showcase skills, share projects and 
 **Skills:** data cleaning, data analysis, data visualization.
 
 **Technology:** Tidyverse 
+
+
+
+## Education
+
+University of Applied Sciences, Bremen: 
+Bachelor of Arts - Buisness Administration,
+Jul 2021 - Mar 2025
+
+
+
+## Certificates
+- [Google Data Analytics Professional Certificate](https://www.coursera.org/account/accomplishments/professional-cert/LRQ498UKBBSJ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof) (Sep 2022) (Coursera - Google)
+- [Tableau](https://www.coursera.org/account/accomplishments/verify/62LME4DV8CUV) (Oct 2022) (Coursera - University of California, Davis)
+- [Python for Data Science](https://coursera.org/share/a16ecd3de61dd794199c452586cba90c) (Feb 2023) (Coursera - University of Colorado Boulder)
+
+## Contacts
+- LinkedIn: 
+- Email: 
