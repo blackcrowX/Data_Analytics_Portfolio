@@ -7,7 +7,7 @@ This is a repository that I have created to showcase skills, share projects and 
 
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#about)
-- Projects(https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#projects)
+- [Projects](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#projects)
   - Python
     - [Pokémon Stats Analysis](https://github.com/)
   - SQL
