@@ -1,5 +1,6 @@
 # Data Analysis Portfolio
 
+![image](https://i.postimg.cc/K8mbkyhz/Logo-Black.png)
 
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#about)
