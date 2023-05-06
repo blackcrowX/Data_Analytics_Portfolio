@@ -5,12 +5,12 @@
 - [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#about)
 - [Projects](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#projects)
   - SQL
-    - [Covid 19 - Data Exploration](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Covid%2019%20-%20Data%20Exploration.sql)
-    - [Nashville Housing - Data Cleaning](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Nashville%20Housing%20-%20Data%20Cleaning.sql)
+    - [Covid 19](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Covid-2019.sql)
+    - [Nashville Housing](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Nashville-Housing.sql)
   - Python
-    - [Pokémon Stats - Analysis](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon%20Stats%20-%20Analysis.ipynb)
+    - [Pokémon Stats](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon%20Stats%20-%20Analysis.ipynb)
   - R
-    - [Legendary Pokémon - Analysis](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary%20Pok%C3%A9mon%20-%20%20Analysis.ipynb)
+    - [Legendary Pokémon](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary%20Pok%C3%A9mon%20-%20%20Analysis.ipynb)
 - [Certificates](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#certificates)
 - [Contact](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#contacts)
 
@@ -27,7 +27,7 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Goal:**
 
-**Code:** [`Covid 19 - Data Exploration.sql`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Covid%2019%20-%20Data%20Exploration.sql)
+**Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Covid-2019.sql)
 
 **Description:** The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and EDA (exploratory data analysis).
 
@@ -40,7 +40,7 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Goal:**
 
-**Code:** [`Nashville Housing - Data Cleaning.sql`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Nashville%20Housing%20-%20Data%20Cleaning.sql)
+**Code:** [`Nashville-Housing.sql`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Nashville-Housing.sql)
 
 **Description:** The dataset contains a list of houses that have been sold in Nashville between 2013 and 2019. This project includes the following steps: data loading, data cleaning and preprocessing.
 
@@ -53,8 +53,8 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Goal:** To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
 
-**Code:** [`Pokémon Stats Analysis.ipynb`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon%20Stats%20-%20Analysis.ipynb)
-          [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon%20Stats%20-%20Analysis.ipynb)
+**Code:** [`Pokémon-Stats.ipynb`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
+          [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
 
 **Description:** This dataset includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. It has been of great use when teaching statistics to kids.
 
@@ -67,8 +67,8 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Goal:** To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
 
-**Code:** [`Legendary Pokémon Analysis.ipynb`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary%20Pok%C3%A9mon%20-%20%20Analysis.ipynb)
-          [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary%20Pok%C3%A9mon%20-%20%20Analysis.ipynb)
+**Code:** [`Legendary-Pokémon.ipynb`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
+          [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
 
 **Description:** The dataset contains a list of  Pokémon.  The records include their characteristics such as attack, defense, type and size. The project includes the following steps: data loading, data cleaning EDA (exploratory data analysis), analyzing characteristics of different Pokémon.
 
