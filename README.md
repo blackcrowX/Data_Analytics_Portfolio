@@ -1,10 +1,6 @@
 # Data Analysis Portfolio
 
 
-## About
-This is a repository that I have created to showcase skills, share projects and track my progress in Data Analytics related topics.
-
-
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#about)
 - [Projects](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#projects)
@@ -19,16 +15,20 @@ This is a repository that I have created to showcase skills, share projects and 
 - [Contact](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#contacts)
 
 
+## About
+This is a repository that I have created to showcase skills, share projects and track my progress in Data Analytics related topics.
+
+
 ## Projects
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
 
 ### Pokémon Stats Analysis
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon%20Stats.ipynb)
 
 **Goal:** To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
 
 **Code:** [`Pokémon Stats Analysis (Study Project)`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon%20Stats.ipynb)
-          [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon%20Stats.ipynb)
 
 **Description:** This dataset includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. It has been of great use when teaching statistics to kids.
 
