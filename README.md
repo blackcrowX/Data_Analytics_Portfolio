@@ -9,7 +9,6 @@
   - [Pokémon Stats](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
   - [Legendary Pokémon](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
 - [Certificates](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#certificates)
-- [Contact](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#contacts)
 
 
 ## About
@@ -80,7 +79,3 @@ In this section I will list data analytics projects briefly describing the techn
 - [Front End Development Libraries](https://drive.google.com/file/d/1qNTQjqRmA6KlArEhipUQRzaRKwCvD8TR/view?usp=sharing) (April 2023) (freeCodeCamp)
 - [Basics of Onlinemarketing](https://drive.google.com/file/d/1GniCDZSU1CODpTuh49TOUrBMx7VI9anY/view?usp=sharing) (May 2023) (Google Workshops)
 - [Data Analytics using Excel](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing) (May 2023) (Great Learning Academy)
-
-## Contacts
-- LinkedIn: 
-- Email: 
