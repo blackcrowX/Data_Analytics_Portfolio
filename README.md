@@ -4,10 +4,10 @@
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#about)
 - [Projects](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#projects)
-  - Python
-    - [Pokémon Stats Analysis](https://github.com/)
   - SQL
     - [Covid 19 Data Exploration](https://github.com/)
+  - Python
+    - [Pokémon Stats Analysis](https://github.com/)
   - R
     - [Legendary Pokémon Analysis (Study Project)](https://github.com/)
   - Excel / Google Sheets
@@ -25,20 +25,6 @@ This is a repository that I have created to showcase skills, share projects and 
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
 
-### Pokémon Stats Analysis
-
-**Goal:** To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
-
-**Code:** [`Pokémon Stats Analysis (Study Project)`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon%20Stats.ipynb)
-          [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon%20Stats.ipynb)
-
-**Description:** This dataset includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. It has been of great use when teaching statistics to kids.
-
-**Skills:** data cleaning, data analysis, data visualization.
-
-**Technology:** Tidyverse 
-
-
 ### Covid 19 Data Exploration
 
 **Goal:**
@@ -51,6 +37,20 @@ In this section I will list data analytics projects briefly describing the techn
 **Skills:** Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 
 **Technology:** SQL Server
+
+
+### Pokémon Stats Analysis
+
+**Goal:** To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
+
+**Code:** [`Pokémon Stats Analysis (Study Project)`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon%20Stats.ipynb)
+          [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon%20Stats.ipynb)
+
+**Description:** This dataset includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. It has been of great use when teaching statistics to kids.
+
+**Skills:** data cleaning, data analysis, data visualization.
+
+**Technology:** Tidyverse 
 
 
 ### Legendary Pokémon Analysis
