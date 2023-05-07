@@ -45,6 +45,15 @@ The dataset contains records on fraudulent car insurance claims from 2015.
 
 ## Preparation
 
+Loading Data with PowerQuery
+- Reorganize Columns
+- Delete Excess Column
+- Creat New Column "capital-total"
+
+<p align="center">
+<img src="https://i.postimg.cc/t90wXBJ8/Screenshot-3.jpg"/>
+</p>
+
 To start the project, data cleaning was performed to ensure accurate analysis. This included the removal of duplicate entries to avoid potential biases in the dataset. Furthermore, the data was updated to be more interpretable, such as replacing "m" and "f" with "male" and "female", and "m" and "s" with "married" and "single". Age groups were also created to facilitate better visualization of the data. Additionally, I ensured there was no missing data and that each field had the correct data type.
 
 Fig 1. This image shows the dataset after it was cleaned.
