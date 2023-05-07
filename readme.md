@@ -77,5 +77,4 @@ In this section I will list data analytics projects briefly describing the techn
 
 
 ## Certificates
-- [Basics of Onlinemarketing](https://drive.google.com/file/d/1GniCDZSU1CODpTuh49TOUrBMx7VI9anY/view?usp=sharing) (May 2023) (Google Workshops)
 - [Data Analytics using Excel](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing) (May 2023) (Great Learning Academy)
