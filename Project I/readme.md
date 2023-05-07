@@ -1,4 +1,4 @@
-# Project Details
+# Project I: Insurance Claims
 
 <p align="center">
 <img src="https://i.postimg.cc/K8mbkyhz/Logo-Black.png"/>
