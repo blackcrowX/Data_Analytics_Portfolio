@@ -23,13 +23,13 @@ In this section I will list data analytics projects briefly describing the techn
 
 ### Insurance Claims - Data Analysis
 
-**Goal:**
+**Description:** The dataset contains records on fictional insurance claims in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and exploratory data analysis.
 
 **Code:** [`Insurance Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
 
 **Data:** [`insurance_claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
 
-**Description:** The dataset contains records on fictional insurance claims in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and exploratory data analysis.
+**Goal:** 
 
 **Skills:** PowerQuery, PowerPivot, PivotTables, PivotCharts, Regression-Analysis, Correlation-Analysis, and Hypothesis-Testing
 
@@ -37,11 +37,11 @@ In this section I will list data analytics projects briefly describing the techn
 
 ### Covid 19 - Data Exploration
 
-**Goal:**
+**Description:** The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and EDA (exploratory data analysis).
 
 **Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Covid-2019.sql)
 
-**Description:** The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and EDA (exploratory data analysis).
+**Goal:**
 
 **Skills:** Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 
@@ -50,12 +50,12 @@ In this section I will list data analytics projects briefly describing the techn
 
 ### Pokémon Stats - Analysis
 
-**Goal:** To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
+**Description:** This dataset includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. It has been of great use when teaching statistics to kids.
 
 **Code:** [`Pokémon-Stats.ipynb`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
           [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
 
-**Description:** This dataset includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. It has been of great use when teaching statistics to kids.
+**Goal:** To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
 
 **Skills:** data cleaning, data analysis, data visualization.
 
@@ -64,12 +64,12 @@ In this section I will list data analytics projects briefly describing the techn
 
 ### Legendary Pokémon - Analysis
 
-**Goal:** To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
+**Description:** The dataset contains a list of  Pokémon.  The records include their characteristics such as attack, defense, type and size. The project includes the following steps: data loading, data cleaning EDA (exploratory data analysis), analyzing characteristics of different Pokémon.
 
 **Code:** [`Legendary-Pokémon.ipynb`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
           [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
 
-**Description:** The dataset contains a list of  Pokémon.  The records include their characteristics such as attack, defense, type and size. The project includes the following steps: data loading, data cleaning EDA (exploratory data analysis), analyzing characteristics of different Pokémon.
+**Goal:** To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
 
 **Skills:** data cleaning, data analysis, data visualization.
 
