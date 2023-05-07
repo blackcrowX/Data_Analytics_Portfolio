@@ -4,6 +4,12 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Excel_Logo_%282013-2019%29.svg/192px-Microsoft_Excel_Logo_%282013-2019%29.svg.png"/>
 </p>
 
+## About
+
+This project is an analysis in excel to gain insights into fraudulent car insurance claims. It contains the processes of data preparation, data modeling, data validation and data visualisation. It showcases the use of advanced skille in Microsoft Excel such as PowerQuery, PivotTables, PivotCharts and..
+
+**Code:** [`Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
+
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#about)
 - [Goal](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
@@ -14,25 +20,17 @@
 - [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
 - [Result](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
 
-## About
-
-This project is an analysis in excel to gain insights into fraudulent car insurance claims. It consists of data loading, data cleaning, data modeling and data visualisation. It showcases the use of advanced skille in Microsoft Excel such as PowerQuery, PivotTables, PivotCharts and..
-
-**Code:** [`Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
-
 ## Case
 
-Insurance fraud is a huge problem in the industry and it's difficult to identify fraud claims. 
+Insurance fraud is a huge problem in the industry and it's difficult to identify fraud claims. Our goal is to gain insights into the fraud claims and visualize our findings. This results in following business questions for us:
 
-Our goal is to visualize the data and to gain insights into the fraud claims. This results in following business questions:
+1.  What is the most common age group of people who committed insurance fraud?
+2.	What is the most common gender of customers who committed insurance fraud?
+3.	What is the most common education level of customers who committed insurance fraud?
+4.	What is the most common occupation of customers who committed insurance fraud?
+5.	What is the most common incident type for committed insurance fraud?
 
-1. What is the most common age group of customers who purchase bikes from the shop?
-2.	What is the most common gender of customers who purchase bikes from the shop?
-3.	What is the most common income range of customers who purchase bikes from the shop?
-4.	What is the most common education level of customers who purchase bikes from the shop?
-5.	What is the most common occupation of customers who purchase bikes from the shop?
-
-By answering these questions, the insurer can develop a better understanding of the fraudulent claims and forward the gained insights to the claims department.
+By answering these questions, we can help the the insurer develop a better understanding of the fraudulent claims and which claims to double-check in the future.
 
 ## Data
 
