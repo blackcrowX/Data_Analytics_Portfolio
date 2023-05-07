@@ -16,7 +16,7 @@
 
 ## About
 
-This project is an analysis in excel including the following steps: data loading, data cleaning and preprocessing and exploratory data analysis.
+This project is an analysis in excel to gain insights into fraudulent car insurance claims. It consists of data loading, data cleaning, data modeling and data visualisation. It showcases the use of advanced skille in Microsoft Excel such as PowerQuery, PivotTables, PivotCharts and..
 
 **Code:** [`Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
 
@@ -24,8 +24,7 @@ This project is an analysis in excel including the following steps: data loading
 
 Insurance fraud is a huge problem in the industry and it's difficult to identify fraud claims. 
 
-
-Our goal is to identify which . To accomplish this, we will analyse customer data from an Excel sheet containing information on Marital Status, Gender, Income, Children, Education, Occupation, Homeowner, Cars, Commute Distance, Region, Age, and Purchased Bike. Business Questions:
+Our goal is to visualize the data and to gain insights into the fraud claims. This results in following business questions:
 
 1. What is the most common age group of customers who purchase bikes from the shop?
 2.	What is the most common gender of customers who purchase bikes from the shop?
@@ -33,11 +32,11 @@ Our goal is to identify which . To accomplish this, we will analyse customer dat
 4.	What is the most common education level of customers who purchase bikes from the shop?
 5.	What is the most common occupation of customers who purchase bikes from the shop?
 
-By answering these questions, the bike shop can develop a better understanding of their ideal customer and tailor their marketing strategies to attract more of these customers.
+By answering these questions, the insurer can develop a better understanding of the fraudulent claims and forward the gained insights to the claims department.
 
 ## Data
 
-The dataset contains records on fraudulent car insurance claims from 2015.
+The dataset we will use contains records on fraudulent car insurance claims from 2015. The csv file contains information regarding the policy, the insured person, the incident, the resulting claims and if the claim was fraudulent.
 
 **Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
 
