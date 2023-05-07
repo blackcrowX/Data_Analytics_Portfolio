@@ -12,29 +12,29 @@ This project is an analysis in excel to gain insights into fraudulent car insura
 
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#about)
-- [Goal](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
-- [Data](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
-- [Preparation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
-- [Modeling](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
-- [Validation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
-- [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
-- [Result](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
+- [Case](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#case)
+- [Data](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#data)
+- [Preparation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#preparation)
+- [Modeling](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#modeling)
+- [Validation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#validation)
+- [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#visualisation)
+- [Result](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#result)
 
 ## Case
 
-Insurance fraud is a huge problem in the industry and it's difficult to identify fraud claims. Our goal is to gain insights into the fraud claims and visualize our findings. This results in following business questions for us:
+Insurance fraud is a huge problem in the industry and it's difficult to identify fraud claims. Our goal was to help an insurer gain insights into the fraudulent car insurance claims and visualize our findings. This resulted in following questions for us:
 
-1.  What is the most common age group of people who committed insurance fraud?
-2.	What is the most common gender of customers who committed insurance fraud?
-3.	What is the most common education level of customers who committed insurance fraud?
-4.	What is the most common occupation of customers who committed insurance fraud?
-5.	What is the most common incident type for committed insurance fraud?
+1.  Which state has the highest amount of frauds?
+2.  What are the common qualities of an insured persons who committed fraud?
+3.	What is the most common choice of incident to commit fraud?
+4.	Is there a correlation between the CSL or deductable of the policy and if a fraud was comitted?
+5.
 
-By answering these questions, we can help the the insurer develop a better understanding of the fraudulent claims and which claims to double-check in the future.
+By answering these questions, we can help the insurer gain insights into the fraudulent cases and which claims to double-check in the future.
 
 ## Data
 
-The dataset we will use contains records on fraudulent car insurance claims from 2015. The csv file contains information regarding the policy, the insured person, the incident, the resulting claims and if the claim was fraudulent.
+The dataset contains records on fraudulent car insurance claims from 2015. The csv file columns are seperated into various informations regarding the policy, the insured person, the incident, the resulting claims made and if the claim was fraudulent.
 
 **Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
 
@@ -42,32 +42,40 @@ The dataset we will use contains records on fraudulent car insurance claims from
 
 ## Preparation
 
-To start the project the data file was openend via PowerQuery and data cleaning was performed in PowerQuery to ensure accurate analysis and a better visualisation later on.
+The CSV data file was openend and data cleaning was performed via PowerQuery. This was to ensure accurate analysis and better visualisation later on.
 
 <p align="center">
   <img src="https://i.postimg.cc/t90wXBJ8/Screenshot-3.jpg"/>
   Fig 1. This image shows the data loaded in PowerQuery.
 </p>
 
-First the columns were reorganized resulting in the "Policy Number" becoming the Index. Then excess column at the end of the data was deleted and two new columns named "Capital Total" and "Age Group" were created to better visualise the data.
+First the columns were reorganised resulting in the "Policy Number" becoming the Index. Then the excess column at the end of the data was deleted and two new columns named "Capital Total" and "Age Group" were created. Then the data was updated to be more interpretable via the replace-function and proper-function. For Example the value "Husband" and "Wife" for the column "Insured Relationship" were changed to "Married". These steps were to better visualise the data.
 
-After the initial Setup the data was checked for mising values and existing duplicates to avoid potential errors and biases in the dataset. In this case there were no missing values or duplicates. 
-
-Then the data was updated to be more interpretable via the replace and proper function. For Example the value "Husband" and "Wife" for the column "Insured Relationship" were changed to "Married".
+Afterwards the data was checked for mising values and existing duplicates. In this case there were no missing values or duplicates. This was to avoid potential errors and biases in the data.
 
 <p align="center">
   <img src="https://i.postimg.cc/jRP553Xf/Screenshot-4.jpg"/>
-  Fig 2. This image shows the data after it was cleaned in Excel.
+  Fig 2. This image shows the data afterwards in Excel.
 </p>
 
-The resulting data was then exported and can now be used for further modeling to gain more insights into the issue.
+The resulting data was then exported and was ready to be used as a table for modeling.
 
 ## Modeling
+
+To start the modeling process we opened the table with PowerPivot to segment it.
+
+<p align="center">
+  <img src="https://i.postimg.cc/jK2FyL1x/Screenshot-5.jpg"/>
+  Fig 3. This image shows the table in PowerPivot.
+</p>
 
 We will start by segmenting the customers based on their age, gender, income, marital status, etc.
 I used the customer data to create pivot tables that grouped the customers based on different criteria. Using these groups, I created charts that show key insights. Additionally, differnt functions were used to perform calculations.
 
-Fig 2. This image shows the different pivot tables and charts.
+<p align="center">
+  <img src=""/>
+  Fig 4. This image shows the different pivot tables and charts.
+</p>
 
 ## Validation
 
