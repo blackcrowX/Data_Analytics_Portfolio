@@ -1,7 +1,7 @@
 # Insurance Claims Analysis with Excel
 
 <p align="center">
-<img src="https://banner2.cleanpng.com/20180331/bce/kisspng-microsoft-excel-microsoft-project-logo-microsoft-w-excel-5abfec581e5118.3452195915225273201242.jpg"/>
+<img src="https:"https://banner2.cleanpng.com/20180331/bce/kisspng-microsoft-excel-microsoft-project-logo-microsoft-w-excel-5abfec581e5118.3452195915225273201242.jpg"/>
 </p>
 
 ## Table of Contents
