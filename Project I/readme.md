@@ -1,7 +1,7 @@
 <h1 align="center">Analysis with Excel: Car Insurance Claims Fraud</h1>
 
 <p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Excel_Logo_%282013-2019%29.svg/192px-Microsoft_Excel_Logo_%282013-2019%29.svg.png"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Excel_Logo_%282013-2019%29.svg/192px-Microsoft_Excel_Logo_%282013-2019%29.svg.png"/>
 </p>
 
 ## Table of Contents
@@ -45,20 +45,25 @@ The dataset contains records on fraudulent car insurance claims from 2015.
 
 ## Preparation
 
-Loading Data with PowerQuery
-- Reorganize Columns
-- Delete Excess Column
-- Creat New Column "capital-total"
+To start the project the data file was openend via PowerQuery and data cleaning was performed in PowerQuery to ensure accurate analysis and a better visualisation later on.
 
 <p align="center">
-<img src="https://i.postimg.cc/t90wXBJ8/Screenshot-3.jpg"/>
+  <img src="https://i.postimg.cc/t90wXBJ8/Screenshot-3.jpg"/>
+  Fig 1. This image shows the dataset loaded in PowerQuery.
 </p>
 
-To start the project, data cleaning was performed to ensure accurate analysis. This included the removal of duplicate entries to avoid potential biases in the dataset. Furthermore, the data was updated to be more interpretable, such as replacing "m" and "f" with "male" and "female", and "m" and "s" with "married" and "single". Age groups were also created to facilitate better visualization of the data. Additionally, I ensured there was no missing data and that each field had the correct data type.
+First the columns were reorganized resulting in the "Policy Number" becoming the Index. Then excess column at the end of the data was deleted and two new columns named "Capital Total" and "Age Group" were created to better visualise the data.
 
-Fig 1. This image shows the dataset after it was cleaned.
+After the initial Setup the data was checked for mising values and existing duplicates to avoid potential errors and biases in the dataset. In this case there were no missing values or duplicates. 
 
-These steps were essential to ensure that the data was properly formatted for analysis and would yield accurate results. We initially started with 1026 records and now we have 1000.
+Then the data was updated to be more interpretable via the replace and proper function. For Example the value "Husband" and "Wife" for the column "Insured Relationship" were changed to "Married".
+
+<p align="center">
+  <img src="https://i.postimg.cc/jRP553Xf/Screenshot-4.jpg"/>
+  Fig 2. This image shows the dataset after it was cleaned.
+</p>
+
+The resulting data was then exported and can now be used for further modeling to gain more insights into the issue.
 
 ## Modeling
 
