@@ -46,7 +46,7 @@ To start the project the data file was openend via PowerQuery and data cleaning 
 
 <p align="center">
   <img src="https://i.postimg.cc/t90wXBJ8/Screenshot-3.jpg"/>
-  Fig 1. This image shows the dataset loaded in PowerQuery.
+  Fig 1. This image shows the data loaded in PowerQuery.
 </p>
 
 First the columns were reorganized resulting in the "Policy Number" becoming the Index. Then excess column at the end of the data was deleted and two new columns named "Capital Total" and "Age Group" were created to better visualise the data.
@@ -57,7 +57,7 @@ Then the data was updated to be more interpretable via the replace and proper fu
 
 <p align="center">
   <img src="https://i.postimg.cc/jRP553Xf/Screenshot-4.jpg"/>
-  Fig 2. This image shows the dataset after it was cleaned.
+  Fig 2. This image shows the data after it was cleaned in Excel.
 </p>
 
 The resulting data was then exported and can now be used for further modeling to gain more insights into the issue.
