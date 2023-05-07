@@ -7,6 +7,7 @@
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#about)
 - [Projects](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#projects)
+  - [Insurance Claims](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
   - [Covid 19](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Covid-2019.sql)
   - [Pokémon Stats](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
   - [Legendary Pokémon](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
@@ -20,6 +21,17 @@ As a highly motivated and detail-oriented data analyst with a bachelor’s degre
 ## Projects
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
+### Insurance Claims - Data Analysis
+
+**Goal:**
+
+**Code:** [`Insurance Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
+
+**Description:** The dataset contains records on fictional insurance claims in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and exploratory data analysis.
+
+**Skills:** PowerQuery, PowerPivot, PivotTables, PivotCharts, Regression-Analysis, Correlation-Analysis, and Hypothesis-Testing
+
+**Technology:** Microsoft Excel
 
 ### Covid 19 - Data Exploration
 
