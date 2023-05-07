@@ -73,12 +73,12 @@ We will start by segmenting the customers based on their age, gender, income, ma
 I used the customer data to create pivot tables that grouped the customers based on different criteria. Using these groups, I created charts that show key insights. Additionally, differnt functions were used to perform calculations.
 
 <p align="center">
-  <img src="https://i.postimg.cc/6BQkpBhH/Screenshot-6.jpg"/>
+  <img src=""/>
   Fig 4. This image shows the different pivot tables and charts.
 </p>
 
 <p align="center">
-  <img src="https://i.postimg.cc/6BQkpBhH/Screenshot-6.jpg"/>
+  <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
   Fig 4. This image shows the correlation analysis between months as customer and fraudulent claims made.
 </p>
 
