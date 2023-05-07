@@ -14,7 +14,11 @@
 
 ## About
 
-Lorem
+The dataset contains records on fictional insurance claims in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and exploratory data analysis.
+
+**Code:** [`Insurance Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
+
+**Data:** [`insurance_claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
 
 ## Goal
 
