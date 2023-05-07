@@ -22,19 +22,19 @@ This project is an analysis in excel to gain insights into fraudulent car insura
 
 ## Case
 
-Insurance fraud is a huge problem in the industry and it's difficult to identify fraud claims. Our goal was to help an insurer gain insights into the fraudulent car insurance claims and visualize our findings. This resulted in following questions for us:
+Insurance fraud is a huge problem in the industry and it's difficult to identify fraud claims. Our goal was to help an insurer gain insights into the fraudulent claims and visualize our findings. This resulted in following questions for us:
 
-1.  Which state has the highest amount of frauds?
-2.  What are the common qualities of an insured persons who committed fraud?
-3.	What is the most common choice of incident to commit fraud?
-4.	Is there a correlation between the CSL or deductable of the policy and if a fraud was comitted?
-5.
+1. Which state has the highest amount of comitted frauds?
+2. What are the common qualities of an insured persons who committed fraud?
+3. What is the most common choice of incident from the comitted fraud?
+4. Is there a correlation between the monthas as customer and if a fraud was comitted?
+5. Is there a correlation between the monthas as customer and if a fraud was comitted?
 
 By answering these questions, we can help the insurer gain insights into the fraudulent cases and which claims to double-check in the future.
 
 ## Data
 
-The dataset contains records on fraudulent car insurance claims from 2015. The csv file columns are seperated into various informations regarding the policy, the insured person, the incident, the resulting claims made and if the claim was fraudulent.
+The data contains records on fraudulent car insurance claims from the 1st of January till the 1st of March 2015. The csv file columns are seperated into various informations regarding the policy, the insured person, the incident, the resulting claims made and if the claim was fraudulent.
 
 **Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
 
@@ -54,7 +54,7 @@ First the columns were reorganised resulting in the "Policy Number" becoming the
 Afterwards the data was checked for mising values and existing duplicates. In this case there were no missing values or duplicates. This was to avoid potential errors and biases in the data.
 
 <p align="center">
-  <img src="https://i.postimg.cc/jRP553Xf/Screenshot-4.jpg"/>
+  <img src="https://i.postimg.cc/QXx9x44g/Screenshot-7.jpg"/>
   Fig 2. This image shows the data afterwards in Excel.
 </p>
 
@@ -73,8 +73,13 @@ We will start by segmenting the customers based on their age, gender, income, ma
 I used the customer data to create pivot tables that grouped the customers based on different criteria. Using these groups, I created charts that show key insights. Additionally, differnt functions were used to perform calculations.
 
 <p align="center">
-  <img src=""/>
+  <img src="https://i.postimg.cc/6BQkpBhH/Screenshot-6.jpg"/>
   Fig 4. This image shows the different pivot tables and charts.
+</p>
+
+<p align="center">
+  <img src="https://i.postimg.cc/6BQkpBhH/Screenshot-6.jpg"/>
+  Fig 4. This image shows the correlation analysis between months as customer and fraudulent claims made.
 </p>
 
 ## Validation
