@@ -27,6 +27,8 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Code:** [`Insurance Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
 
+**Data:** [`insurance_claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
+
 **Description:** The dataset contains records on fictional insurance claims in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and exploratory data analysis.
 
 **Skills:** PowerQuery, PowerPivot, PivotTables, PivotCharts, Regression-Analysis, Correlation-Analysis, and Hypothesis-Testing
