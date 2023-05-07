@@ -60,6 +60,8 @@ Fig 2. This image shows the different pivot tables and charts.
 
 To make it easy to view all this information at once, I created a dashboard that displays all the charts. I also added a slicer to the dashboard, which allows users to filter the data based on different criteria. This makes it easy to identify the customer segments that are most likely to purchase a bike.
 
+Fig 3. This image shows the Bike Sales Dashboard.
+
 ## Key Findings
 
 Using the dashboard, we were able to determine the following insights:
