@@ -1,4 +1,4 @@
-# Project I: Insurance Claims
+# Project I: Insurance Claims with Excel
 
 <p align="center">
 <img src="https://i.postimg.cc/K8mbkyhz/Logo-Black.png"/>
