@@ -1,5 +1,15 @@
 # Project Details
 
+<p align="center">
+<img src="https://i.postimg.cc/K8mbkyhz/Logo-Black.png"/>
+</p>
+
+## Table of Contents
+- [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/README.md#about)
+- [Goal](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#projects)
+-
+- [Certificates](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#certificates)
+
 ## About
 
 Lorem
