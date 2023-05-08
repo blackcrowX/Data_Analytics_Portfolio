@@ -107,7 +107,7 @@ To make it easy to view all this information at once, I created a dashboard that
 
 
 <p align="center">
-  <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
+  <img src="https://i.postimg.cc/NfBsNRxD/Screenshot-18.jpg"/>
   Fig 7. This image shows the Car Insurance Fraud Dashboard.
 </p>
 
