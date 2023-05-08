@@ -67,7 +67,7 @@ To start the modeling process I opened the table with PowerPivot to segment it.
 
 
 <p align="center">
-  <img src="https://i.postimg.cc/jK2FyL1x/Screenshot-5.jpg"/>
+  <img src="https://i.postimg.cc/PthSdhzN/Screenshot-11.jpg"/>
   Fig 3. This image shows the table in PowerPivot.
 </p>
 
