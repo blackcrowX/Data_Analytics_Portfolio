@@ -1,4 +1,4 @@
-<h1 align="center">Car Insurance Claims Fraud</h1>
+<h1 align="center">Car Insurance Claim Fraud</h1>
 
 <p align="center">
   <img width="273px" src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/excel-file.png"/>
@@ -7,7 +7,7 @@
 
 ## About
 
-This project is an analysis in Microsoft Excel to gain insights into fraudulent car insurance claims. It contains the processes of data preparation, data modelling, data validation and data visualisation. It showcases the use of advanced skills such as PowerQuery, PowerPivot, PivotTables, PivotCharts and a brief use of regression analysis.
+This project is an analysis in Microsoft Excel to gain insights into car insurance claim fraud. It contains the processes of data preparation, data modelling, data validation and data visualisation. It showcases the use of advanced skills such as PowerQuery, PowerPivot, PivotTable, PivotChart and a brief use of Regression-Analysis.
 
 **File:** [`Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/Insurance-Claims.xlsx)
 
@@ -76,6 +76,7 @@ To start the modelling process I opened the prepared table with PowerPivot to se
 </p>
 
 First the data was segmented into customers based on their age, education, gender, occupation and relationship. The data then was further segmented into incidents by bodily injuries, property damage, severity, time, type and vehicles involved. The last two segments involved the claims date and policy state for further information to the data. 
+
 Then using PivotTable, I created fourteen tables using the total claims/ amount of claims as table-value and segmented properties as table-row. The resulting tables were used to create charts using PivotChart. The purpose of this segmentation was to further drill into the data and answer the question resulting from the initial issue.
 
 <p align="center">
@@ -111,12 +112,12 @@ I created a new excel sheet for to visualise all the charts on a dashboard. This
 
 <p align="center">
   <img src="https://i.postimg.cc/Sy2kLc2B/Screenshot-7.jpg.jpg"/>
-  Fig 7. This image shows the dashboard for car insurance claims fraud.
+  Fig 7. This image shows the dashboard for car insurance claim fraud.
 </p>
 
 ## Result
 
-Using the modelled data in the dashboard, I was able to answer the initial questions and provide insights on car insurance claims fraud as following:
+Using the modelled data in the dashboard, I was able to answer the initial questions and provide insights on car insurance claim fraud as following:
 
 - State:  The state with the most committed frauds is Ohio. There appear to be slight irregularity compared to the non-fraudulent dataset with to 36.6 to 34.5% and could be a simple difference in the sample of data. An actionable insight would be to nevertheless keep an eye out for claims made from policies in Ohio.
 
