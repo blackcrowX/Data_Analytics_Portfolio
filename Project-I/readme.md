@@ -27,13 +27,13 @@ This project is an analysis in Microsoft Excel to gain insights into fraudulent 
 
 Insurance fraud is a huge problem in the industry and it's difficult to identify fraudulent claims. My goal was to help an insurer understand what the main characteristics of fraudulent claims are and visualize the findings. Furthermore, the insurer wanted to know if there was a correlation with the months as customer. This resulted in following questions for me:
 
-1. Which state has the highest total of fraudulent claims?
+1.  Which state has the highest total of fraudulent claims?
 
-2. What are common properties of insured who committed fraud?
+2.  What are common properties of insured who committed fraud?
 
-3. What is the most common choice of incident for fraudulent claims?
+3.  What is the most common choice of incident for fraudulent claims?
 
-4. Is there a correlation between the month as customer and if a claim is fraudulent?
+4.  Is there a correlation between the month as customer and if a claim is fraudulent?
 
 By answering these questions, I will be able to help the insurer gain insights into fraudulent claims and what their statistical properties are.
 
@@ -118,10 +118,10 @@ I created a new excel sheet for to visualise all the charts on a dashboard. This
 
 Using the modelled data in the dashboard, I was able to answer the initial questions and provide insights on car insurance claims fraud as following:
 
-- State: The state with the most committed frauds is Ohio. There appear to be slight irregularity compared to the non-fraudulent dataset with to 36.6 to 34.5% and could be a simple difference in the sample of data. An actionable insight would be to nevertheless keep an eye out for claims made from policies in Ohio.
+- State:  The state with the most committed frauds is Ohio. There appear to be slight irregularity compared to the non-fraudulent dataset with to 36.6 to 34.5% and could be a simple difference in the sample of data. An actionable insight would be to nevertheless keep an eye out for claims made from policies in Ohio.
 
-- Insured: The largest group of insured persons who committed fraud falls within the middle age range of 35-44 and are single. Here men on the one hand and people with a doctor’s degree on the other hand have a higher tendency to be prone to commit fraud. The big surprise lies in the large amount of insured in the fraudulent dataset who enjoy chess or cross fit as hobbies. It's also the case for men in an executive managerial occupation and women with a sales occupation. All four of these properties have a way higher percentage of amount of claims in the fraudulent dataset compared to the data of non-fraudulent dataset. Resulting in an advice to be more aware with claims from these insured with these properties.
+- Insured:  The largest group of insured persons who committed fraud falls within the middle age range of 35-44 and are single. Here men on the one hand and people with a doctor’s degree on the other hand have a higher tendency to be prone to commit fraud. The big surprise lies in the large amount of insured in the fraudulent dataset who enjoy chess or cross fit as hobbies. It's also the case for men in an executive managerial occupation and women with a sales occupation. All four of these properties have a way higher percentage of amount of claims in the fraudulent dataset compared to the data of non-fraudulent dataset. Resulting in an advice to be more aware with claims from these insured with these properties.
 
-- Incident: Many incidents involving fraud happen at midday and were single vehicle collisions involving major damages. The amount of major damages relatively compared to the data of insured who didn't commit crime is way larger with 69% to 14% and is the preferred incident type. Also, the data indicates that a parked car or vehicle theft is a very uncommon occurrence as an incident type for car insurance claim fraud. These insights should help with recognizing fraudulent claims more easily.
+- Incident:  Many incidents involving fraud happen at midday and were single vehicle collisions involving major damages. The amount of major damages relatively compared to the data of insured who didn't commit crime is way larger with 69% to 14% and is the preferred incident type. Also, the data indicates that a parked car or vehicle theft is a very uncommon occurrence as an incident type for car insurance claim fraud. These insights should help with recognizing fraudulent claims more easily.
 
-- Correlation: With help of the regression analysis I was able to prove that there was no correlation between month as customer and fraudulent claims. An insight to take with would be to further strengthen longevity in the contracts, because the data doesn't indicate it having a negative effect on the fraudulent claims.
+- Correlation:  With help of the regression analysis I was able to prove that there was no correlation between month as customer and fraudulent claims. An insight to take with would be to further strengthen longevity in the contracts, because the data doesn't indicate it having a negative effect on the fraudulent claims.
