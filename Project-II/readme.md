@@ -1,7 +1,7 @@
 <h1 align="center">Project II</h1>
 
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968364.png"/>
+  <img src="https://w7.pngwing.com/pngs/167/148/png-transparent-microsoft-azure-sql-database-microsoft-sql-server-database-blue-text-logo.png"/>
 </p>
 
 ## About
