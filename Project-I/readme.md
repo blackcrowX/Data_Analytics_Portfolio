@@ -6,7 +6,7 @@
 
 ## About
 
-This project is an analysis in excel to gain insights into fraudulent car insurance claims. It contains the processes of data preparation, data modeling, data validation and data visualisation. It showcases the use of advanced skille in Microsoft Excel such as PowerQuery, PowerPivot, PivotTables, PivotCharts and Regressionanalysis in Excel.
+This project is an analysis in Microsoft Excel to gain insights into fraudulent car insurance claims. It contains the processes of data preparation, data modeling, data validation and data visualisation. It showcases the use of advanced skillS such as PowerQuery, PowerPivot, PivotTables, PivotCharts and Regressionanalysis.
 
 **Code:** [`Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/Insurance-Claims.xlsx)
 
