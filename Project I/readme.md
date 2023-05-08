@@ -61,26 +61,25 @@ The resulting data was then exported and was ready to be used as a table for mod
 
 ## Modeling
 
-To start the modeling process we opened the table with PowerPivot to segment it.
+To start the modeling process I opened the table with PowerPivot to segment it.
 
 <p align="center">
   <img src="https://i.postimg.cc/jK2FyL1x/Screenshot-5.jpg"/>
   Fig 3. This image shows the table in PowerPivot.
 </p>
 
-We will start by segmenting the customers based on their age, gender, occupation, relationship 
-I used the customer data to create pivot tables that grouped the customers based on different criteria. Using these groups, I created charts that show key insights. Additionally, differnt functions were used to perform calculations.
+First the data got segmented into customers based on their age, education, gender, occupation and relationship. The incidents were segmented by bodily injuries, property damage, severity, time, type and vehicles involved. The resulting PivotTables were used to created PivotCharts. These PivotCharts were already able to answer basic questions and give insights into the data. For example the bar chart regardin the insured hobbies indicates that chess and cross fit enthusiasts in the data have a higher rate of comitting car insurance fraud.
 
 <p align="center">
   <img src="https://i.postimg.cc/VmZTW8Nr/Screenshot-10.jpg"/>
-  Fig 4. This image shows the different pivot tables and charts.
+  Fig 4. This image shows the different pivot charts.
 </p>
 
-Furthermore to solve the question of the correlation I used the regression-function to calculate the variable Multilple R. This was 0,1565 and as a consquence there was no correlation between the months as customer and the amount of claims.
+Furthermore to solve the final question of the correlation I used the regression-function to calculate the variable Multilple R. This was 0,1565 and as a consquence there was no correlation between the months as customer and the amount of claims.
 
 <p align="center">
   <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
-  Fig 4. This image shows the correlation analysis between months as customer and fraudulent claims made.
+  Fig 5. This image shows the correlation analysis between months as customer and fraudulent claims made.
 </p>
 
 ## Validation
@@ -89,18 +88,21 @@ Lorem Ipsum.
 
 ## Visualisation
 
-To make it easy to view all this information at once, I created a dashboard that displays all the charts. I also added a slicer to the dashboard, which allows users to filter the data based on different criteria. This makes it easy to identify the customer segments that are most likely to purchase a bike.
+To make it easy to view all this information at once, I created a dashboard that displays all the charts. I also added a slicer to the dashboard, which allows users to filter the data based on different criteria and his own interests. This makes it easy to answer the initial questions regarding car insurance fraud.
 
-Fig 3. This image shows the Bike Sales Dashboard.
+<p align="center">
+  <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
+  Fig 6. This image shows the Car Insurance Fraud Dashboard.
+</p>
 
 ## Result
 
-Using the dashboard, we were able to determine the following insights:
+Using the dashboard, I was able to answer the intial issues and gain following insights:
 
--	Age Group: The largest group of insured persons who comitted fraud falls within the middle age range of 35-44.
--	Education level: Many customers who purchase bikes have completed partial high school education.
--	Occupation: The most prevalent occupation among bike purchasers is in management.
--	Region: North America is the region where most bike purchases are made.
--	Commute distance: Most bike purchasers have a commute distance of 0-1 mile.
+- State: The state with the most comitted frauds is Ohio. There appear to be no irregularities compared to the data of insured person who didn't commit fraud. An actionable insight would be still to keep an eye out for claims made from policies in Ohio.
+-	Insured: The largest group of insured persons who comitted fraud falls within the middle age range of 35-44 and are single. Men on the one hand and people with a doctors degree on the other hand appear to have a tendency to be more prone to commit fraud. The big surprise lies in the large amount of chess and cross fit in the data regarding hobbies and explicitly men in a executive managerial position and women with a sales occupation. All four of these properties have a way higher percentage of total amount compared to the data of insured who didn't commit fraud. Resulting in an advice to be more aware with claims from these insured people.
+-	Incident: Many incidents ivolving fraud happen at midday and were single vehicle collisions involving major damages. The amount of major damages relatively compared to the data of insured who didn't commit crime is way larger with 69% to 14%. Also the data indicates that a parked car or vehicle theft is a very uncommon occurence as an incident type for car isnurance fraud. These insights should bhelp with recognizibg fraudulent claims more easily.
+-	Month As Customer: With help of the regression-function I was able to prove there being no correlation between month as customer and fraudulent claims. An insight to take with would be to further strengthen longeveity, because the amount of claims is reduced over time.
 
-In conclusion, these findings provide valuable insights into the demographics and preferences of bike purchasers. By implementing these actionable steps, the business can improve sales and better cater to the needs and interests of its target market.
+
+In conclusion, these findings provide valuable insights into the demographics and preferences of fraudulent insured.
