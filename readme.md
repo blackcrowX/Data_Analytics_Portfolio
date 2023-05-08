@@ -25,13 +25,13 @@ In this section I will list data analytics projects briefly describing the techn
 
 ### Car Insurance Claim Fraud
 
-**Description:** The dataset contains records on car insurance claim fraud in 2015. This project includes the following steps: data preparation, data modelling and preprocessing and exploratory data analysis.
+**Description:** The dataset contains records on car insurance claim fraud in 2015. This project includes the following steps: data preparation, data modelling, data visualization and data analysis.
 
 **Code:** [`Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/Insurance-Claims.xlsx)
 
 **Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/insurance-claims.csv)
 
-**Goal:** Insights into charasteristics of fraudulent claims
+**Goal:** Gaining of insights into the charasteristics of fraudulent claims.
 
 **Skills:** PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis
 
