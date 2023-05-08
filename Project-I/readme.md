@@ -78,6 +78,11 @@ These PivotCharts were already able to answer basic questions and give insights 
 
 
 <p align="center">
+  <img src="https://i.postimg.cc/Mq8vx26f/Screenshot-12.jpg"/>
+  Fig 4. This image shows the different pivot tables.
+</p>
+
+<p align="center">
   <img src="https://i.postimg.cc/VmZTW8Nr/Screenshot-10.jpg"/>
   Fig 4. This image shows the different pivot charts.
 </p>
