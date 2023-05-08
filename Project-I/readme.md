@@ -6,19 +6,19 @@
 
 ## About
 
-This project is an analysis in excel to gain insights into fraudulent car insurance claims. It contains the processes of data preparation, data modeling, data validation and data visualisation. It showcases the use of advanced skille in Microsoft Excel such as PowerQuery, PivotTables, PivotCharts and Regressionanalysis.
+This project is an analysis in excel to gain insights into fraudulent car insurance claims. It contains the processes of data preparation, data modeling, data validation and data visualisation. It showcases the use of advanced skille in Microsoft Excel such as PowerQuery, PowerPivot, PivotTables, PivotCharts and Regressionanalysis in Excel.
 
 **Code:** [`Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
 
 ## Table of Contents
-- [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#about)
-- [Case](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#case)
-- [Data](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#data)
-- [Preparation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#preparation)
-- [Modeling](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#modeling)
-- [Validation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#validation)
-- [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#visualisation)
-- [Result](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project%20I/readme.md#result)
+- [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#about)
+- [Case](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#case)
+- [Data](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#data)
+- [Preparation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#preparation)
+- [Modeling](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#modeling)
+- [Validation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#validation)
+- [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#visualisation)
+- [Result](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#result)
 
 ## Case
 
@@ -75,7 +75,7 @@ First the data got segmented into customers based on their age, education, gende
   Fig 4. This image shows the different pivot charts.
 </p>
 
-Furthermore to solve the final question of the correlation I used the regression-function to calculate the variable Multilple R. This was 0,1565 and as a consquence there was no correlation between the months as customer and the amount of claims.
+Furthermore to solve the final question of the correlation I used the regression analysis to calculate the variable Multilple R. This was 0,1565 and as a consquence there was no statistical correlation between the months as customer and the amount of claims.
 
 <p align="center">
   <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
@@ -102,7 +102,7 @@ Using the dashboard, I was able to answer the intial issues and gain following i
 - State: The state with the most comitted frauds is Ohio. There appear to be no irregularities compared to the data of insured person who didn't commit fraud. An actionable insight would be still to keep an eye out for claims made from policies in Ohio.
 -	Insured: The largest group of insured persons who comitted fraud falls within the middle age range of 35-44 and are single. Men on the one hand and people with a doctors degree on the other hand appear to have a tendency to be more prone to commit fraud. The big surprise lies in the large amount of chess and cross fit in the data regarding hobbies and explicitly men in a executive managerial position and women with a sales occupation. All four of these properties have a way higher percentage of total amount compared to the data of insured who didn't commit fraud. Resulting in an advice to be more aware with claims from these insured people.
 -	Incident: Many incidents ivolving fraud happen at midday and were single vehicle collisions involving major damages. The amount of major damages relatively compared to the data of insured who didn't commit crime is way larger with 69% to 14%. Also the data indicates that a parked car or vehicle theft is a very uncommon occurence as an incident type for car isnurance fraud. These insights should bhelp with recognizibg fraudulent claims more easily.
--	Month As Customer: With help of the regression-function I was able to prove there being no correlation between month as customer and fraudulent claims. An insight to take with would be to further strengthen longeveity, because the amount of claims is reduced over time.
+-	Month As Customer: With help of the regression analysis I was able to prove there being no correlation between month as customer and fraudulent claims. An insight to take with would be to further strengthen longeveity, because the amount of claims is reduced over time.
 
 
 In conclusion, these findings provide valuable insights into the demographics and preferences of fraudulent insured.
