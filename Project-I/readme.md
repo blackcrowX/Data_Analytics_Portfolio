@@ -1,7 +1,7 @@
 <h1 align="center">Car Insurance Claims Fraud</h1>
 
 <p align="center">
-  <img src="https://i.postimg.cc/fbxXLZJw/Screenshot-15.jpg"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/Excel_File.png"/>
 </p>
 
 ## About
