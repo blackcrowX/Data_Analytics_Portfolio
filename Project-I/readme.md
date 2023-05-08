@@ -43,17 +43,22 @@ The data contains records on fraudulent car insurance claims from the 1st of Jan
 
 The CSV data file was openend and data cleaning was performed via PowerQuery. This was to ensure accurate analysis and better visualisation later on.
 
+
 <p align="center">
   <img src="https://i.postimg.cc/t90wXBJ8/Screenshot-3.jpg"/>
+  
   Fig 1. This image shows the data loaded in PowerQuery.
 </p>
+
 
 First the columns were reorganised resulting in the "Policy Number" becoming the Index. Then the excess column at the end of the data was deleted and a new column named "Age Group" was created. Then the data was updated to be more interpretable via the replace-function and proper-function. For Example the value "Husband" and "Wife" for the column "Insured Relationship" were changed to "Married". These steps were to better visualise the data.
 
 Afterwards the data was checked for mising values and existing duplicates. In this case there were no missing values or duplicates. This was to avoid potential errors and biases in the data.
 
+
 <p align="center">
   <img src="https://i.postimg.cc/QXx9x44g/Screenshot-7.jpg"/>
+  
   Fig 2. This image shows the data afterwards in Excel.
 </p>
 
@@ -62,26 +67,35 @@ Afterwards the data was checked for mising values and existing duplicates. In th
 
 To start the modeling process I opened the table with PowerPivot to segment it.
 
+
 <p align="center">
   <img src="https://i.postimg.cc/jK2FyL1x/Screenshot-5.jpg"/>
+  
   Fig 3. This image shows the table in PowerPivot.
 </p>
+
 
 First the data got segmented into customers based on their age, education, gender, occupation and relationship. The incidents were segmented by bodily injuries, property damage, severity, time, type and vehicles involved. The resulting PivotTables were used to created PivotCharts. 
 
 These PivotCharts were already able to answer basic questions and give insights into the data. For example the bar chart regardin the insured hobbies indicates that chess and cross fit enthusiasts in the data have a higher rate of comitting car insurance fraud.
 
+
 <p align="center">
   <img src="https://i.postimg.cc/VmZTW8Nr/Screenshot-10.jpg"/>
+  
   Fig 4. This image shows the different pivot charts.
 </p>
 
+
 Furthermore to solve the final question of the correlation I used the regression analysis to calculate the variable Multilple R. This was 0,1565 and as a consquence there was no statistical correlation between the months as customer and the amount of claims.
+
 
 <p align="center">
   <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
+  
   Fig 5. This image shows the correlation analysis between months as customer and fraudulent claims made.
 </p>
+
 
 ## Validation
 
@@ -91,10 +105,13 @@ Lorem Ipsum.
 
 To make it easy to view all this information at once, I created a dashboard that displays all the charts. I also added a slicer to the dashboard, which allows users to filter the data based on different criteria and his own interests. This makes it easy to answer the initial questions regarding car insurance fraud.
 
+
 <p align="center">
   <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
+  
   Fig 6. This image shows the Car Insurance Fraud Dashboard.
 </p>
+
 
 ## Result
 
@@ -109,4 +126,4 @@ Using the dashboard, I was able to answer the intial issues and gain following i
 -	Month As Customer: With help of the regression analysis I was able to prove there being no correlation between month as customer and fraudulent claims. An insight to take with would be to further strengthen longeveity, because the amount of claims is reduced over time.
 
 
-In conclusion, these findings provide valuable insights into the demographics and preferences of fraudulent insured.
+These findings provide valuable insights into the demographics and preferences of fraudulent insured.
