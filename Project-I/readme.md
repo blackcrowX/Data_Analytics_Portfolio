@@ -101,11 +101,11 @@ To make it easy to view all this information at once, I created a dashboard that
 Using the dashboard, I was able to answer the intial issues and gain following insights:
 
 - State: The state with the most comitted frauds is Ohio. There appear to be no irregularities compared to the data of insured person who didn't commit fraud. An actionable insight would be still to keep an eye out for claims made from policies in Ohio.
-<br>
+
 -	Insured: The largest group of insured persons who comitted fraud falls within the middle age range of 35-44 and are single. Men on the one hand and people with a doctors degree on the other hand appear to have a tendency to be more prone to commit fraud. The big surprise lies in the large amount of chess and cross fit in the data regarding hobbies and explicitly men in a executive managerial position and women with a sales occupation. All four of these properties have a way higher percentage of total amount compared to the data of insured who didn't commit fraud. Resulting in an advice to be more aware with claims from these insured people.
-<br>
+
 -	Incident: Many incidents ivolving fraud happen at midday and were single vehicle collisions involving major damages. The amount of major damages relatively compared to the data of insured who didn't commit crime is way larger with 69% to 14%. Also the data indicates that a parked car or vehicle theft is a very uncommon occurence as an incident type for car isnurance fraud. These insights should bhelp with recognizibg fraudulent claims more easily.
-<br>
+
 -	Month As Customer: With help of the regression analysis I was able to prove there being no correlation between month as customer and fraudulent claims. An insight to take with would be to further strengthen longeveity, because the amount of claims is reduced over time.
 
 
