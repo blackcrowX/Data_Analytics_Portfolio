@@ -83,8 +83,8 @@ These PivotCharts were already able to answer basic questions and give insights 
 </p>
 
 <p align="center">
-  <img src="https://i.postimg.cc/VmZTW8Nr/Screenshot-10.jpg"/>
-  Fig 4. This image shows the different pivot charts.
+  <img src="https://i.postimg.cc/Vs2TyWQX/Screenshot-13.jpg"/>
+  Fig 5. This image shows the different pivot charts.
 </p>
 
 
@@ -93,7 +93,7 @@ Furthermore to solve the final question of the correlation I used the regression
 
 <p align="center">
   <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
-  Fig 5. This image shows the correlation analysis between months as customer and fraudulent claims made.
+  Fig 6. This image shows the correlation analysis between months as customer and fraudulent claims made.
 </p>
 
 
@@ -108,7 +108,7 @@ To make it easy to view all this information at once, I created a dashboard that
 
 <p align="center">
   <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
-  Fig 6. This image shows the Car Insurance Fraud Dashboard.
+  Fig 7. This image shows the Car Insurance Fraud Dashboard.
 </p>
 
 
