@@ -78,7 +78,7 @@ These PivotCharts were already able to answer basic questions and give insights 
 
 
 <p align="center">
-  <img src="https://i.postimg.cc/Mq8vx26f/Screenshot-12.jpg"/>
+  <img src="https://i.postimg.cc/33TSgRKr/Screenshot-14.jpg"/>
   Fig 4. This image shows the different pivot tables.
 </p>
 
