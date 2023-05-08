@@ -32,7 +32,7 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Skills:** PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis
 
-### Covid 19 - Data Exploration
+### Covid 19
 
 **Description:** The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and EDA (exploratory data analysis).
 
@@ -42,7 +42,7 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Skills:** Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 
-### Pokémon Stats - Analysis
+### Pokémon Stats
 
 **Description:** This dataset includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. It has been of great use when teaching statistics to kids. To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
 
@@ -53,7 +53,7 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Skills:** data cleaning, data analysis, data visualization.
 
-### Legendary Pokémon - Analysis
+### Legendary Pokémon
 
 **Description:** The dataset contains a list of  Pokémon.  The records include their characteristics such as attack, defense, type and size. The project includes the following steps: data loading, data cleaning EDA (exploratory data analysis), analyzing characteristics of different Pokémon. To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
 
