@@ -7,7 +7,7 @@
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#about)
 - [Projects](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#projects)
-  - [Car Insurance Claims Fraud](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I)
+  - [Car Insurance Claim Fraud](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I)
   - [Covid 19](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Covid-2019.sql)
   - [Pokémon Stats](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
   - [Legendary Pokémon](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
@@ -15,25 +15,28 @@
 
 
 ## About
-As a highly motivated and detail-oriented data analyst with a bachelor’s degree in Business Administration, I have gained experience in utilizing programming languages such as SQL and Python to gather and analyse large datasets. My passion for data analysis has driven me to develop a strong skill set in data modelling, data visualization, and statistical analysis. I am committed to delivering results and insights that will help businesses make informed decisions.
+
+As a highly motivated and detail-oriented data analyst with a bachelor’s degree in Business Administration, I have gained experience in utilizing programming languages such as SQL and Python to gather and analyse large datasets. My passion for data analysis has driven me to develop a strong skill set in data preparation, data modelling, data visualization, and statistical analysis. I am committed to delivering results and insights that will help businesses make informed decisions.
 
 
 ## Projects
-In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
+In this section I will list data analytics projects briefly describing the technology stack used to solve the undelying issue.
 
-### Car Insurance Claims Fraud
 
-**Description:** The dataset contains records on fictional insurance claims in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and exploratory data analysis.
+### Car Insurance Claim Fraud
+
+**Description:** The dataset contains records on car insurance claim fraud in 2015. This project includes the following steps: data preparation, data modelling and preprocessing and exploratory data analysis.
 
 **Code:** [`Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/Insurance-Claims.xlsx)
 
 **Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/insurance-claims.csv)
 
-**Goal:** 
+**Goal:** Insights into charasteristics of fraudulent claims
 
-**Skills:** PowerQuery, PowerPivot, PivotTables, PivotCharts, Regression-Analysis, Correlation-Analysis, and Hypothesis-Testing
+**Skills:** PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis
 
 **Technology:** Microsoft Excel
+
 
 ### Covid 19 - Data Exploration
 
