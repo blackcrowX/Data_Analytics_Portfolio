@@ -6,7 +6,7 @@
 
 ## About
 
-This project is an analysis in excel to gain insights into fraudulent car insurance claims. It contains the processes of data preparation, data modeling, data validation and data visualisation. It showcases the use of advanced skille in Microsoft Excel such as PowerQuery, PivotTables, PivotCharts and..
+This project is an analysis in excel to gain insights into fraudulent car insurance claims. It contains the processes of data preparation, data modeling, data validation and data visualisation. It showcases the use of advanced skille in Microsoft Excel such as PowerQuery, PivotTables, PivotCharts and Regressionanalysis.
 
 **Code:** [`Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/)
 
@@ -24,11 +24,10 @@ This project is an analysis in excel to gain insights into fraudulent car insura
 
 Insurance fraud is a huge problem in the industry and it's difficult to identify fraud claims. Our goal was to help an insurer gain insights into the fraudulent claims and visualize our findings. This resulted in following questions for us:
 
-1. Which state has the highest amount of comitted frauds?
-2. What are the common qualities of an insured persons who committed fraud?
-3. What is the most common choice of incident from the comitted fraud?
-4. Is there a correlation between the monthas as customer and if a fraud was comitted?
-5. Is there a correlation between the monthas as customer and if a fraud was comitted?
+1. Which state has the highest total of fraudulent claims?
+2. What are common qualities of insured persons who committed fraud?
+3. What is the most common choice of incident for the comitted fraud?
+4. Is there a correlation between the month as as customer and if a fraud was comitted?
 
 By answering these questions, we can help the insurer gain insights into the fraudulent cases and which claims to double-check in the future.
 
@@ -49,7 +48,7 @@ The CSV data file was openend and data cleaning was performed via PowerQuery. Th
   Fig 1. This image shows the data loaded in PowerQuery.
 </p>
 
-First the columns were reorganised resulting in the "Policy Number" becoming the Index. Then the excess column at the end of the data was deleted and two new columns named "Capital Total" and "Age Group" were created. Then the data was updated to be more interpretable via the replace-function and proper-function. For Example the value "Husband" and "Wife" for the column "Insured Relationship" were changed to "Married". These steps were to better visualise the data.
+First the columns were reorganised resulting in the "Policy Number" becoming the Index. Then the excess column at the end of the data was deleted and a new column named "Age Group" was created. Then the data was updated to be more interpretable via the replace-function and proper-function. For Example the value "Husband" and "Wife" for the column "Insured Relationship" were changed to "Married". These steps were to better visualise the data.
 
 Afterwards the data was checked for mising values and existing duplicates. In this case there were no missing values or duplicates. This was to avoid potential errors and biases in the data.
 
@@ -69,13 +68,15 @@ To start the modeling process we opened the table with PowerPivot to segment it.
   Fig 3. This image shows the table in PowerPivot.
 </p>
 
-We will start by segmenting the customers based on their age, gender, income, marital status, etc.
+We will start by segmenting the customers based on their age, gender, occupation, relationship 
 I used the customer data to create pivot tables that grouped the customers based on different criteria. Using these groups, I created charts that show key insights. Additionally, differnt functions were used to perform calculations.
 
 <p align="center">
-  <img src=""/>
+  <img src="https://i.postimg.cc/VmZTW8Nr/Screenshot-10.jpg"/>
   Fig 4. This image shows the different pivot tables and charts.
 </p>
+
+Furthermore to solve the question of the correlation I used the regression-function to calculate the variable Multilple R. This was 0,1565 and as a consquence there was no correlation between the months as customer and the amount of claims.
 
 <p align="center">
   <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
@@ -96,7 +97,7 @@ Fig 3. This image shows the Bike Sales Dashboard.
 
 Using the dashboard, we were able to determine the following insights:
 
--	Age group: The largest group of bike purchasers falls within the middle age range of 31-50.
+-	Age Group: The largest group of insured persons who comitted fraud falls within the middle age range of 35-44.
 -	Education level: Many customers who purchase bikes have completed partial high school education.
 -	Occupation: The most prevalent occupation among bike purchasers is in management.
 -	Region: North America is the region where most bike purchases are made.
