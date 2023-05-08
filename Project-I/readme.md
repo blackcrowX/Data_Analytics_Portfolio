@@ -57,7 +57,6 @@ Afterwards the data was checked for mising values and existing duplicates. In th
   Fig 2. This image shows the data afterwards in Excel.
 </p>
 
-The resulting data was then exported and was ready to be used as a table for modeling.
 
 ## Modeling
 
@@ -68,7 +67,9 @@ To start the modeling process I opened the table with PowerPivot to segment it.
   Fig 3. This image shows the table in PowerPivot.
 </p>
 
-First the data got segmented into customers based on their age, education, gender, occupation and relationship. The incidents were segmented by bodily injuries, property damage, severity, time, type and vehicles involved. The resulting PivotTables were used to created PivotCharts. These PivotCharts were already able to answer basic questions and give insights into the data. For example the bar chart regardin the insured hobbies indicates that chess and cross fit enthusiasts in the data have a higher rate of comitting car insurance fraud.
+First the data got segmented into customers based on their age, education, gender, occupation and relationship. The incidents were segmented by bodily injuries, property damage, severity, time, type and vehicles involved. The resulting PivotTables were used to created PivotCharts. 
+
+These PivotCharts were already able to answer basic questions and give insights into the data. For example the bar chart regardin the insured hobbies indicates that chess and cross fit enthusiasts in the data have a higher rate of comitting car insurance fraud.
 
 <p align="center">
   <img src="https://i.postimg.cc/VmZTW8Nr/Screenshot-10.jpg"/>
