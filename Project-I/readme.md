@@ -1,4 +1,4 @@
-<h1 align="center">Analysis with Excel: Car Insurance Claims Fraud</h1>
+<h1 align="center">Car Insurance Claims Fraud</h1>
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Excel_Logo_%282013-2019%29.svg/192px-Microsoft_Excel_Logo_%282013-2019%29.svg.png"/>
