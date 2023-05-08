@@ -30,7 +30,7 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Technology:** Microsoft Excel
 
-**Skills:** PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis
+**Skills:** Excel-Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis
 
 ### Covid 19
 
