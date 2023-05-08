@@ -17,7 +17,7 @@ This project is an analysis in Microsoft Excel to gain insights into car insuran
 - [Case](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#case)
 - [Data](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#data)
 - [Preparation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#preparation)
-- [Modeling](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#modeling)
+- [Modelling](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#modeling)
 - [Validation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#validation)
 - [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#visualisation)
 - [Result](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#result)
