@@ -1,7 +1,7 @@
 <h1 align="center">Project II</h1>
 
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/128/28/28954.png"/>
+  <img src="https://i.postimg.cc/xjsmq6Tb/Screenshot-16.jpg"/>
 </p>
 
 ## About
