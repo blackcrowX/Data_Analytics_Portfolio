@@ -1,7 +1,7 @@
 <h1 align="center">Project II</h1>
 
 <p align="center">
-  <img src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/sql-server.png?raw=true"/>
+  <img width="273px" src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/sql-server.png?raw=true"/>
 </p>
 
 ## About
