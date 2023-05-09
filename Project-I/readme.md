@@ -58,7 +58,7 @@ To start the data preparation the CSV file was opened via PowerQuery and the ini
 
 First the columns were reorganised. This resulted in the "Policy Number" becoming the Index. Then the excess column at the end of the data was deleted and a new column named "Age Group" was created. Afterwards the data was updated to be more interpretable via the replace() function and proper() function of Excel. For example, the value "Husband" and "Wife" for the column "Insured Relationship" were both changed to "Married". These steps were to achieve better visualisation of the data.
 
-The last step involved checking the data for missing values and duplicates. In this case there were no missing values or duplicates. This was achieved with the countif() function and its purpose was to avoid potential errors and biases in the data. This results in a more accurate analysis later.
+The last step involved checking the data for missing values, duplicates or inconsistent entries. In this case there were no missing value, duplicates or inconsistent entries. This was achieved by using the countif() function and replace() and its purpose was to avoid potential errors and biases in the data. This results in a more accurate analysis later.
 
 <p align="center">
   <img src="https://i.postimg.cc/QXx9x44g/Screenshot-7.jpg"/>
@@ -101,9 +101,7 @@ The last step involved solving the final question of the correlation between mon
 
 ## Validation
 
-Using the total claims/ amount of claims as value results in the data being easily compared with each other. Both datasets of fraudulent cases and non-fraudulent cases can be easily distinguished from each other for comparison and the data has no missing values or duplicates. But for the data to be more usable the data set has to be larger to account for the differences through only viewing two months’ worth of data.
-
-It is noteworthy that another possibility to mainly highlight the differences between fraudulent and non-fraudulent datasets would have been to calculate the percentage differences between the fraudulent dataset and the non-fraudulent dataset. This would further highlight the properties common for fraudulent claims and consequently also the uncommon properties for fraudulent cases.
+The data was checked for correct typing and a correct data range with no abnormalities. Furthermore the data was checked for correct formatting and consistency in the data entered. this was achieved by the filters in the data tbale. Last but not least the data was checked for presence, meaning there are no blank spaces in the data viewed. 
 
 
 ## Visualisation
