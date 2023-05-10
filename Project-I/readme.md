@@ -49,7 +49,7 @@ To start the data preparation the CSV file was opened via PowerQuery and the ini
 
 <p align="center">
   <img src="https://i.postimg.cc/t90wXBJ8/Screenshot-3.jpg"/>
-  Fig 1. This image shows the data loaded in PowerQuery.
+  <em>Fig 1. This image shows the data loaded in PowerQuery.</em>
 </p>
 
 First the columns were reorganised. This resulted in the "Policy Number" becoming the Index. Then the excess column at the end of the data was deleted and a new column named "Age Group" was created. Afterwards the data was updated to be more interpretable via the replace() function and proper() function of Excel. For example, the value "Husband" and "Wife" for the column "Insured Relationship" were both changed to "Married". These steps were to achieve better visualisation of the data.
@@ -58,7 +58,7 @@ The last step involved checking the data for missing values, duplicates or incon
 
 <p align="center">
   <img src="https://i.postimg.cc/QXx9x44g/Screenshot-7.jpg"/>
-  Fig 2. This image shows the data afterwards in Excel.
+  <em>Fig 2. This image shows the data afterwards in Excel.</em>
 </p>
 
 
@@ -68,7 +68,7 @@ To start the modelling process I opened the prepared table with PowerPivot to se
 
 <p align="center">
   <img src="https://i.postimg.cc/PthSdhzN/Screenshot-11.jpg"/>
-  Fig 3. This image shows the table in PowerPivot.
+  <em>Fig 3. This image shows the table in PowerPivot.</em>
 </p>
 
 First the data was segmented into customers based on their age, education, gender, occupation and relationship. The data then was further segmented into incidents by bodily injuries, property damage, severity, time, type and vehicles involved. The last two segments involved the claims date and policy state for further information to the data. 
@@ -77,21 +77,21 @@ Then using PivotTable, I created fourteen tables using the total claims/ amount 
 
 <p align="center">
   <img src="https://i.postimg.cc/33TSgRKr/Screenshot-14.jpg"/>
-  Fig 4. This image shows the different pivot tables.
+  <em>Fig 4. This image shows the different pivot tables.</em>
 </p>
 
 The charts were already able to answer basic questions regarding the data. For example, the bar chart regarding the insured hobbies indicates that chess and cross fit enthusiasts in the fraudulent dataset have a higher rate of committing car insurance claim fraud compared to the non-fraudulent dataset. These charts will make the visualisation on the points of interest later more responsive for the viewer.
 
 <p align="center">
   <img src="https://i.postimg.cc/Vs2TyWQX/Screenshot-13.jpg"/>
-  Fig 5. This image shows the different pivot charts.
+  <em>Fig 5. This image shows the different pivot charts.</em>
 </p>
 
 The last step involved solving the final question of the correlation between month as customer and fraudulent claims. I used the regression analysis to calculate the variable Multiple R for the fraudulent data. Multiple R was 0,1565 and there is no statistical correlation between the months as customer and the amount of claims in the data. With help of the regression analysis you can get a better view over the statistical means regarding the data and gain further insights into the variance of the data.
 
 <p align="center">
   <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
-  Fig 6. This image shows the correlation analysis between months as customer and fraudulent claims made.
+  <em>Fig 6. This image shows the correlation analysis between months as customer and fraudulent claims made.</em>
 </p>
 
 
@@ -106,7 +106,7 @@ I created a new excel sheet for to visualise all the charts on a dashboard. This
 
 <p align="center">
   <img src="https://i.postimg.cc/9MdxwqnN/Screenshot-7.jpg"/>
-  Fig 7. This image shows the dashboard for car insurance claim fraud.
+  <em>Fig 7. This image shows the dashboard for car insurance claim fraud.</em>
 </p>
 
 ## Result
