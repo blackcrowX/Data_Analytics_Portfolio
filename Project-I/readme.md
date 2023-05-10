@@ -4,16 +4,12 @@
   <img width="273px" src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/icons/ms-excel.png"/>
 </p>
 
-
-## About
-
 This project is an analysis in Microsoft Excel to gain insights into car insurance claim fraud. It contains the processes of data preparation, data modelling, data validation, data visualisation and data analysis. It showcases the use of advanced skills such as PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis.
 
 **File:** [`Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/Insurance-Claims.xlsx)
 
 
 ## Table of Contents
-- [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#about)
 - [Case](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#case)
 - [Data](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#data)
 - [Preparation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#preparation)
