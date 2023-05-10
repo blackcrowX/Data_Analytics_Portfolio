@@ -10,16 +10,16 @@ This project is an analysis in Microsoft Excel to gain insights into car insuran
 
 
 ## Table of Contents
-- [Case](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#case)
+- [Introduction](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#introduction)
 - [Data](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#data)
 - [Preparation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#preparation)
 - [Modelling](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#modeling)
 - [Validation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#validation)
 - [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#visualisation)
-- [Result](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#result)
+- [Analysis](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#analysis)
 
 
-## Case
+## Introduction
 
 Insurance fraud is a huge problem in the industry and it's difficult to identify fraudulent claims. My goal was to help an insurer understand what the main characteristics of fraudulent claims are and visualize the findings. Furthermore, the insurer wanted to know if there was a correlation with the months as customer. This resulted in following questions for me:
 
@@ -109,7 +109,7 @@ I created a new excel sheet for to visualise all the charts on a dashboard. This
   <em>Fig 7. This image shows the dashboard for car insurance claim fraud.</em>
 </p>
 
-## Result
+## Analysis
 
 Using the modelled data in the dashboard, I was able to answer the initial questions and provide insights on car insurance claim fraud as following:
 
