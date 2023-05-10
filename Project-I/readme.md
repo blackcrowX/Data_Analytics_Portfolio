@@ -97,7 +97,7 @@ The last step involved solving the final question of the correlation between mon
 
 ## Validation
 
-The data was checked for correct typing and a correct data range with no abnormalities. Furthermore the data was checked for correct formatting and consistency in the data entered. this was achieved by the filters in the data tbale. Last but not least the data was checked for presence, meaning there are no blank spaces in the data viewed. 
+The data was checked for correct typing and a correct data range with no abnormalities. Furthermore the data was checked for correct formatting and consistency in the data entered. this was achieved by the filters in the data table. Last but not least the data was checked for presence, meaning there are no blank spaces in the data viewed. 
 
 
 ## Visualisation
