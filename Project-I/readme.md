@@ -52,9 +52,9 @@ To start the data preparation the CSV file was opened via PowerQuery and the ini
   <em>Fig 1. This image shows the data loaded in PowerQuery.</em>
 </p>
 
-First the columns were reorganised. This resulted in the "Policy Number" becoming the Index. Then the excess column at the end of the data was deleted and a new column named "Age Group" was created. Afterwards the data was updated to be more interpretable via the replace() function and proper() function of Excel. For example, the value "Husband" and "Wife" for the column "Insured Relationship" were both changed to "Married". These steps were to achieve better visualisation of the data.
+First the columns were reorganised. This resulted in the "Policy Number" becoming the Index. Then the excess column at the end of the data was deleted and a new column named "Age Group" was created. Afterwards the data was updated to be more interpretable via `replace()` and `proper()`. For example, the value "Husband" and "Wife" for the column "Insured Relationship" were both changed to "Married". These steps were to achieve better visualisation of the data.
 
-The last step involved checking the data for missing values, duplicates or inconsistent entries. In this case there were no missing value, duplicates or inconsistent entries. This was achieved by using the countif() function and replace() and its purpose was to avoid potential errors and biases in the data. This results in a more accurate analysis later.
+The last step involved checking the data for missing values, duplicates or inconsistent entries. In this case there were no missing value, duplicates or inconsistent entries. This was achieved by using `countif()` and `replace()`. It's purpose was to avoid potential errors and biases in the data. This results in a more accurate analysis later.
 
 <p align="center">
   <img src="https://i.postimg.cc/QXx9x44g/Screenshot-7.jpg"/>
