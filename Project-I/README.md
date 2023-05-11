@@ -10,13 +10,13 @@ This project is an analysis in Microsoft Excel to gain insights into car insuran
 
 
 ## Table of Contents
-- [Introduction](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#introduction)
-- [Data](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#data)
-- [Preparation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#preparation)
-- [Modelling](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#modeling)
-- [Validation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#validation)
-- [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#visualisation)
-- [Analysis](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/readme.md#analysis)
+- [Introduction](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/README.md#introduction)
+- [Data](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/README.md#data)
+- [Preparation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/README.md#preparation)
+- [Modelling](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/README.md#modeling)
+- [Validation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/README.md#validation)
+- [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/README.md#visualisation)
+- [Analysis](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/README.md#analysis)
 
 
 ## Introduction
