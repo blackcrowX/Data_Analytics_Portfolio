@@ -105,7 +105,7 @@ The data was checked for correct typing and a correct data range with no abnorma
 I created a new excel sheet for to visualise all the charts on a dashboard. This makes it easy to view all the modelled information at once. Then I added slicers to the dashboard. This allows for further filtering of the data based on different criteria and the interests of the viewer. All these features make it easier to answer the initial issue regarding car insurance claim fraud, while not being overwhelmed by the data.
 
 <p align="center">
-  <img src="https://i.postimg.cc/9MdxwqnN/Screenshot-7.jpg"/>
+  <img src="https://i.postimg.cc/xjxBLZXm/Screenshot-7.jpg"/>
   <em>Fig 7. This image shows the dashboard for car insurance claim fraud.</em>
 </p>
 
