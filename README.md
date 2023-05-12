@@ -66,11 +66,10 @@ These are my data analytics projects briefly describing the technology stack and
 
 ## Certificates
 - [Data Analytics using Excel](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing) (May 2023) (Great Learning Academy)
-<p align="center">
-	<a href="https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing">
-		<img width="10%" src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/icons/ms-excel.png?raw=true"/></a>	
-	<a href="https://www.credly.com/badges/49c55edf-b0ab-4068-aa22-4266dd0b6df6">
-		<img width="10%" src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/icons/tableau.png?raw=true"/></a>
-	<a href="https://drive.google.com/file/d/1bjLL5KQW5mhoCssiieLc6o3UiZlWSgvZ/view?usp=share_link">
-    		<img width="10%" src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/icons/python.png?raw=true"/></a>	
-</p>
+- [Interact with Dashboards and Reports](https://www.credly.com/badges/49c55edf-b0ab-4068-aa22-4266dd0b6df6) (May 2023) (Tableau)
+- [Get Started with Tableau - Author](https://www.credly.com/badges/dc320779-9bf4-4d59-971a-553daa63d6f7) (May 2023) (Tableau)
+- [Python](https://drive.google.com/file/) (May 2023) (Kaggle)
+- [Pandas](https://drive.google.com/file) (May 2023) (Kaggle)
+- [Data Cleaning](https://drive.google.com/file/) (May 2023) (Kaggle)
+- [Data Visualisation](https://drive.google.com/file/) (May 2023) (Kaggle)
+- [Geospatial Analysis](https://drive.google.com/file/) (May 2023) (Kaggle)
