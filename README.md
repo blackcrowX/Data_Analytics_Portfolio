@@ -5,13 +5,13 @@
 </p>
 
 ## Table of Contents
-- [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#about)
-- [Projects](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#projects)
-  - [Car Insurance Claim Fraud](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I)
-  - [Covid 19](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Covid-2019.sql)
-  - [Pokémon Stats](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
-  - [Legendary Pokémon](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
-- [Certificates](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/README.md#certificates)
+- [About](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/README.md#about)
+- [Projects](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/README.md#projects)
+  - [Car Insurance Claim Fraud](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I)
+  - [Covid 19](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Covid-2019.sql)
+  - [Pokémon Stats](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
+  - [Legendary Pokémon](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
+- [Certificates](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/README.md#certificates)
 
 ## About
 
@@ -20,13 +20,13 @@ As a highly motivated and detail-oriented data analyst with a bachelor’s degre
 ## Projects
 These are my data analytics projects briefly describing the technology stack and skills used to accomplish the projects goal.
 
-### Car Insurance Claim Fraud
+### Car Insurance Claim
 
 **Description:** This project is an analysis in Microsoft Excel to gain insights into car insurance claim fraud. It contains the processes of data preparation, data modelling, data validation, data visualisation and data analysis. The dataset contains records on car insurance claim fraud in 2015. The goal of the project was to understand the properties of fraudulent claims.
 
-**Code:** [`Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/Insurance-Claims.xlsx)
+**Code:** [`Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
 
-**Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/insurance-claims.csv)
+**Data:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
 
 **Skills:** Excel-Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis
 
@@ -37,7 +37,7 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Description:** The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and EDA (exploratory data analysis).
 
-**Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Covid-2019.sql)
+**Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Covid-2019.sql)
 
 **Skills:** Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 
@@ -48,7 +48,7 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Description:** This dataset includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. It has been of great use when teaching statistics to kids. To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
 
-**Code:** [`Pokémon-Stats.ipynb`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
+**Code:** [`Pokémon-Stats.ipynb`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
           [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
 
 **Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-III/)
@@ -62,7 +62,7 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Description:** The dataset contains a list of  Pokémon.  The records include their characteristics such as attack, defense, type and size. The project includes the following steps: data loading, data cleaning EDA (exploratory data analysis), analyzing characteristics of different Pokémon. To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
 
-**Code:** [`Legendary-Pokémon.ipynb`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
+**Code:** [`Legendary-Pokémon.ipynb`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
           [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
 
 **Skills:** data cleaning, data analysis, data visualization.
