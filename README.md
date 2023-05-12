@@ -28,9 +28,10 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/insurance-claims.csv)
 
+**Skills:** Excel-Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis
+
 **Technology:** Microsoft Excel
 
-**Skills:** Excel-Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis
 
 ### Covid 19
 
@@ -38,9 +39,10 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Covid-2019.sql)
 
+**Skills:** Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+
 **Technology:** SQL 
 
-**Skills:** Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 
 ### Pokémon Stats
 
@@ -51,9 +53,10 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-III/)
 
+**Skills:** data cleaning, data analysis, data visualization
+
 **Technology:** Python, Panda, MatPlotLib, Seaborn
 
-**Skills:** data cleaning, data analysis, data visualization
 
 ### Legendary Pokémon
 
@@ -62,9 +65,10 @@ These are my data analytics projects briefly describing the technology stack and
 **Code:** [`Legendary-Pokémon.ipynb`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
           [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
 
+**Skills:** data cleaning, data analysis, data visualization.
+
 **Technology:** Tidyverse 
 
-**Skills:** data cleaning, data analysis, data visualization.
 
 ## Certificates
 - [Data Analytics using Excel](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing) (May 2023) (Great Learning Academy)
