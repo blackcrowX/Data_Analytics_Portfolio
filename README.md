@@ -49,6 +49,8 @@ These are my data analytics projects briefly describing the technology stack and
 **Code:** [`Pokémon-Stats.ipynb`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
           [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
 
+**Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-III/)
+
 **Technology:** Python, Panda, MatPlotLib, Seaborn
 
 **Skills:** data cleaning, data analysis, data visualization
