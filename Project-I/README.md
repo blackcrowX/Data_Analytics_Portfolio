@@ -6,7 +6,7 @@
 
 This project is an analysis in Microsoft Excel to gain insights into car insurance claim fraud. It contains the processes of data preparation, data modelling, data validation, data visualisation and data analysis. It showcases the use of advanced skills such as PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis.
 
-**File:** [`Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/Insurance-Claims.xlsx)
+**File:** [`Car-Insurance-Claims.xlsx`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/Insurance-Claims.xlsx)
 
 
 ## Table of Contents
@@ -38,7 +38,7 @@ By answering these questions, I will be able to help the insurer gain insights i
 
 The data contains records on fraudulent and non-fraudulent car insurance claims from the 1st of January 2015 till the 28th of February 2015. The CSV file columns are separated into various information regarding the policy, the insured, the incident, the resulting claims made and if the claim was fraudulent.
 
-**Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/insurance-claims.csv)
+**Data:** [`car-insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/car-insurance-claims.csv)
 
 **Source:** [`Databricks Inc.`](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4954928053318020/1058911316420443/167703932442645/latest.html)
 
