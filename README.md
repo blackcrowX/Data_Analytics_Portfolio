@@ -7,7 +7,7 @@
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/README.md#about)
 - [Projects](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/README.md#projects)
-  - [Car Insurance Claim Fraud](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I)
+  - [Car Insurance Claim Analysis](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I)
   - [Covid 19](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Covid-2019.sql)
   - [Pokémon Stats](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
   - [Legendary Pokémon](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
@@ -24,7 +24,7 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Description:** This project is an analysis in Microsoft Excel to gain insights into car insurance claim fraud. It contains the processes of data preparation, data modelling, data validation, data visualisation and data analysis. The dataset contains records on car insurance claim fraud in 2015. The goal of the project was to understand the properties of fraudulent claims.
 
-**Code:** [`Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
+**Code:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
 
 **Data:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
 
