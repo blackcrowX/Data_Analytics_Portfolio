@@ -35,7 +35,7 @@ These are my data analytics projects briefly describing the technology stack and
 
 ### Analysis - Covid-19 Cases
 
-**Description:** The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and EDA (exploratory data analysis).
+**Description:** This project is an analysis using first SQL and then Tableau.  This project includes the steps of data loading, data cleaning and data preprocessing and exploratory data analysis.The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023.
 
 **Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Covid-2019.sql)
 
@@ -50,7 +50,7 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Description:** This dataset includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. It has been of great use when teaching statistics to kids. To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
 
-**Code:** [`Pokémon-Stats.ipynb`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
+**Code:** [`Analysis_Pokemon`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
           [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
 
 **Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-III/)
