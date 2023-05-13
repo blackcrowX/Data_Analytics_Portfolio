@@ -39,7 +39,7 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Covid-2019.sql)
 
-**Data:** [`owid_covid_data.xlsx`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
+**Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
 **Skills:** Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types and Visualisation
 
