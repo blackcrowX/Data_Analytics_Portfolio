@@ -35,7 +35,7 @@ These are my data analytics projects briefly describing the technology stack and
 
 ### Analysis - Covid-19 Cases
 
-**Description:** This project is an analysis using first SQL and then Tableau.  This project includes the steps of data loading, data cleaning and data preprocessing and exploratory data analysis.The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023.
+**Description:** This project is an analysis using first SQL and then Tableau to gain insights. This project includes the steps of data loading, data cleaning and data preprocessing and exploratory data analysis.The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023.
 
 **Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Covid-2019.sql)
 
