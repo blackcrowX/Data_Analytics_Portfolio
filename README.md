@@ -28,20 +28,22 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Data:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
 
-**Skills:** Excel-Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis
+**Skills:** Excel-Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart, Regression-Analysis and Visualisation
 
 **Technology:** Microsoft Excel
 
 
-### Covid 19
+### Analysis - Covid 19
 
 **Description:** The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and EDA (exploratory data analysis).
 
 **Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Covid-2019.sql)
 
-**Skills:** Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+**Data:** [owid_covid_data.xlsx](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
-**Technology:** SQL 
+**Skills:** Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types and Visualisation
+
+**Technology:** SQL & Tableau
 
 
 ### Pokémon Stats
