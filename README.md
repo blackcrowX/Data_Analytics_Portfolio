@@ -7,8 +7,8 @@
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/README.md#about)
 - [Projects](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/README.md#projects)
-  - [Car Insurance Claim Analysis](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I)
-  - [Covid 19](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Covid-2019.sql)
+  - [Analysis - Car Insurance Claims](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I)
+  - [Analysis - Covid-19 Cases](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Covid-2019.sql)
   - [Pokémon Stats](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
   - [Legendary Pokémon](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
 - [Certificates](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/README.md#certificates)
@@ -33,7 +33,7 @@ These are my data analytics projects briefly describing the technology stack and
 **Technology:** Microsoft Excel
 
 
-### Analysis - Covid 19
+### Analysis - Covid-19 Cases
 
 **Description:** The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and EDA (exploratory data analysis).
 
