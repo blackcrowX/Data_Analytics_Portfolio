@@ -55,9 +55,9 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-III/)
 
-**Skills:** data cleaning, data analysis, data visualization
+**Skills:** Panda, MatPlotLib, Seaborn
 
-**Technology:** Python, Panda, MatPlotLib, Seaborn
+**Technology:** Python 
 
 
 ### Legendary Pokémon
