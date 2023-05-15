@@ -15,7 +15,9 @@
 
 ## About
 
-As a highly motivated and detail-oriented data analyst with a bachelor’s degree in Business Administration, I have gained experience in utilizing programming languages such as SQL and Python to gather and analyse large datasets. My passion for data analysis has driven me to develop a strong skill set in data preparation, data modelling, data visualization, and statistical analysis. I am committed to delivering results and insights that will help businesses make informed decisions.
+As a highly motivated and detail-oriented data analyst with a bachelor’s degree in Business Administration, I have gained experience in utilizing programming languages such as SQL and Python to gather and analyse large datasets. 
+
+My passion for data analysis has driven me to develop a strong skill set in data preparation, data modelling, data visualization, and statistical analysis. I am committed to delivering results and insights that will help businesses make informed decisions.
 
 ## Projects
 These are my data analytics projects briefly describing the technology stack and skills used to accomplish the projects goal.
