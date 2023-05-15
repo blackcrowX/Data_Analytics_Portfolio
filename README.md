@@ -6,11 +6,11 @@
 
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#about)
-- [Projects](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#projects)
-  - [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
-  - [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Covid-2019.sql)
-  - [Pokémon Stats](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
-  - [Legendary Pokémon](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
+- [Projects](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#Projects)
+  - [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#Car%20Insurance%20Claims)
+  - [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#projects)
+  - [Pokémon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#projects)
+  - [Bundesliga Players](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#projects)
 - [Certificates](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#certificates)
 
 ## About
@@ -20,49 +20,48 @@ As a highly motivated and detail-oriented data analyst with a bachelor’s degre
 My passion for data analysis has driven me to develop a strong skill set in data preparation, data modelling, data visualization, and statistical analysis. I am committed to delivering results and insights that will help businesses make informed decisions.
 
 ## Projects
-These are my data analytics projects briefly describing the technology stack and skills used to accomplish the projects goal.
+These are my data analytics projects briefly describing the project, the process and technology stack used to accomplish the projects goal.
 
 ### Car Insurance Claims
 
 **Description:** This project is an analysis in Microsoft Excel to gain insights into car insurance claim fraud. It contains the processes of data preparation, data modelling, data validation, data visualisation and data analysis. The dataset contains records on car insurance claim fraud in 2015. The goal of the project was to understand the properties of fraudulent claims.
 
-**Code:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
+**Code:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
 
 **Data:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
 
-**Technology:** Microsoft Excel
+**Technology:** Microsoft Excel Office 365
 
 
 ### Covid-19 Cases
 
 **Description:** This project is an analysis using SQL to gain insights. This project includes the steps of data loading, data cleaning and data preprocessing and exploratory data analysis.The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023.
 
-**Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Covid-2019.sql)
+**Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/Covid-2019.sql)
 
 **Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
 **Technology:** SQL
 
 
-### Pokémon Stats
+### Pokémon Generation 1-8
 
-**Description:** This dataset includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. It has been of great use when teaching statistics to kids. To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
+**Description:** This project is an anlysis using Python to gain insights. It contains data manipulations to try and find answers to questions using visuals of data and statistics. The dataset lists 1072 Pokemon and their alternate Forms, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. The goal of the project was to learn how the game is balanced and to identify the best Pokemon.
 
-**Code:** [`Analysis_Pokemon`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
-          [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
+**Code:** [`Pokemon_Gen_1-8.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project-III/Pokemon_Gen_1-8.ipynb)
 
-**Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project-III/)
+**Data:** [`pokemon_gen_1-8.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project-III/pokemon_gen_1-8.csv)
 
-**Technology:** Python 
+**Technology:** Jupyter Notebook (Python)
 
 
 ### Bundesliga Players
 
-**Description:** 
+**Description:** This project is an anlysis using Tableau to gain insights. It contains data visualisations to understand the players of the bundesliga season 2022/ 2023. The dataset lists all players of the season and their respective clubs.
 
-**Code:** [`Legendary-Pokémon.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/Legendary-Pok%C3%A9mon.ipynb)
+**Code:** [`XXX`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/XXX)
 
-**Data:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
+**Data:** [`bundesliga_players.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/bundesliga_players.csv)
 
 **Technology:** Tableau
 
