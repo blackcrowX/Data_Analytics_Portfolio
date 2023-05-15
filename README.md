@@ -7,7 +7,7 @@
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#about)
 - [Projects](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#Projects)
-  - [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#Car
+  - [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#Car)
   - [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#projects)
   - [Pokémon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#projects)
   - [Bundesliga Players](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#projects)
