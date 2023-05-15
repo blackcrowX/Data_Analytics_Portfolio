@@ -6,17 +6,17 @@
 
 This project is an analysis in Microsoft Excel to gain insights into car insurance claim fraud. It contains the processes of data preparation, data modelling, data validation, data visualisation and data analysis. It showcases the use of advanced skills such as PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis.
 
-**File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
+**File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
 
 
 ## Table of Contents
-- [Introduction](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/README.md#introduction)
-- [Data](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/README.md#data)
-- [Preparation](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/README.md#preparation)
-- [Modelling](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/README.md#modeling)
-- [Validation](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/README.md#validation)
-- [Visualisation](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/README.md#visualisation)
-- [Analysis](https://github.com/blackcrowX/Data_Analysis_Portfolio/blob/main/Project_I/README.md#analysis)
+- [Introduction](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#introduction)
+- [Data](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#data)
+- [Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#preparation)
+- [Modelling](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#modeling)
+- [Validation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#validation)
+- [Visualisation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#visualisation)
+- [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#analysis)
 
 
 ## Introduction
