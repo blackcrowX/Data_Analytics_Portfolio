@@ -30,22 +30,18 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Data:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
 
-**Skills:** Excel-Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart, Regression-Analysis and Visualisation
-
 **Technology:** Microsoft Excel
 
 
 ### Covid-19 Cases
 
-**Description:** This project is an analysis using first SQL and then Tableau to gain insights. This project includes the steps of data loading, data cleaning and data preprocessing and exploratory data analysis.The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023.
+**Description:** This project is an analysis using SQL to gain insights. This project includes the steps of data loading, data cleaning and data preprocessing and exploratory data analysis.The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023.
 
 **Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Covid-2019.sql)
 
 **Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
-**Skills:** Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types and Visualisation
-
-**Technology:** SQL & Tableau
+**Technology:** SQL
 
 
 ### Pokémon Stats
@@ -57,21 +53,18 @@ These are my data analytics projects briefly describing the technology stack and
 
 **Data:** [`insurance-claims.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project-III/)
 
-**Skills:** Panda, MatPlotLib, Seaborn
-
 **Technology:** Python 
 
 
-### Legendary Pokémon
+### Bundesliga Players
 
-**Description:** The dataset contains a list of  Pokémon.  The records include their characteristics such as attack, defense, type and size. The project includes the following steps: data loading, data cleaning EDA (exploratory data analysis), analyzing characteristics of different Pokémon. To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
+**Description:** 
 
-**Code:** [`Legendary-Pokémon.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
-          [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
+**Code:** [`Legendary-Pokémon.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/Legendary-Pok%C3%A9mon.ipynb)
 
-**Skills:** data cleaning, data analysis, data visualization.
+**Data:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
 
-**Technology:** Tidyverse 
+**Technology:** Tableau
 
 
 ## Certificates
