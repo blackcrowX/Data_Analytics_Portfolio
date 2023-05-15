@@ -1,4 +1,4 @@
-<h1 align="center">Data Analysis Portfolio</h1>
+<h1 align="center">Data Analytics Portfolio</h1>
 
 <p align="center">
 <img src="https://i.postimg.cc/K8mbkyhz/Logo-Black.png"/>
