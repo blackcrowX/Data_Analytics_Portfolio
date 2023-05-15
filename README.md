@@ -22,7 +22,7 @@ My passion for data analysis has driven me to develop a strong skill set in data
 ## Projects
 These are my data analytics projects briefly describing the technology stack and skills used to accomplish the projects goal.
 
-### Analysis - Car Insurance Claims
+### Car Insurance Claims
 
 **Description:** This project is an analysis in Microsoft Excel to gain insights into car insurance claim fraud. It contains the processes of data preparation, data modelling, data validation, data visualisation and data analysis. The dataset contains records on car insurance claim fraud in 2015. The goal of the project was to understand the properties of fraudulent claims.
 
