@@ -46,7 +46,7 @@ These are my data analytics projects briefly describing the project, the process
 
 ### Pokémon Generation 1-8
 
-**Description:** This project is an anlysis using Python to gain insights. It contains data manipulations to try and find answers to questions using visuals of data and statistics. The dataset lists 1072 Pokemon and their alternate Forms, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. The goal of the project was to learn how the game is balanced and to identify the best Pokemon.
+**Description:** This project is an anlysis using Python to gain insights. It contains data manipulations to try and find answers to questions using visuals of data and statistics. The dataset lists 1072 Pokemon and their alternate Forms, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. The goal of the project was to explore the statistics and identify the best Pokemon.
 
 **Code:** [`Pokemon_Gen_1-8.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project-III/Pokemon_Gen_1-8.ipynb)
 
