@@ -7,8 +7,8 @@
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#about)
 - [Projects](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#projects)
-  - [Analysis - Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
-  - [Analysis - Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Covid-2019.sql)
+  - [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
+  - [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Covid-2019.sql)
   - [Pokémon Stats](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Pok%C3%A9mon-Stats.ipynb)
   - [Legendary Pokémon](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Legendary-Pok%C3%A9mon.ipynb)
 - [Certificates](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#certificates)
@@ -35,7 +35,7 @@ These are my data analytics projects briefly describing the technology stack and
 **Technology:** Microsoft Excel
 
 
-### Analysis - Covid-19 Cases
+### Covid-19 Cases
 
 **Description:** This project is an analysis using first SQL and then Tableau to gain insights. This project includes the steps of data loading, data cleaning and data preprocessing and exploratory data analysis.The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023.
 
