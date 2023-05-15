@@ -73,12 +73,13 @@ These are my data analytics projects briefly describing the technology stack and
 
 
 ## Certificates
-- [Data Analytics using Excel](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing) (Great Learning Academy)
+
 - [Data Analysis with Python](https://drive.google.com/file/d/19ypqfgxTY2jiYo4Ex2E-TOMUkCM2D6b5/view?usp=sharing) (freeCodeCamp)
 - [Python](https://drive.google.com/file/d/1bjLL5KQW5mhoCssiieLc6o3UiZlWSgvZ/view?usp=sharing) (Kaggle)
 - [Pandas](https://drive.google.com/file/d/1_f-nrECmFXzFkyCggpNgnvXRtvNp8cTs/view?usp=sharing) (Kaggle)
 - [Data Cleaning](https://drive.google.com/file/d/1Decrj1EYXereU86odjVACyGam25ogXRC/view?usp=sharing) (Kaggle)
 - [Data Visualisation](https://drive.google.com/file/d/1QRFsv8aJP2JclFOHUCaxcf0WphUjZ_9Y/view?usp=sharing) (Kaggle)
 - [Geospatial Analysis](https://drive.google.com/file/d/1-RYQMRWOChjw6w8O8VSU8uggTddS8S3r/view?usp=sharing) (Kaggle)
+- [Data Analytics using Excel](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing) (Great Learning Academy)
 - [Interact with Dashboards and Reports](https://www.credly.com/badges/49c55edf-b0ab-4068-aa22-4266dd0b6df6) (Tableau)
 - [Get Started with Tableau - Author](https://www.credly.com/badges/dc320779-9bf4-4d59-971a-553daa63d6f7) (Tableau)
