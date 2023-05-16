@@ -847,8 +847,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='3' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000' />
+            <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='5' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000' />
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
