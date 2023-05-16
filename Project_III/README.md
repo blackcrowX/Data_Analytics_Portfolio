@@ -6,7 +6,7 @@
 
 ## About
 
-This project is an anlysis using Python to gain insights into Pokemon.. It contains data manipulations to try and find answers to questions using visuals of data and statistics. The dataset lists 1072 Pokemon and their alternate Forms, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. The goal of the project was to explore the dataset and identify the best Pokemon. For further information please open `Pokemon_Gen_1-8.ipynb`.
+This project is an anlysis using Python to gain insights into Pokemon Generation 1-8. It contains data manipulations to try and find answers to questions using visuals of data and statistics. The dataset lists 1072 Pokemon and their alternate Forms, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. The goal of the project was to explore the dataset and identify the best Pokemon. For further information please open `Pokemon_Gen_1-8.ipynb`.
 
 **Code:** [`Pokemon_Gen_1-8.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project-III/Pokemon_Gen_1-8.ipynb)
 
