@@ -9,7 +9,7 @@
 - [Projects](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#Projects)
   - [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
   - [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
-  - [Pokémon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III)
+  - [Pokemon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III)
   - [Bundesliga Players](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
 - [Certificates](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#certificates)
 
@@ -44,7 +44,7 @@ These are my data analytics projects briefly describing the project, the process
 **Technology:** SQL
 
 
-### Pokémon Generation 1-8
+### Pokemon Generation 1-8
 
 **Description:** This project is an anlysis using Python to gain insights into Pokemon Gewneration 1-8. It contains data manipulations to try and find answers to questions using visuals of data and statistics. The dataset lists 1072 Pokemon and their alternate Forms, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. The goal of the project was to explore the dataset and identify the best Pokemon.
 
