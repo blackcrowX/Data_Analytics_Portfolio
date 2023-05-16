@@ -37,6 +37,8 @@ These are my data analytics projects briefly describing the project, the process
 
 ### Covid-19 Cases
 
+<img src="https://i.postimg.cc/pL6z3Q6W/Screenshot-2.jpg"/>
+
 **Description:** This project is an analysis using SQL to gain insights into the Covid-19 cases. This project includes the steps of data loading, data cleaning and data preprocessing and exploratory data analysis.The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023.
 
 **Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/Covid-2019.sql)
@@ -64,6 +66,8 @@ These are my data analytics projects briefly describing the project, the process
 
 
 ### Bundesliga Players
+
+<img src="https://i.postimg.cc/pL6z3Q6W/Screenshot-2.jpg"/>
 
 **Description:** This project is an anlysis using Tableau to gain insights into the players. It contains data visualisations to understand the players of the bundesliga season 2022/ 2023. The dataset lists all players of the season and their respective clubs.  The goal of the project was to explore the dataset and take a closer look at the players.
 
