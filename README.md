@@ -24,6 +24,8 @@ These are my data analytics projects briefly describing the project, the process
 
 ### Car Insurance Claims
 
+<img src="https://i.postimg.cc/Hsz9jzG9/Screenshot-1.jpg"/>
+
 **Description:** This project is an analysis in Microsoft Excel to gain insights into car insurance claim fraud. It contains the processes of data preparation, data modelling, data validation, data visualisation and data analysis. The dataset contains records on car insurance claim fraud in 2015. The goal of the project was to understand the properties of fraudulent claims.
 
 **File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
