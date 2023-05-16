@@ -48,7 +48,7 @@ These are my data analytics projects briefly describing the project, the process
 
 ### Pokemon Generation 1-8
 
-<img src="https://i.postimg.cc/90Z1xwfX/Screenshot-2.jpg"/>
+<img src="https://i.postimg.cc/mZR2ZfQJ/Screenshot-2.jpg"/>
 
 **Description:** This project is an anlysis using Python to gain insights into Pokemon Generation 1-8. It contains data manipulations to try and find answers to questions using visuals of data and statistics. The dataset lists 1072 Pokemon and their alternate Forms, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. The goal of the project was to explore the dataset and identify the best Pokemon.
 
