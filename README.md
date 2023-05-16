@@ -43,7 +43,7 @@ These are my data analytics projects briefly describing the project, the process
 
 **Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
-**Technology:** SQL
+**Technology:** MySQL
 
 
 ### Pokemon Generation 1-8
