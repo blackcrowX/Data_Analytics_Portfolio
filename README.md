@@ -48,7 +48,7 @@ These are my data analytics projects briefly describing the project, the process
 
 ### Pokemon Generation 1-8
 
-<img src="https://i.postimg.cc/v8VYv8G4/Screenshot-2.jpg"/>
+<img src="https://i.postimg.cc/hnHqLB7q/Screenshot-3.jpg"/>
 <!-----
 <img src="https://i.postimg.cc/mZR2ZfQJ/Screenshot-2.jpg"/>
 <img src="https://i.postimg.cc/qJwzWvKg/Screenshot-2.jpg"/>
