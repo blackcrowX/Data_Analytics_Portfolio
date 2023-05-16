@@ -35,7 +35,7 @@ These are my data analytics projects briefly describing the project, the process
 
 ### Covid-19 Cases
 
-**Description:** This project is an analysis using SQL to gain insights. This project includes the steps of data loading, data cleaning and data preprocessing and exploratory data analysis.The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023.
+**Description:** This project is an analysis using SQL to gain insights into the Covid-19 cases. This project includes the steps of data loading, data cleaning and data preprocessing and exploratory data analysis.The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023.
 
 **Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/Covid-2019.sql)
 
@@ -46,7 +46,7 @@ These are my data analytics projects briefly describing the project, the process
 
 ### Pokémon Generation 1-8
 
-**Description:** This project is an anlysis using Python to gain insights. It contains data manipulations to try and find answers to questions using visuals of data and statistics. The dataset lists 1072 Pokemon and their alternate Forms, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. The goal of the project was to explore the dataset and identify the best Pokemon.
+**Description:** This project is an anlysis using Python to gain insights into Pokemon. It contains data manipulations to try and find answers to questions using visuals of data and statistics. The dataset lists 1072 Pokemon and their alternate Forms, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. The goal of the project was to explore the dataset and identify the best Pokemon.
 
 **Code:** [`Pokemon_Gen_1-8.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project-III/Pokemon_Gen_1-8.ipynb)
 
@@ -57,7 +57,7 @@ These are my data analytics projects briefly describing the project, the process
 
 ### Bundesliga Players
 
-**Description:** This project is an anlysis using Tableau to gain insights. It contains data visualisations to understand the players of the bundesliga season 2022/ 2023. The dataset lists all players of the season and their respective clubs.  The goal of the project was to explore the dataset and take a closer look at the players.
+**Description:** This project is an anlysis using Tableau to gain insights into the players. It contains data visualisations to understand the players of the bundesliga season 2022/ 2023. The dataset lists all players of the season and their respective clubs.  The goal of the project was to explore the dataset and take a closer look at the players.
 
 **Code:** [`XXX`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/XXX)
 
