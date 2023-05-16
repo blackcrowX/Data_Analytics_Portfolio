@@ -63,7 +63,7 @@ These are my data analytics projects briefly describing the project, the process
 
 **Data:** [`bundesliga_players.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/bundesliga_players.csv)
 
-**Technology:** Tableau
+**Technology:** Tableau Desktop
 
 
 ## Certificates
