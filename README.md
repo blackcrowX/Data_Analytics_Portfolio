@@ -7,10 +7,10 @@
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#about)
 - [Projects](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#Projects)
-  - [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#Car)
-  - [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#projects)
-  - [Pokémon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#projects)
-  - [Bundesliga Players](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#projects)
+  - [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
+  - [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
+  - [Pokémon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III)
+  - [Bundesliga Players](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
 - [Certificates](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#certificates)
 
 ## About
@@ -26,7 +26,7 @@ These are my data analytics projects briefly describing the project, the process
 
 **Description:** This project is an analysis in Microsoft Excel to gain insights into car insurance claim fraud. It contains the processes of data preparation, data modelling, data validation, data visualisation and data analysis. The dataset contains records on car insurance claim fraud in 2015. The goal of the project was to understand the properties of fraudulent claims.
 
-**Code:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
+**File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
 
 **Data:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
 
