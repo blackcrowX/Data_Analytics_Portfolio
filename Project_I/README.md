@@ -12,8 +12,8 @@ Furthermore, to facilitate effective communication of the findings, compelling v
 
 
 ## Table of Contents
-- [Introduction](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#introduction)
-- [Data](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#data)
+- [Case](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#case)
+- [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#dataset)
 - [Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#preparation)
 - [Modeling](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#modeling)
 - [Validation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#validation)
