@@ -17,7 +17,7 @@
   
   II. [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
   
-  III. [Pokemon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III)
+  III. [Pokemon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/Pokemon_Gen_1-8.ipynb)
   
   IV. [Bundesliga Players](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
   
