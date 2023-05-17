@@ -29,7 +29,7 @@ These are my data analytics projects briefly describing the project, the process
 
 <img src="https://i.postimg.cc/Hsz9jzG9/Screenshot-1.jpg"/>
 
-**Description:** This project is an analysis in Microsoft Excel to gain insights into car insurance claim fraud. It contains the processes of data preparation, data modelling, data validation, data visualisation and data analysis. The dataset contains records on car insurance claim fraud in 2015. The goal of the project was to understand the properties of fraudulent claims.
+**Description:** This project undertakes a comprehensive analysis of car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights. The analysis workflow includes essential stages such as data preparation, data modeling, data validation, data visualization, and data analysis. By leveraging advanced Excel skills, including PowerQuery, PowerPivot, PivotTable, PivotChart, and Regression Analysis, this project showcases a sophisticated approach to derive meaningful conclusions. Furthermore, to facilitate effective communication of the findings, compelling visualizations and analytical models have been developed within Excel. These tools provide an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the Excel analysis.
 
 **File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
 
@@ -44,7 +44,7 @@ These are my data analytics projects briefly describing the project, the process
 
 <img src="https://i.postimg.cc/pL6z3Q6W/Screenshot-2.jpg"/>
 
-**Description:** This project is an analysis using SQL to gain insights into the Covid-19 cases. This project includes the steps of data loading, data cleaning and data preprocessing and exploratory data analysis.The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023.
+**Description:** This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data loading, data cleaning, data preprocessing, data analysis, and data visualization. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. The dataset comprises detailed records of COVID-19 cases, deaths, and vaccine administration by country, covering the period from 2020 to 2023. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis.
 
 **Code:** [`covid_analysis_queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/covid_analysis_queries.sql)
 
