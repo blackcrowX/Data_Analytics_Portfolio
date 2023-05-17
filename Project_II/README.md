@@ -6,7 +6,7 @@
 
 ## About
 
-This project is an analysis in SQL to gain insights into --. It contains the processes of data preparation, data modeling, data validation and data visualisation. It showcases the use of advanced skills in ....
+This project is an analysis in SQL to gain insights into Covid-19. It contains the processes of data preparation, data modeling, data validation and data visualisation. It showcases the use of advanced skills in ....
 
 **Code:** [`XYZ`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/)
 
