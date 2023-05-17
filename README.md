@@ -69,6 +69,8 @@ These are my data analytics projects briefly describing the project, the process
 
 **Data:** [`pokemon_gen_1-8.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project-III/pokemon_gen_1-8.csv)
 
+**Skills:**  Pandas, MatlotLib and Seaborn
+
 **Technology:** Jupyter Notebook (Python)
 
 
