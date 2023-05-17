@@ -67,13 +67,13 @@ Moreover, to facilitate effective communication of the findings, a visually appe
 <img src="https://i.postimg.cc/qJwzWvKg/Screenshot-2.jpg"/>
 --------->
 
-**Description:** This project is an anlysis using Python to gain insights into Pokemon Generation 1-8. It contains data manipulations to try and find answers to questions using visuals of data and statistics. The dataset lists 1072 Pokemon and their alternate Forms, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. The goal of the project was to explore the dataset and identify the best Pokemon.
+This captivating data analysis project embarks on a quest to unlock the secrets of Pokemon across Generation 1 to 8, harnessing the power of Python. With the aim of delving into a vast and comprehensive dataset comprising 1072 Pokemon and their alternate forms, we embark on an immersive journey to explore their unique attributes, unravel hidden patterns, and identify intriguing trends. By harnessing the capabilities of Python and leveraging a variety of libraries, we will deftly manipulate the data, create captivating visualizations, and conduct insightful statistical analyses, unearthing valuable insights about the enchanting Pokemon universe.
 
 **Code:** [`Pokemon_Gen_1-8.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/Pokemon_Gen_1-8.ipynb)
 
 **Data:** [`pokemon_gen_1-8.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/pokemon_gen_1-8.csv)
 
-**Skills:**  Pandas, MatlotLib and Seaborn
+**Skills:**  NumPy, Pandas, MatlotLib and Seaborn (SciPy, Scikit-learn SQLAlchemy)
 
 **Technology:** Jupyter Notebook (Python)
 
