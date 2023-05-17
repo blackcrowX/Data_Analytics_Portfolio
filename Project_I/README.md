@@ -4,7 +4,9 @@
   <img width="273px" src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/icons/ms_excel.png"/>
 </p>
 
-This project is an analysis in Microsoft Excel to gain insights into car insurance claim fraud. It contains the processes of data preparation, data modelling, data validation, data visualisation and data analysis. It showcases the use of advanced skills such as PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis.
+This project undertakes a comprehensive analysis of car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights. The analysis workflow includes essential stages such as data preparation, data modeling, data validation, data visualization, and data analysis. By leveraging advanced Excel skills, including PowerQuery, PowerPivot, PivotTable, PivotChart, and Regression Analysis, this project showcases a sophisticated approach to derive meaningful conclusions. The dataset employed in this analysis comprises detailed records related to car insurance claims and associated fraud indicators.
+
+Furthermore, to facilitate effective communication of the findings, compelling visualizations and analytical models have been developed within Excel. These tools provide an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the Excel analysis.
 
 **File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
 
@@ -21,22 +23,22 @@ This project is an analysis in Microsoft Excel to gain insights into car insuran
 
 ## Introduction
 
-Insurance fraud is a huge problem in the industry and it's difficult to identify fraudulent claims. My goal was to help an insurer understand what the main characteristics of fraudulent claims are and visualize the findings. Furthermore, the insurer wanted to know if there was a correlation with the months as customer. This resulted in following questions for me:
+Insurance fraud poses significant challenges within the industry, as identifying fraudulent claims remains a complex task. In this project, my objective was to assist an insurer in gaining a deeper understanding of the key characteristics associated with fraudulent claims and visually represent the findings. Additionally, the insurer sought to determine if a correlation exists between the duration of the policyholder's tenure and the likelihood of a fraudulent claim. To address these objectives, the following pivotal questions guided the analysis:
 
-1.  Which state has the highest total of fraudulent claims?
+1.  Which state exhibits the highest aggregate of fraudulent claims?
 
-2.  What are common properties of insured who committed fraud?
+2.  What are the common attributes among policyholders who engage in fraudulent activities?
 
-3.  What is the most common choice of incident for fraudulent claims?
+3.  Which type of incident is most frequently associated with fraudulent claims?
 
-4.  Is there a correlation between the month as customer and if a claim is fraudulent?
+4.  Is there a discernible correlation between the duration of the policyholder's tenure and the likelihood of fraudulent claims?
 
-By answering these questions, I will be able to help the insurer gain insights into fraudulent claims and what their statistical properties are.
+By addressing these questions comprehensively, valuable insights will be provided to the insurer, enabling a deeper understanding of the statistical characteristics associated with fraudulent claims.
 
 
 ## Data
 
-The data contains records on fraudulent and non-fraudulent car insurance claims from the 1st of January 2015 till the 28th of February 2015. The CSV file columns are separated into various information regarding the policy, the insured, the incident, the resulting claims made and if the claim was fraudulent.
+The dataset encompases records of car insurance claims, spanning from the 1st of January 2015 to the 28th of February 2015 and provides a comprehensive array of columns, offering insights into essential information such as policy details, insured individuals, incident characteristics, claim details, and crucially, whether each claim is fraudulent or not.
 
 **Data:** [`car-insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/car-insurance-claims.csv)
 
@@ -45,78 +47,98 @@ The data contains records on fraudulent and non-fraudulent car insurance claims 
 
 ## Preparation
 
-To start the data preparation the CSV file was opened via PowerQuery and the initial data cleaning was also processed via PowerQuery. 
+The data preparation stage for this Excel project commenced by opening the CSV file using PowerQuery, enabling seamless integration of the dataset into the analysis workflow. PowerQuery was further utilized to execute preliminary data cleaning operations, ensuring the data's integrity and reliability.
 
 <p align="center">
   <img src="https://i.postimg.cc/t90wXBJ8/Screenshot-3.jpg"/>
   <em>Fig 1. This image shows the data loaded in PowerQuery.</em>
 </p>
 
-First the columns were reorganised. This resulted in the "Policy Number" becoming the Index. Then the excess column at the end of the data was deleted and a new column named "Age Group" was created. Afterwards the data was updated to be more interpretable via `replace()` and `proper()`. For example, the value "Husband" and "Wife" for the column "Insured Relationship" were both changed to "Married". These steps were to achieve better visualisation of the data.
+To begin, a reorganization of the columns was undertaken, enhancing the data's structure and readability. As part of this process, the "Policy Number" column was designated as the index for efficient referencing. Additionally, an extraneous column at the end of the dataset was removed to streamline the data's presentation. Moreover, a new column called "Age Group" was introduced, facilitating subsequent analysis based on age-related criteria.
 
-The last step involved checking the data for missing values, duplicates or inconsistent entries. In this case there were no missing value, duplicates or inconsistent entries. This was achieved by using `countif()` and it's purpose was to avoid potential errors and biases in the data. This results in a more accurate analysis later.
+Subsequently, efforts were made to improve data interpretability through the application of functions such as replace() and proper(). For instance, the values "Husband" and "Wife" within the "Insured Relationship" column were unified and transformed into a more generic category, "Married". These transformations aimed to enhance the visualization of the data and simplify the subsequent analytical processes.
 
 <p align="center">
   <img src="https://i.postimg.cc/QXx9x44g/Screenshot-7.jpg"/>
   <em>Fig 2. This image shows the data afterwards in Excel.</em>
 </p>
 
+The final step in the data preparation phase involved a thorough examination for missing values, duplicates, or inconsistencies within the dataset. In this particular project, the data proved to be free from such issues, bolstering the overall data quality and ensuring a robust analysis. The assessment was performed using the countif() function, mitigating the potential risks of errors and biases that could arise from incomplete or inconsistent data entries. This meticulous verification process lays the foundation for accurate and reliable analysis in subsequent stages.
 
 ## Modelling
 
-To start the modelling process I opened the prepared table with PowerPivot to segment it.
+To commence the data modeling process in Excel, I utilized PowerPivot to segment the prepared table and facilitate in-depth analysis. The segmentation began by dividing the data into distinct customer segments based on age, education, gender, occupation, and relationship. Furthermore, the data was segmented into incidents, encompassing categories such as bodily injuries, property damage, severity, time, type, and vehicles involved. Additionally, two additional segments were created to capture information related to claim dates and policy states, providing further contextual details for the analysis.
 
 <p align="center">
   <img src="https://i.postimg.cc/PthSdhzN/Screenshot-11.jpg"/>
   <em>Fig 3. This image shows the table in PowerPivot.</em>
 </p>
 
-First the data was segmented into customers based on their age, education, gender, occupation and relationship. The data then was further segmented into incidents by bodily injuries, property damage, severity, time, type and vehicles involved. The last two segments involved the claims date and policy state for further information to the data. 
-
-Then using PivotTable, I created fourteen tables using the total claims/ amount of claims as table-value and segmented properties as table-row. The resulting tables were used to create charts using PivotChart. The purpose of this segmentation was to further drill into the data and answer the question resulting from the initial issue.
+Next, leveraging the power of PivotTable, I generated fourteen tables that utilized the total claims or claim amounts as table values and the segmented properties as table rows. These tables served as the foundation for creating informative charts using PivotChart. This segmentation strategy allowed for a deeper exploration of the data, enabling insights into the initial research question.
 
 <p align="center">
   <img src="https://i.postimg.cc/33TSgRKr/Screenshot-14.jpg"/>
   <em>Fig 4. This image shows the different pivot tables.</em>
 </p>
 
-The charts were already able to answer basic questions regarding the data. For example, the bar chart regarding the insured hobbies indicates that chess and cross fit enthusiasts in the fraudulent dataset have a higher rate of committing car insurance claim fraud compared to the non-fraudulent dataset. These charts will make the visualisation on the points of interest later more responsive for the viewer.
+The resulting charts provided initial insights into the dataset, addressing fundamental inquiries. For instance, an examination of the bar chart on insured hobbies revealed that individuals engaged in chess and cross fit activities exhibited a higher tendency to commit car insurance claim fraud compared to non-fraudulent cases. These visually appealing charts served as an effective tool for highlighting points of interest and enhancing data visualization for viewers.
 
 <p align="center">
   <img src="https://i.postimg.cc/Vs2TyWQX/Screenshot-13.jpg"/>
   <em>Fig 5. This image shows the different pivot charts.</em>
 </p>
 
-The last step involved solving the final question of the correlation between month as customer and fraudulent claims. I used the regression analysis to calculate the variable Multiple R for the fraudulent data. Multiple R was 0,1565 and there is no statistical correlation between the months as customer and the amount of claims in the data. With help of the regression analysis you can get a better view over the statistical means regarding the data and gain further insights into the variance of the data.
+The final step focused on addressing the correlation between the duration of policyholders' tenure and the occurrence of fraudulent claims. To accomplish this, I employed regression analysis to calculate the Multiple R variable for the fraudulent data. The resulting Multiple R value was 0.1565, indicating no statistical correlation between the duration of policyholders' tenure and the number of claims in the dataset. The utilization of regression analysis provided a comprehensive statistical perspective, enabling a deeper understanding of the data's variability and facilitating further insights.
 
 <p align="center">
   <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
   <em>Fig 6. This image shows the correlation analysis between months as customer and fraudulent claims made.</em>
 </p>
 
+By following this data modeling process, a thorough analysis was conducted using PowerPivot and PivotTable functionalities in Excel. The segmentation, creation of tables, charts, and regression analysis collectively contributed to uncovering valuable insights, addressing the research questions, and enriching the overall understanding of the car insurance claim dataset.
 
 ## Validation
 
-The data was checked for correct typing and a correct data range with no abnormalities. Furthermore the data was checked for correct formatting and consistency in the data entered. this was achieved by the filters in the data table. Last but not least the data was checked for presence, meaning there are no blank spaces in the data viewed. 
+During the data validation phase of the Excel project, rigorous checks were performed to ensure the accuracy, completeness, and consistency of the dataset. Several key aspects were considered to ensure the data's integrity and reliability.
+
+Firstly, careful scrutiny was applied to verify the correctness of data typing and the adherence to appropriate data ranges. This entailed examining the data to confirm that each value was assigned to the correct data type (e.g., numeric, text, date) and fell within the expected range of values. Any anomalies or inconsistencies in data typing and ranges were flagged for further investigation and correction.
+
+Additionally, attention was given to the correct formatting and consistency of the entered data. The data was meticulously reviewed to ensure that it followed consistent formatting guidelines, such as date formats, decimal places, and alphanumeric representations. Inconsistencies in formatting were identified and rectified to maintain uniformity throughout the dataset.
+
+The utilization of filters within the data table played a crucial role in the validation process. By applying filters, the data was examined to identify any irregularities, outliers, or discrepancies that may require attention. This allowed for a comprehensive assessment of the dataset's consistency, enabling the identification and resolution of any issues that could impact the accuracy or interpretation of the data.
+
+Finally, a vital aspect of the data validation process involved checking for the presence of any blank spaces or missing values in the viewed data. The dataset was thoroughly examined to ensure that no essential information was missing or obscured by blank entries. Any instances of missing data were noted and addressed to maintain the completeness and reliability of the dataset.
+
+By executing these comprehensive data validation measures, the project ensured that the dataset was free from abnormalities, maintained consistent formatting, and contained no missing values. This robust validation process bolstered the reliability and accuracy of the data, laying the foundation for accurate analysis and informed decision-making.
 
 
 ## Visualisation
 
-I created a new excel sheet for to visualise all the charts on a dashboard. This makes it easy to view all the modelled information at once. Then I added slicers to the dashboard. This allows for further filtering of the data based on different criteria and the interests of the viewer. All these features make it easier to answer the initial issue regarding car insurance claim fraud, while not being overwhelmed by the data.
+The data visualization stage of the Excel project involved transforming the analyzed information into meaningful and easily understandable visual representations. This allowed for a comprehensive overview of the modeled data on a dedicated dashboard, enhancing the viewer's ability to gain insights efficiently. Several key steps were taken to achieve this goal.
+
+To begin, a new Excel sheet was created specifically for the purpose of visualizing the data. This dedicated sheet served as the canvas for assembling various charts, tables, and visual elements, consolidating all the modeled information in a single, easily accessible location. This approach ensured that viewers could review the data at a glance, enabling a holistic understanding of the analysis outcomes.
+
+To enhance interactivity and provide viewers with more control over the data exploration process, slicers were incorporated into the dashboard. Slicers function as interactive filters that allow for further data segmentation based on different criteria and the specific interests of the viewer. By utilizing slicers, viewers can dynamically adjust the displayed data, focusing on specific subsets or dimensions of the analysis that are most relevant to their investigation.
 
 <p align="center">
   <img src="https://i.postimg.cc/xjxBLZXm/Screenshot-7.jpg"/>
   <em>Fig 7. This image shows the dashboard for car insurance claim fraud.</em>
 </p>
 
+These features collectively contribute to a more intuitive and user-friendly data visualization experience. By presenting the analyzed information on a dedicated dashboard, viewers can quickly grasp the key insights and trends without feeling overwhelmed by the complexity of the underlying data. The inclusion of slicers adds an extra layer of interactivity, enabling viewers to explore the data from different angles and refine their analysis based on specific filters of interest.
+
+Through this data visualization process, the Excel project successfully addresses the initial research question regarding car insurance claim fraud. The consolidated dashboard and interactive slicers empower viewers to effortlessly navigate through the modeled data, facilitating a comprehensive understanding of the analysis outcomes while ensuring a streamlined and engaging data exploration experience.
+
 ## Analysis
 
 Using the modelled data in the dashboard, I was able to answer the initial questions and provide insights on car insurance claim fraud as following:
 
-- State:  The state with the most committed frauds is Ohio. There appear to be slight irregularity compared to the non-fraudulent dataset with to 36.6 to 34.5% and could be a simple difference in the sample of data. An actionable insight would be to nevertheless keep an eye out for claims made from policies in Ohio.
+- State: The state of Ohio stands out as having the highest occurrence of fraudulent claims. Although the difference between the fraudulent and non-fraudulent datasets is relatively minor (36.6% versus 34.5%), it is worth monitoring claims originating from policies in Ohio for potential irregularities.
 
-- Insured:  The largest group of insured persons who committed fraud falls within the middle age range of 35-44 and are single. Here men on the one hand and people with a doctor’s degree on the other hand have a higher tendency to be prone to commit fraud. The big surprise lies in the large amount of insured in the fraudulent dataset who enjoy chess or cross fit as hobbies. It's also the case for men in an executive managerial occupation and women with a sales occupation. All four of these properties have a way higher percentage of amount of claims in the fraudulent dataset compared to the data of non-fraudulent dataset. Resulting in an advice to be more aware with claims from these insured with these properties.
+- Insured: The analysis reveals that individuals in the age range of 35-44, particularly those who are single, constitute the largest group involved in fraudulent activities. Notably, males and individuals with a doctor's degree exhibit a higher propensity for fraudulent claims. Surprisingly, individuals with interests in chess or cross fit, along with men in executive managerial positions and women in sales occupations, show significantly higher claim rates in the fraudulent dataset compared to the non-fraudulent dataset. These observations suggest the need for increased scrutiny when assessing claims from insured individuals with these characteristics.
 
-- Incident:  Many incidents involving fraud happen at midday and were single vehicle collisions involving major damages. The amount of major damages relatively compared to the data of insured who didn't commit crime is way larger with 69% to 14% and is the preferred incident type. Also, the data indicates that a parked car or vehicle theft is a very uncommon occurrence as an incident type for car insurance claim fraud. These insights should help with recognizing fraudulent claims more easily.
+- Incident: The analysis highlights that a considerable number of fraudulent incidents occur during midday, primarily involving single-vehicle collisions resulting in substantial damages. Major damages account for a significantly higher percentage (69%) in the fraudulent dataset compared to the non-fraudulent dataset (14%). Additionally, incidents involving parked cars or vehicle theft are relatively rare in cases of car insurance claim fraud. These insights can aid in the identification of potentially fraudulent claims.
 
-- Correlation:  With help of the regression analysis I was able to prove that there was no correlation between month as customer and fraudulent claims. An insight to take with would be to further strengthen longevity in the contracts, because the regression anlysis predicts the fraudulent claims to be lower with higher months as customer. This can very well be the result of not enough polcies spanning the total time amount we looked at. This is hard to say with the given data.
+- Correlation: Through regression analysis, it was determined that there is no statistically significant correlation between the duration of policyholders' tenure (months as a customer) and the occurrence of fraudulent claims. However, it is worth noting that the analysis suggests a lower predicted frequency of fraudulent claims with longer customer tenure. This finding may be influenced by the limited number of policies spanning the observed time period, and caution should be exercised when interpreting this relationship based on the available data.
+
+These data analysis findings provide valuable insights into the characteristics and patterns associated with car insurance claim fraud. The identified trends and relationships offer actionable recommendations for heightened vigilance when handling claims from specific states, insured individuals with certain profiles, and incidents displaying particular patterns. The analysis contributes to a better understanding of fraudulent claims and supports decision-making processes aimed at detecting and mitigating insurance fraud.
