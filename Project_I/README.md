@@ -15,7 +15,7 @@ Furthermore, to facilitate effective communication of the findings, compelling v
 - [Introduction](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#introduction)
 - [Data](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#data)
 - [Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#preparation)
-- [Modelling](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#modeling)
+- [Modeling](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#modeling)
 - [Validation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#validation)
 - [Visualisation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#visualisation)
 - [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#analysis)
@@ -65,7 +65,7 @@ Subsequently, efforts were made to improve data interpretability through the app
 
 The final step in the data preparation phase involved a thorough examination for missing values, duplicates, or inconsistencies within the dataset. In this particular project, the data proved to be free from such issues, bolstering the overall data quality and ensuring a robust analysis. The assessment was performed using the countif() function, mitigating the potential risks of errors and biases that could arise from incomplete or inconsistent data entries. This meticulous verification process lays the foundation for accurate and reliable analysis in subsequent stages.
 
-## Modelling
+## Modeling
 
 To commence the data modeling process in Excel, I utilized PowerPivot to segment the prepared table and facilitate in-depth analysis. The segmentation began by dividing the data into distinct customer segments based on age, education, gender, occupation, and relationship. Furthermore, the data was segmented into incidents, encompassing categories such as bodily injuries, property damage, severity, time, type, and vehicles involved. Additionally, two additional segments were created to capture information related to claim dates and policy states, providing further contextual details for the analysis.
 
