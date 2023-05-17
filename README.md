@@ -35,7 +35,9 @@ These are my data analytics projects briefly describing the project, the process
 
 **Data:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
 
-**Technology:** Microsoft Excel Office 365
+**Skills:** Excel Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis
+
+**Technology:** Microsoft Excel Office 365 (Excel)
 
 
 ### Covid-19 Cases
@@ -44,11 +46,13 @@ These are my data analytics projects briefly describing the project, the process
 
 **Description:** This project is an analysis using SQL to gain insights into the Covid-19 cases. This project includes the steps of data loading, data cleaning and data preprocessing and exploratory data analysis.The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023.
 
-**Code:** [`Covid-19.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/Covid-2019.sql)
+**Code:** [`covid_analysis_queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/covid_analysis_queries.sql)
 
 **Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
-**Technology:** MySQL
+**Skills:**  Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views and Converting Data Types
+
+**Technology:** PostgreSQL (SQL)
 
 
 ### Pokemon Generation 1-8
