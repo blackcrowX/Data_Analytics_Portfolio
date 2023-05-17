@@ -13,9 +13,9 @@
 
 - [Projects](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#Projects)
 
-  I. [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
+    I. [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
   
-  II. [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
+   II. [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
   
   III. [Pokemon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III)
   
