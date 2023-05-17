@@ -34,7 +34,7 @@ These are my data analytics projects briefly describing the project, the process
 
 ### I. Car Insurance Claims
 
-<img src="https://i.postimg.cc/6Qwq8t9S/Screenshot-5.jpg"/>
+<img src="https://i.ibb.co/CHZWWS9/Screenshot-11.jpg"/>
 
 This project undertakes a comprehensive analysis of car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights. The analysis workflow includes essential stages such as data preparation, data modeling, data validation, data visualization, and data analysis. By leveraging advanced Excel skills, including PowerQuery, PowerPivot, PivotTable, PivotChart, and Regression Analysis, this project showcases a sophisticated approach to derive meaningful conclusions. 
 
