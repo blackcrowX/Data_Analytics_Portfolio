@@ -51,7 +51,7 @@ The data preparation stage for this Excel project commenced by opening the CSV f
 
 <p align="center">
   <img src="https://i.postimg.cc/t90wXBJ8/Screenshot-3.jpg"/>
-  <em>Fig 1. This image shows the data loaded in PowerQuery.</em>
+  <em>Figure 1: Data Loaded in PowerQuery</em>
 </p>
 
 To begin, a reorganization of the columns was undertaken, enhancing the data's structure and readability. As part of this process, the "Policy Number" column was designated as the index for efficient referencing. Additionally, an extraneous column at the end of the dataset was removed to streamline the data's presentation. Moreover, a new column called "Age Group" was introduced, facilitating subsequent analysis based on age-related criteria.
@@ -60,7 +60,7 @@ Subsequently, efforts were made to improve data interpretability through the app
 
 <p align="center">
   <img src="https://i.postimg.cc/QXx9x44g/Screenshot-7.jpg"/>
-  <em>Fig 2. This image shows the data afterwards in Excel.</em>
+  <em>Figure 2: Data in Excel After Transformation</em>
 </p>
 
 The final step in the data preparation phase involved a thorough examination for missing values, duplicates, or inconsistencies within the dataset. In this particular project, the data proved to be free from such issues, bolstering the overall data quality and ensuring a robust analysis. The assessment was performed using the countif() function, mitigating the potential risks of errors and biases that could arise from incomplete or inconsistent data entries. This meticulous verification process lays the foundation for accurate and reliable analysis in subsequent stages.
@@ -71,28 +71,28 @@ To commence the data modeling process in Excel, I utilized PowerPivot to segment
 
 <p align="center">
   <img src="https://i.postimg.cc/PthSdhzN/Screenshot-11.jpg"/>
-  <em>Fig 3. This image shows the table in PowerPivot.</em>
+  <em>Figure 3: Table in PowerPivot</em>
 </p>
 
 Next, leveraging the power of PivotTable, I generated fourteen tables that utilized the total claims or claim amounts as table values and the segmented properties as table rows. These tables served as the foundation for creating informative charts using PivotChart. This segmentation strategy allowed for a deeper exploration of the data, enabling insights into the initial research question.
 
 <p align="center">
   <img src="https://i.postimg.cc/33TSgRKr/Screenshot-14.jpg"/>
-  <em>Fig 4. This image shows the different pivot tables.</em>
+  <em>Figure 4: Various Pivot Tables Displayed</em>
 </p>
 
 The resulting charts provided initial insights into the dataset, addressing fundamental inquiries. For instance, an examination of the bar chart on insured hobbies revealed that individuals engaged in chess and cross fit activities exhibited a higher tendency to commit car insurance claim fraud compared to non-fraudulent cases. These visually appealing charts served as an effective tool for highlighting points of interest and enhancing data visualization for viewers.
 
 <p align="center">
   <img src="https://i.postimg.cc/Vs2TyWQX/Screenshot-13.jpg"/>
-  <em>Fig 5. This image shows the different pivot charts.</em>
+  <em>Figure 5: Pivot Charts showcasing data variations</em>
 </p>
 
 The final step focused on addressing the correlation between the duration of policyholders' tenure and the occurrence of fraudulent claims. To accomplish this, I employed regression analysis to calculate the Multiple R variable for the fraudulent data. The resulting Multiple R value was 0.1565, indicating no statistical correlation between the duration of policyholders' tenure and the number of claims in the dataset. The utilization of regression analysis provided a comprehensive statistical perspective, enabling a deeper understanding of the data's variability and facilitating further insights.
 
 <p align="center">
   <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
-  <em>Fig 6. This image shows the correlation analysis between months as customer and fraudulent claims made.</em>
+  <em>Figure 6: Correlation Analysis of Months as Customer and Fraudulent Claims</em>
 </p>
 
 By following this data modeling process, a thorough analysis was conducted using PowerPivot and PivotTable functionalities in Excel. The segmentation, creation of tables, charts, and regression analysis collectively contributed to uncovering valuable insights, addressing the research questions, and enriching the overall understanding of the car insurance claim dataset.
@@ -122,7 +122,7 @@ To enhance interactivity and provide viewers with more control over the data exp
 
 <p align="center">
   <img src="https://i.postimg.cc/xjxBLZXm/Screenshot-7.jpg"/>
-  <em>Fig 7. This image shows the dashboard for car insurance claim fraud.</em>
+  <em>Figure 7: Car Insurance Claim Fraud Dashboard Visualization</em>
 </p>
 
 These features collectively contribute to a more intuitive and user-friendly data visualization experience. By presenting the analyzed information on a dedicated dashboard, viewers can quickly grasp the key insights and trends without feeling overwhelmed by the complexity of the underlying data. The inclusion of slicers adds an extra layer of interactivity, enabling viewers to explore the data from different angles and refine their analysis based on specific filters of interest.
