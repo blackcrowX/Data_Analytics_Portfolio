@@ -68,7 +68,7 @@ Moreover, to facilitate effective communication of the findings, a visually appe
 
 ### III. Pokemon Generation 1-8
 
-<img src="https://i.postimg.cc/mZR2ZfQJ/Screenshot-2.jpg"/>
+<img src="https://i.postimg.cc/qJwzWvKg/Screenshot-2.jpg"/>
 <!-----
 <img src="https://i.postimg.cc/mZR2ZfQJ/Screenshot-2.jpg"/>
 <img src="https://i.postimg.cc/qJwzWvKg/Screenshot-2.jpg"/>
