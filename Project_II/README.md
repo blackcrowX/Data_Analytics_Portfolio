@@ -5,25 +5,21 @@
   <img width="273px" src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/icons/tableau.png?raw=true"/>
 </p>
 
-## About
-
 This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data loading, data cleaning, data preprocessing, data analysis, and data visualization. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. The dataset comprises detailed records of COVID-19 cases, deaths, and vaccine administration by country, covering the period from 2020 to 2023.
 
 Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis.
 
-**Code:** [`XYZ`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/)
+**Code:** [`covid_analysis_queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/covid_analysis_queries.sql)
 
 ## Table of Contents
-- [About](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#About)
 - [Case](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Case)
-- [Data](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Data)
+- [Dataset](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Data)
 - [Loading](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Loading)
 - [Cleaning](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Cleaning)
 - [Preprocessing](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Preprocessing)
 - [Analysis](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Analysis)
 - [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Visualisation)
 - [Result](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#result)
-
 
 ## Case
 
