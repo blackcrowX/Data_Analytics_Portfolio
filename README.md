@@ -32,7 +32,7 @@ My passion for data analysis has driven me to develop a strong skill set in data
 ## Projects
 These are my data analytics projects briefly describing the project, the process and technology stack used to accomplish the projects goal.
 
-### Car Insurance Claims
+### I. Car Insurance Claims
 
 <img src="https://i.postimg.cc/Hsz9jzG9/Screenshot-1.jpg"/>
 
@@ -49,7 +49,7 @@ Furthermore, to facilitate effective communication of the findings, compelling v
 **Technology:** Microsoft Excel Office 365 (Excel)
 
 
-### Covid-19 Cases
+### II. Covid-19 Cases
 
 <img src="https://i.postimg.cc/pL6z3Q6W/Screenshot-2.jpg"/>
 
@@ -66,7 +66,7 @@ Moreover, to facilitate effective communication of the findings, a visually appe
 **Technology:** PostgreSQL (SQL)
 
 
-### Pokemon Generation 1-8
+### III. Pokemon Generation 1-8
 
 <img src="https://i.postimg.cc/hnHqLB7q/Screenshot-3.jpg"/>
 <!-----
@@ -85,7 +85,7 @@ This data analysis project embarks on a quest to unlock the secrets of Pokemon a
 **Technology:** Jupyter Notebook (Python)
 
 
-### Bundesliga Players
+### IV. Bundesliga Players
 
 <img src="https://i.postimg.cc/pL6z3Q6W/Screenshot-2.jpg"/>
 
