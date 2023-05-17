@@ -85,7 +85,7 @@ The resulting charts provided initial insights into the dataset, addressing fund
 
 <p align="center">
   <img src="https://i.postimg.cc/Vs2TyWQX/Screenshot-13.jpg"/>
-  <em>Figure 5: Pivot Charts showcasing data variations</em>
+  <em>Figure 5: Pivot Charts Showcasing Data Variations</em>
 </p>
 
 The final step focused on addressing the correlation between the duration of policyholders' tenure and the occurrence of fraudulent claims. To accomplish this, I employed regression analysis to calculate the Multiple R variable for the fraudulent data. The resulting Multiple R value was 0.1565, indicating no statistical correlation between the duration of policyholders' tenure and the number of claims in the dataset. The utilization of regression analysis provided a comprehensive statistical perspective, enabling a deeper understanding of the data's variability and facilitating further insights.
