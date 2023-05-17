@@ -4,7 +4,9 @@
   <img width="273px" src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/icons/ms_excel.png"/>
 </p>
 
-This project undertakes a comprehensive analysis of car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights. The analysis workflow includes essential stages such as data preparation, data modeling, data validation, data visualization, and data analysis. By leveraging advanced Excel skills, including PowerQuery, PowerPivot, PivotTable, PivotChart, and Regression Analysis, this project showcases a sophisticated approach to derive meaningful conclusions. Furthermore, to facilitate effective communication of the findings, compelling visualizations and analytical models have been developed within Excel. These tools provide an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the Excel analysis.
+This project undertakes a comprehensive analysis of car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights. The analysis workflow includes essential stages such as data preparation, data modeling, data validation, data visualization, and data analysis. By leveraging advanced Excel skills, including PowerQuery, PowerPivot, PivotTable, PivotChart, and Regression Analysis, this project showcases a sophisticated approach to derive meaningful conclusions. 
+
+Furthermore, to facilitate effective communication of the findings, compelling visualizations and analytical models have been developed within Excel. These tools provide an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the Excel analysis.
 
 **File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
 
