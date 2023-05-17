@@ -39,11 +39,13 @@ The data contains records of Covid-19 cases, deaths and vaccine records by count
 
 **Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
-**Sourece:** [`ourworldindata.org`](https://ourworldindata.org/coronavirus)
+**Source:** [`ourworldindata.org`](https://ourworldindata.org/coronavirus)
 
 ## Loading
 
-To begin the process of data loading we first downloaded.
+To begin the process of data loading we divded the csv file into two seperate excel tables. One named `covid_deaths`and one named `covid vaccinations`. Then we converted those excel tables via `Converter_Excel_CSV.ipynb` into CSV files.
+
+
 
 ## Cleaning
 
