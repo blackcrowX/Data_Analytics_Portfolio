@@ -10,10 +10,10 @@
 ## Table of Contents
 - [About](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#about)
 - [Projects](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#Projects)
-  - [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
-  - [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
-  - [Pokemon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III)
-  - [Bundesliga Players](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
+  I. [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
+  II. [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
+  III. [Pokemon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III)
+  IV. [Bundesliga Players](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
 - [Certificates](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#certificates)
 
 ## About
