@@ -30,7 +30,7 @@ The COVID-19 pandemic has had a profound impact on societies worldwide, promptin
 - Evaluation of the effectiveness of testing strategies in controlling the spread of the virus.
 - Analysis of the disparities in COVID-19 outcomes based on socioeconomic factors and healthcare infrastructure.
 - Identification of potential indicators that can predict the severity of outbreaks in different regions.
-- 
+
 By examining various dimensions of the data, we will gain a comprehensive understanding of the factors influencing the spread and control of COVID-19. The findings from this study can help inform public health policies, interventions, and decision-making processes, ultimately contributing to effective pandemic management strategies globally.
 
 ## Data
