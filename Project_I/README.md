@@ -33,7 +33,7 @@ Insurance fraud poses significant challenges within the industry, as identifying
 By addressing these questions comprehensively, valuable insights will be provided to the insurer, enabling a deeper understanding of the statistical characteristics associated with fraudulent claims.
 
 
-## Data
+## Dataset
 
 The dataset encompases records of car insurance claims, spanning from the 1st of January 2015 to the 28th of February 2015 and provides a comprehensive array of columns, offering insights into essential information such as policy details, insured individuals, incident characteristics, claim details, and crucially, whether each claim is fraudulent or not. This dataset was published by [Databricks Inc](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4954928053318020/1058911316420443/167703932442645/latest.html).
 
