@@ -42,7 +42,11 @@ The data contains records of Covid-19 cases, deaths and vaccine records by count
 
 ## Loading
 
-To begin the process of data loading we divded the csv file into two seperate excel tables. One named `covid_deaths`and one named `covid vaccinations`. Then we converted those excel tables via `Converter_Excel_CSV.ipynb` into CSV files.
+To begin the process of data loading we divded the csv file into two seperate excel tables. One named `covid_deaths`and one named `covid vaccinations`. We converted the `date` column into a viable format with `YYYY-MM-DD`.
+
+Then we converted those excel tables via `Converter_Excel_CSV.ipynb` into CSV files.
+
+Then we opended pgadmin4 and created two table with the columns of covid_deaths and covid_vaccinations. Afterwards we imported the two csv files into pgadmin4.
 
 
 ## Cleaning
