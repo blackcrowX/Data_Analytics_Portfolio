@@ -35,12 +35,9 @@ By addressing these questions comprehensively, valuable insights will be provide
 
 ## Data
 
-The dataset encompases records of car insurance claims, spanning from the 1st of January 2015 to the 28th of February 2015 and provides a comprehensive array of columns, offering insights into essential information such as policy details, insured individuals, incident characteristics, claim details, and crucially, whether each claim is fraudulent or not.
+The dataset encompases records of car insurance claims, spanning from the 1st of January 2015 to the 28th of February 2015 and provides a comprehensive array of columns, offering insights into essential information such as policy details, insured individuals, incident characteristics, claim details, and crucially, whether each claim is fraudulent or not. This dataset was published by [Databricks Inc.](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4954928053318020/1058911316420443/167703932442645/latest.html)
 
 **Data:** [`car-insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/car-insurance-claims.csv)
-
-**Source:** [`Databricks Inc.`](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4954928053318020/1058911316420443/167703932442645/latest.html)
-
 
 ## Preparation
 
