@@ -17,9 +17,8 @@ Moreover, to facilitate effective communication of the findings, a visually appe
 - [Loading](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Loading)
 - [Cleaning](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Cleaning)
 - [Preprocessing](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Preprocessing)
-- [Analysis](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Analysis)
 - [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Visualisation)
-- [Result](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#result)
+- [Analysis](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Analysis)
 
 ## Case
 
@@ -46,13 +45,18 @@ The data contains records of Covid-19 cases, deaths and vaccine records by count
 To begin the process of data loading we divded the csv file into two seperate excel tables. One named `covid_deaths`and one named `covid vaccinations`. Then we converted those excel tables via `Converter_Excel_CSV.ipynb` into CSV files.
 
 
-
 ## Cleaning
+
+To begin the process of data
 
 ## Preprocessing
 
-## Analysis
+To begin the process of data
 
 ## Visualisation
 
-## Result
+To begin the process of data
+
+## Analysis
+
+To begin the process of data
