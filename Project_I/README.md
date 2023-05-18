@@ -18,7 +18,7 @@ Furthermore, to facilitate effective communication of the findings, compelling v
 - [Visualisation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#visualisation)
 - [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#analysis)
 
-## Introduction
+## Case
 
 Insurance fraud poses significant challenges within the industry, as identifying fraudulent claims remains a complex task. In this project, my objective was to assist an insurer in gaining a deeper understanding of the key characteristics associated with fraudulent claims and visually represent the findings. Additionally, the insurer sought to determine if a correlation exists between the duration of the policyholder's tenure and the likelihood of a fraudulent claim. To address these objectives, the following pivotal questions guided the analysis:
 
