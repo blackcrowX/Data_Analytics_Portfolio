@@ -97,6 +97,8 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
 
 ## Certificates
 - [Data Analytics using Excel](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing) - Great Learning Academy
+- [Get started with Microsoft Data Analytics](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing) - Microsoft
+- [Prepare Data for Analysis](https://drive.google.com/file/d/1MgqCMepoWdivyLRF6EMntMsLuT01AGWS/view?usp=sharing) - Microsoft
 - [Intro to SQL](https://drive.google.com/file/d/10OjlVjPYCZNBJokupasryf9FYWiRzMp2/view?usp=sharing) - Kaggle
 - [Advanced SQL](https://drive.google.com/file/d/1qgN8Kpyg9EZq9FrRviwgU6r8mX_vOXiP/view?usp=sharing) - Kaggle
 - [Intro to Programming](https://drive.google.com/file/d/1lEvutGzPx-sImRc-4AsDfYhur9ECAw47/view?usp=sharing) - Kaggle
