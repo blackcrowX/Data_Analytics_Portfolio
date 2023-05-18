@@ -12,7 +12,7 @@ Furthermore, to facilitate effective communication of the findings, compelling v
 ## Table of Contents
 - [Case](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#case)
 - [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#dataset)
-- [Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#preparation)
+- [Data Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#data%20preparation)
 - [Modeling](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#modeling)
 - [Validation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#validation)
 - [Visualisation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#visualisation)
@@ -39,7 +39,7 @@ The dataset encompases records of car insurance claims, spanning from the 1st of
 
 **Data:** [`car-insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/car-insurance-claims.csv)
 
-## Preparation
+## Data Preparation
 
 The data preparation stage for this Excel project commenced by opening the CSV file using PowerQuery, enabling seamless integration of the dataset into the analysis workflow. PowerQuery was further utilized to execute preliminary data cleaning operations, ensuring the data's integrity and reliability.
 
