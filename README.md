@@ -30,7 +30,7 @@ As a highly motivated and detail-oriented data analyst with a bachelor’s degre
 My passion for data analysis has driven me to develop a strong skill set in data preparation, data modelling, data visualization, and statistical analysis. I am committed to delivering results and insights that will help businesses make informed decisions.
 
 ## Projects
-These are my data analytics projects briefly describing the project, the process and technology stack used to accomplish the projects goal.
+These are my data analytics projects briefly describing the project, the process and technology stack used to accomplish the projects goal. If you are interested into looking into further projects of mine feel free to check out following repository: [Data_Analystics_Projects](https://github.com/blackcrowX/Data_Analytics_Projects)
 
 ### I. Car Insurance Claims
 
