@@ -32,7 +32,7 @@ My passion for data analysis has driven me to develop a strong skill set in data
 ## Projects
 These are my data analytics projects briefly describing the project, the process and technology stack used to accomplish the projects goal. If you are interested into looking into further projects of mine feel free to check out following repository: [Data_Analystics_Projects](https://github.com/blackcrowX/Data_Analytics_Projects)
 
-### I. Car Insurance Claims
+### Car Insurance Claims
 
 <img src="https://i.ibb.co/CHZWWS9/Screenshot-11.jpg"/>
 
@@ -47,7 +47,7 @@ This project undertakes a comprehensive analysis of car insurance claim fraud us
 **Technology:** Microsoft Excel Office 365 (Excel)
 
 
-### II. Covid-19 Cases
+### Covid-19 Cases
 
 <img src="https://i.postimg.cc/pL6z3Q6W/Screenshot-2.jpg"/>
 
@@ -62,7 +62,7 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 **Technology:** PostgreSQL (SQL)
 
 
-### III. Pokemon Generation 1-8
+### Pokemon Generation 1-8
 
 <img src="https://i.postimg.cc/J45YJQmh/Screenshot-1.jpg"/>
 <!-----
@@ -82,7 +82,7 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
 **Technology:** Jupyter Notebook (Python)
 
 
-### IV. Bundesliga Players
+### Bundesliga Players
 
 <img src="https://i.postimg.cc/pL6z3Q6W/Screenshot-2.jpg"/>
 
