@@ -31,7 +31,7 @@ The COVID-19 pandemic has had a profound impact on societies worldwide, promptin
 
 By examining various dimensions of the data, we will gain a comprehensive understanding of the factors influencing the spread and control of COVID-19. The findings from this study can help inform public health policies, interventions, and decision-making processes, ultimately contributing to effective pandemic management strategies globally.
 
-## Data
+## Dataset
 
 The data contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023. The CSV file columns are separated into country, date and population followed by various informations regarding the covid cases, deaths and the vaccine. The dataset is published by OWID and is continously kept uptodate. The version of the dataset used was downloaded on the 17.05.2023.
 
