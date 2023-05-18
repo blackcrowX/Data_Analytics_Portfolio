@@ -9,8 +9,6 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 
 Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
 
-The dataset comprises detailed records of COVID-19 cases, deaths, and vaccine administration by country, covering the period from 2020 to 2023. 
-
 **Code:** [`covid_analysis_queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/covid_analysis_queries.sql)
 
 ## Table of Contents
