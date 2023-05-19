@@ -52,7 +52,7 @@ The data preparation stage for this Excel project commenced by opening the CSV f
 
 To begin, a reorganization of the columns was undertaken, enhancing the data's structure and readability. As part of this process, the "Policy Number" column was designated as the index for efficient referencing. Additionally, an extraneous column at the end of the dataset was removed to streamline the data's presentation. Moreover, a new column called "Age Group" was introduced, facilitating subsequent analysis based on age-related criteria.
 
-Subsequently, efforts were made to improve data interpretability through the application of functions such as replace() and proper(). For instance, the values "Husband" and "Wife" within the "Insured Relationship" column were unified and transformed into a more generic category, "Married". These transformations aimed to enhance the visualization of the data and simplify the subsequent analytical processes.
+Subsequently, efforts were made to improve data interpretability through the application of functions such as replace() and proper(). For instance, the values "Husband" and "Wife" within the "Insured Relationship" column were unified and transformed into a more generic category, "Married". These transformations aimed to enhance the visualisation of the data and simplify the subsequent analytical processes.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_2.jpg"/>
@@ -77,7 +77,7 @@ Next, leveraging the power of PivotTable, I generated fourteen tables that utili
   <em>Figure 4: Various Pivot Tables Displayed</em>
 </p>
 
-The resulting charts provided initial insights into the dataset, addressing fundamental inquiries. For instance, an examination of the bar chart on insured hobbies revealed that individuals engaged in chess and cross fit activities exhibited a higher tendency to commit car insurance claim fraud compared to non-fraudulent cases. These visually appealing charts served as an effective tool for highlighting points of interest and enhancing data visualization for viewers.
+The resulting charts provided initial insights into the dataset, addressing fundamental inquiries. For instance, an examination of the bar chart on insured hobbies revealed that individuals engaged in chess and cross fit activities exhibited a higher tendency to commit car insurance claim fraud compared to non-fraudulent cases. These visually appealing charts served as an effective tool for highlighting points of interest and enhancing data visualisation for viewers.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_5.jpg"/>
@@ -118,12 +118,12 @@ To enhance interactivity and provide viewers with more control over the data exp
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_7.jpg"/>
-  <em>Figure 7: Car Insurance Claim Fraud Dashboard Visualization</em>
+  <em>Figure 7: Car Insurance Claim Fraud Dashboard Visualisation</em>
 </p>
 
-These features collectively contribute to a more intuitive and user-friendly data visualization experience. By presenting the analyzed information on a dedicated dashboard, viewers can quickly grasp the key insights and trends without feeling overwhelmed by the complexity of the underlying data. The inclusion of slicers adds an extra layer of interactivity, enabling viewers to explore the data from different angles and refine their analysis based on specific filters of interest.
+These features collectively contribute to a more intuitive and user-friendly data visualisation experience. By presenting the analyzed information on a dedicated dashboard, viewers can quickly grasp the key insights and trends without feeling overwhelmed by the complexity of the underlying data. The inclusion of slicers adds an extra layer of interactivity, enabling viewers to explore the data from different angles and refine their analysis based on specific filters of interest.
 
-Through this data visualization process, the Excel project successfully addresses the initial research question regarding car insurance claim fraud. The consolidated dashboard and interactive slicers empower viewers to effortlessly navigate through the modeled data, facilitating a comprehensive understanding of the analysis outcomes while ensuring a streamlined and engaging data exploration experience.
+Through this data visualisation process, the Excel project successfully addresses the initial research question regarding car insurance claim fraud. The consolidated dashboard and interactive slicers empower viewers to effortlessly navigate through the modeled data, facilitating a comprehensive understanding of the analysis outcomes while ensuring a streamlined and engaging data exploration experience.
 
 ## Analysis
 
