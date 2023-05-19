@@ -5,6 +5,8 @@
   <img width="273px" src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/icons/tableau.png?raw=true"/>
 </p>
 
+## Introduction
+
 This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data loading, data preparation, data analysis, data preprocessing and data visualization. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
 
 **Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
