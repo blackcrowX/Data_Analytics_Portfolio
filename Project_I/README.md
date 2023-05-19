@@ -3,9 +3,13 @@
   <img width="273px" src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/icons/ms_excel.png"/>
 </div>
 
-This project undertakes a comprehensive analysis of car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights. The analysis workflow includes essential stages such as data preparation, data modeling, data validation, data visualisation, and data analysis. By leveraging advanced Excel skills, including PowerQuery, PowerPivot, PivotTable, PivotChart, and Regression Analysis, this project showcases a sophisticated approach to derive meaningful conclusions. 
+## Introduction
 
-Furthermore, to facilitate effective communication of the findings, compelling visualisations and analytical models have been developed within Excel. These tools provide an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the Excel analysis.
+This project focuses on analyzing car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights for insurance companies. Detecting and mitigating insurance fraud is crucial for the industry, and this project seeks to provide actionable strategies through a comprehensive analysis. By leveraging advanced Excel skills, including PowerQuery, PowerPivot, PivotTable, PivotChart, and Regression Analysis, this portfolio project showcases a sophisticated approach to derive meaningful conclusions.
+
+## Objective
+
+The objective of this project is to identify key indicators and patterns associated with car insurance claim fraud to enhance fraud detection and prevention strategies for insurance companies.
 
 **File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
 
@@ -17,25 +21,21 @@ Furthermore, to facilitate effective communication of the findings, compelling v
 - [Validation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#validation)
 - [Visualisation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#visualisation)
 - [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#analysis)
+- [Conclusion](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#Conclusion)
 
 ## Case
 
-Insurance fraud poses significant challenges within the industry, as identifying fraudulent claims remains a complex task. In this project, my objective was to assist an insurer in gaining a deeper understanding of the key characteristics associated with fraudulent claims and visually represent the findings. Additionally, the insurer sought to determine if a correlation exists between the duration of the policyholder's tenure and the likelihood of a fraudulent claim. To address these objectives, the following pivotal questions guided the analysis:
+Insurance fraud poses significant challenges within the industry, making the identification of fraudulent claims a complex task. In this project, our objective is to assist an insurer in gaining a deeper understanding of the key characteristics associated with fraudulent claims and visually represent the findings. Additionally, we aim to determine if a correlation exists between the duration of the policyholder's tenure and the likelihood of a fraudulent claim. To address these objectives, the following pivotal questions guide our analysis:
 
-1.  Which state exhibits the highest aggregate of fraudulent claims?
-
-2.  What are the common attributes among policyholders who engage in fraudulent activities?
-
-3.  Which type of incident is most frequently associated with fraudulent claims?
-
-4.  Is there a discernible correlation between the duration of the policyholder's tenure and the likelihood of fraudulent claims?
-
-By addressing these questions comprehensively, valuable insights will be provided to the insurer, enabling a deeper understanding of the statistical characteristics associated with fraudulent claims.
+1. Which state exhibits the highest aggregate of fraudulent claims?
+2. What are the common attributes among policyholders who engage in fraudulent activities?
+3. Which type of incident is most frequently associated with fraudulent claims?
+4. Is there a discernible correlation between the duration of the policyholder's tenure and the likelihood of fraudulent claims?
 
 
 ## Dataset
 
-The dataset encompases records of car insurance claims, spanning from the 1st of January 2015 to the 28th of February 2015 and provides a comprehensive array of columns, offering insights into essential information such as policy details, insured individuals, incident characteristics, claim details, and crucially, whether each claim is fraudulent or not. This dataset was published by Databricks Inc.
+The dataset used in this project comprises records of car insurance claims from January 1, 2015, to February 28, 2015. It provides comprehensive information about policy details, insured individuals, incident characteristics, claim details, and whether each claim is fraudulent or not. The dataset was obtained from Databricks Inc.
 
 **Data:** [`car-insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/car-insurance-claims.csv)
 
@@ -138,3 +138,15 @@ Using the modelled data in the dashboard, I was able to answer the initial quest
 - Correlation: Through regression analysis, it was determined that there is no statistically significant correlation between the duration of policyholders' tenure (months as a customer) and the occurrence of fraudulent claims. However, it is worth noting that the analysis suggests a lower predicted frequency of fraudulent claims with longer customer tenure. This finding may be influenced by the limited number of policies spanning the observed time period, and caution should be exercised when interpreting this relationship based on the available data.
 
 These data analysis findings provide valuable insights into the characteristics and patterns associated with car insurance claim fraud. The identified trends and relationships offer actionable recommendations for heightened vigilance when handling claims from specific states, insured individuals with certain profiles, and incidents displaying particular patterns. The analysis contributes to a better understanding of fraudulent claims and supports decision-making processes aimed at detecting and mitigating insurance fraud.
+
+## Conclusion
+
+In conclusion, this project successfully analyzed car insurance claim fraud using Microsoft Excel, leveraging advanced techniques such as PowerQuery, PowerPivot, PivotTable, PivotChart, and Regression Analysis. By investigating key indicators and patterns associated with fraudulent claims, insurance companies can enhance their fraud detection and prevention strategies.
+
+Moving forward, several areas warrant further exploration:
+
+1. Develop advanced predictive models: Utilize machine learning algorithms and techniques to build predictive models that can accurately detect fraudulent claims in real-time.
+2. Expand the dataset: Incorporate a larger and more diverse dataset to increase the robustness and generalizability of the analysis.
+3. Collaborate with domain experts: Engage professionals in the insurance industry to gain additional insights and refine the analysis based on their expertise.
+
+By pursuing these next steps, insurance companies can further strengthen their ability to identify and mitigate car insurance claim fraud, ultimately minimizing financial losses and improving customer trust.
