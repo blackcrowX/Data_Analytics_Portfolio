@@ -65,7 +65,7 @@ GROUP BY continent
 ORDER BY total_death_count DESC;
 
 -- Total Population vs Vaccinations
-Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations,
+SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations,
  SUM(vac.new_vaccinations) OVER (PARTITION BY dea.Location ORDER BY dea.location, dea.Date) AS rolling_people_vaccinated
 FROM covid_deaths dea
 JOIN covid_vaccinations vac
