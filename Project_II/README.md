@@ -5,9 +5,7 @@
   <img width="273px" src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/icons/tableau.png?raw=true"/>
 </p>
 
-This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data loading, data cleaning, data preprocessing, data analysis, and data visualization. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. 
-
-Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
+This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data loading, data preparation, data analysis, data preprocessing and data visualization. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
 
 **Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
 
@@ -17,14 +15,12 @@ Moreover, to facilitate effective communication of the findings, a visually appe
 - [Case](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Case)
 - [Dataset](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Data)
 - [Preparation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Preparation)
+- [Loading](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Loading)
 - [SQL](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#SQL)
-  - [Loading](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Loading)
-  - [Cleaning](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Cleaning)
-  - [Preprocessing](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Preprocessing)
-  - [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Visualisation)
   - [Analysis](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Analysis)
+  - [Preprocessing](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Preprocessing)
 - Tableu
-  - X
+  - [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Analysis)
 
 ## Case
 
@@ -50,11 +46,15 @@ The data contains records of Covid-19 cases, deaths and vaccine records by count
 
 Before we can start the analysis in PostgreSQL we will seperate the initial dataframe `owid_covid_data.csv` into two seperate dataframes named `covid_deaths.xlsx` and `covid_vaccinations.xlsx` and format the date column to represent the YYYY-MM-DD format.
 
-Then we will use `Converter_Excel_CSV.ipynb` to convert the Excel files into CSV files. Then we will create two tables in PostgreSQL and load the converted files into PostgreSQL.
+Then we will use `Converter_Excel_CSV.ipynb` to convert the Excel files into CSV files. 
+
+## Loading
+
+Then we will create two tables in PostgreSQL and load the converted files into PostgreSQL.
 
 Now we can start the analysis with SQL.
 
-## SQL
+## Analysis
 
 The analysis is divided into several sections, each focusing on a specific aspect of COVID-19 data exploration. Here is a brief summary of each section:
 
@@ -173,7 +173,9 @@ Select *, (rolling_people_vaccinated/Population)*100 as percentage_rolling_peopl
 From percent_population_vaccinated;
 ```
 
-11. **Creating View to Store Data for Later Visualizations:** This section creates a view named `view_percent_population_vaccinated` to store data related to COVID-19 vaccinations and rolling counts of vaccinated people. The view can be used for later visualizations or to simplify complex queries. The skills used in this analysis showcase a variety of SQL techniques that allow for data exploration, aggregation, and calculation of meaningful metrics. These skills are essential for data analysts to derive insights and draw conclusions from large datasets. The analysis presented in this portfolio demonstrates the application of these skills in the context of COVID-19 data exploration.
+## Preprocessing
+
+1. **Creating View to Store Data for Later Visualizations:** This section creates a view named `view_percent_population_vaccinated` to store data related to COVID-19 vaccinations and rolling counts of vaccinated people. The view can be used for later visualizations or to simplify complex queries. The skills used in this analysis showcase a variety of SQL techniques that allow for data exploration, aggregation, and calculation of meaningful metrics. These skills are essential for data analysts to derive insights and draw conclusions from large datasets. The analysis presented in this portfolio demonstrates the application of these skills in the context of COVID-19 data exploration.
 
 ```
 Create view view_percent_population_vaccinated as
@@ -189,4 +191,6 @@ where dea.continent is not null " pleasse write  a dokumentation highlighting th
 
 With this we have explored the dataset and can continue with the data visualisation
 
-## Tableau
+## Visualisation
+
+## Conclusion
