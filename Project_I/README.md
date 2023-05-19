@@ -55,7 +55,7 @@ To begin, a reorganization of the columns was undertaken, enhancing the data's s
 Subsequently, efforts were made to improve data interpretability through the application of functions such as replace() and proper(). For instance, the values "Husband" and "Wife" within the "Insured Relationship" column were unified and transformed into a more generic category, "Married". These transformations aimed to enhance the visualization of the data and simplify the subsequent analytical processes.
 
 <p align="center">
-  <img src="https://i.postimg.cc/QXx9x44g/Screenshot-7.jpg"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_2.jpg"/>
   <em>Figure 2: Data in Excel After Transformation</em>
 </p>
 
@@ -66,28 +66,28 @@ The final step in the data preparation phase involved a thorough examination for
 To commence the data modeling process in Excel, I utilized PowerPivot to segment the prepared table and facilitate in-depth analysis. The segmentation began by dividing the data into distinct customer segments based on age, education, gender, occupation, and relationship. Furthermore, the data was segmented into incidents, encompassing categories such as bodily injuries, property damage, severity, time, type, and vehicles involved. Additionally, two additional segments were created to capture information related to claim dates and policy states, providing further contextual details for the analysis.
 
 <p align="center">
-  <img src="https://i.postimg.cc/PthSdhzN/Screenshot-11.jpg"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_3.jpg"/>
   <em>Figure 3: Table in PowerPivot</em>
 </p>
 
 Next, leveraging the power of PivotTable, I generated fourteen tables that utilized the total claims or claim amounts as table values and the segmented properties as table rows. These tables served as the foundation for creating informative charts using PivotChart. This segmentation strategy allowed for a deeper exploration of the data, enabling insights into the initial research question.
 
 <p align="center">
-  <img src="https://i.postimg.cc/33TSgRKr/Screenshot-14.jpg"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_4.jpg"/>
   <em>Figure 4: Various Pivot Tables Displayed</em>
 </p>
 
 The resulting charts provided initial insights into the dataset, addressing fundamental inquiries. For instance, an examination of the bar chart on insured hobbies revealed that individuals engaged in chess and cross fit activities exhibited a higher tendency to commit car insurance claim fraud compared to non-fraudulent cases. These visually appealing charts served as an effective tool for highlighting points of interest and enhancing data visualization for viewers.
 
 <p align="center">
-  <img src="https://i.postimg.cc/Vs2TyWQX/Screenshot-13.jpg"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_5.jpg"/>
   <em>Figure 5: Pivot Charts Showcasing Data Variations</em>
 </p>
 
 The final step focused on addressing the correlation between the duration of policyholders' tenure and the occurrence of fraudulent claims. To accomplish this, I employed regression analysis to calculate the Multiple R variable for the fraudulent data. The resulting Multiple R value was 0.1565, indicating no statistical correlation between the duration of policyholders' tenure and the number of claims in the dataset. The utilization of regression analysis provided a comprehensive statistical perspective, enabling a deeper understanding of the data's variability and facilitating further insights.
 
 <p align="center">
-  <img src="https://i.postimg.cc/wqVdTzvF/Screenshot-9.jpg"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_6.jpg"/>
   <em>Figure 6: Correlation Analysis of Months as Customer and Fraudulent Claims</em>
 </p>
 
@@ -117,7 +117,7 @@ To begin, a new Excel sheet was created specifically for the purpose of visualiz
 To enhance interactivity and provide viewers with more control over the data exploration process, slicers were incorporated into the dashboard. Slicers function as interactive filters that allow for further data segmentation based on different criteria and the specific interests of the viewer. By utilizing slicers, viewers can dynamically adjust the displayed data, focusing on specific subsets or dimensions of the analysis that are most relevant to their investigation.
 
 <p align="center">
-  <img src="https://i.postimg.cc/xjxBLZXm/Screenshot-7.jpg"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_7.jpg"/>
   <em>Figure 7: Car Insurance Claim Fraud Dashboard Visualization</em>
 </p>
 
