@@ -76,7 +76,6 @@ FROM covid_deaths
 WHERE location = 'Germany'
 AND new_cases IS NOT null
 ORDER BY 2 DESC;
-
 ```
 
 3. **Total Cases vs Total Deaths in Germany:** This section calculates the death percentage in Germany by dividing the total deaths by the total cases and multiplying by 100. It provides insights into the severity of the disease in terms of deaths relative to the total number of cases.
@@ -144,11 +143,11 @@ ORDER BY total_death_count DESC;
 9. **Showing Continents with the Highest Death Count per Population:** This section focuses on continents and presents the continents with the highest death count per population. It calculates the total death count for each continent and ranks them accordingly.
 
 ```
-Select continent, MAX(total_deaths) as total_death_count
-From covid_deaths
-Where continent is not null 
-Group by continent
-Order by total_death_count DESC;
+SELECT continent, SUM(new_deaths) AS total_death_count
+FROM  covid_deaths
+WHERE continent IS NOT null
+GROUP BY continent
+ORDER BY total_death_count DESC;
 ```
 
 10. **Total Population vs Vaccinations:** This section explores the relationship between the total population and the number of vaccinations in each country. It combines data from the `covid_deaths` and `covid_vaccinations` tables, calculates rolling counts of vaccinated people, and displays the relevant information.
