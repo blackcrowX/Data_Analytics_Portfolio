@@ -11,6 +11,8 @@ Moreover, to facilitate effective communication of the findings, a visually appe
 
 **Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
 
+**Visualisation:** 
+
 ## Table of Contents
 - [Case](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Case)
 - [Dataset](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Data)
