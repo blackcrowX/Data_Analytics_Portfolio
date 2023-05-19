@@ -18,13 +18,18 @@
   - [Bundesliga Players](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
 - [Certificates](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#certificates)
 - [Contact](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#contact)
-- [License](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#license)
 
 ## About
 
 As a highly motivated and detail-oriented data analyst with a bachelor’s degree in Business Administration, I have gained experience in utilizing programming languages such as SQL and Python to gather and analyse large datasets. 
 
 My passion for data analysis has driven me to develop a strong skill set in data preparation, data modelling, data visualization, and statistical analysis. I am committed to delivering results and insights that will help businesses make informed decisions.
+
+## Skills
+
+- Statistics
+- Programming languages (Python, SQL)
+- Data Visualisation Tools (Tableau, Power BI)
 
 ## Projects
 These are my data analytics projects briefly describing the project, the process and technology stack used to accomplish the projects goal. If you are interested into looking into further projects of mine feel free to check out following repository: [Data_Analytics_Projects](https://github.com/blackcrowX/Data_Analytics_Projects)
@@ -91,9 +96,11 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
 
 - Great Learning Academy
   - [Data Analytics using Excel](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing)
+
 - Microsoft
   - [Get Started with Microsoft Data Analytics](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing)
   - [Prepare Data for Analysis](https://drive.google.com/file/d/1MgqCMepoWdivyLRF6EMntMsLuT01AGWS/view?usp=sharing)
+
 - Kaggle
   - [Intro to Programming](https://drive.google.com/file/d/1lEvutGzPx-sImRc-4AsDfYhur9ECAw47/view?usp=sharing)
   - [Python](https://drive.google.com/file/d/1bjLL5KQW5mhoCssiieLc6o3UiZlWSgvZ/view?usp=sharing)
@@ -103,9 +110,15 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
   - [Geospatial Analysis](https://drive.google.com/file/d/1-RYQMRWOChjw6w8O8VSU8uggTddS8S3r/view?usp=sharing)
   - [Intro to SQL](https://drive.google.com/file/d/10OjlVjPYCZNBJokupasryf9FYWiRzMp2/view?usp=sharing)
   - [Advanced SQL](https://drive.google.com/file/d/1qgN8Kpyg9EZq9FrRviwgU6r8mX_vOXiP/view?usp=sharing)
+
 - freeCodeCamp
   - [Data Analysis with Python](https://drive.google.com/file/d/19ypqfgxTY2jiYo4Ex2E-TOMUkCM2D6b5/view?usp=sharing) - freeCodeCamp
+
 - Tableau
   - [Interact with Dashboards and Reports (Consumer)](https://www.credly.com/badges/49c55edf-b0ab-4068-aa22-4266dd0b6df6) - Tableau
   - [Get Started with Tableau (Author)](https://www.credly.com/badges/dc320779-9bf4-4d59-971a-553daa63d6f7) - Tableau
   - [Connect to Data and Work with Views (Author)](https://www.credly.com/badges/b29245da-649d-4655-9096-678b8dba3953) - Tableau 
+
+## Contact
+
+Feel free to contact me via..
