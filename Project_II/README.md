@@ -1,4 +1,4 @@
-<h1 align="center">Project II</h1>
+<h1 align="center">COVID-19 Data Exploration Documentation</h1>
 
 <p align="center">
   <img width="273px" src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/icons/sql_server.png?raw=true"/>
@@ -45,25 +45,30 @@ The data contains records of Covid-19 cases, deaths and vaccine records by count
 
 ## Loading
 
-To begin the process of data loading we divded the csv file into two seperate excel tables. One named `covid_deaths`and one named `covid vaccinations`. We converted the `date` column into a viable format with `YYYY-MM-DD`.
+The analysis is divided into several sections, each focusing on a specific aspect of COVID-19 data exploration. Here is a brief summary of each section:
 
-Then we converted those excel tables via `Converter_Excel_CSV.ipynb` into CSV files.
+1. **Checking Dataset Responsiveness:** This section retrieves all rows from the `covid_deaths` table where the continent is not null. The purpose is to verify if the dataset is responsive and can be accessed correctly.
 
-Then we opended pgadmin4 and created two table with the columns of covid_deaths and covid_vaccinations. Afterwards we imported the two csv files into pgadmin4.
+2. **Selecting Data from Germany:** This section selects specific columns from the `covid_deaths` table for the location 'Germany', providing information about total cases, new cases, total deaths, and population. The data is sorted in descending order based on the date column.
 
+3. **Total Cases vs Total Deaths in Germany:** This section calculates the death percentage in Germany by dividing the total deaths by the total cases and multiplying by 100. It provides insights into the severity of the disease in terms of deaths relative to the total number of cases.
 
-## Cleaning
+4. **Total Cases vs Population in Germany:** This section calculates the percentage of the population infected with COVID-19 in Germany by dividing the total cases by the population and multiplying by 100. It helps understand the extent of the disease's spread in relation to the overall population.
 
-To begin the process of data
+5. **Countries with Highest Infection Rate compared to Population:** This section identifies countries with the highest infection rate compared to their respective populations. It calculates the percentage of the population infected and highlights the countries with the maximum infection count.
 
-## Preprocessing
+6. **Countries with Highest Death Count per Population:** This section determines the countries with the highest death count per population. It calculates the total death count for each country and ranks
 
-To begin the process of data
+ them accordingly.
 
-## Visualisation
+7. **Showing Continents with the Highest Death Count per Population:** This section focuses on continents and presents the continents with the highest death count per population. It calculates the total death count for each continent and ranks them accordingly.
 
-To begin the process of data
+8. **Global Numbers:** This section provides global statistics related to COVID-19. It calculates the total cases, total deaths, and death percentage worldwide by summing the corresponding values across continents.
 
-## Analysis
+9. **Total Population vs Vaccinations:** This section explores the relationship between the total population and the number of vaccinations in each country. It combines data from the `covid_deaths` and `covid_vaccinations` tables, calculates rolling counts of vaccinated people, and displays the relevant information.
 
-To begin the process of data
+10. **Using Temp Table to Perform Calculation on Partition By in Previous Query:** This section creates a temporary table named `percent_population_vaccinated` to store data related to population, vaccinations, and rolling counts of vaccinated people. It uses the temporary table to calculate the percentage of rolling people vaccinated and displays the results.
+
+11. **Creating View to Store Data for Later Visualizations:** This section creates a view named `view_percent_population_vaccinated` to store data related to COVID-19 vaccinations and rolling counts of vaccinated people. The view can be used for later visualizations or to simplify complex queries.
+
+The skills used in this analysis showcase a variety of SQL techniques that allow for data exploration, aggregation, and calculation of meaningful metrics. These skills are essential for data analysts to derive insights and draw conclusions from large datasets. The analysis presented in this portfolio demonstrates the application of these skills in the context of COVID-19 data exploration.
