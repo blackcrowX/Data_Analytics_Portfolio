@@ -36,7 +36,7 @@ These are my data analytics projects briefly describing the project, the process
 
 ### Car Insurance Claims
 
-<img src="https://i.ibb.co/CHZWWS9/Screenshot-11.jpg"/>
+<img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_0.jpg"/>
 
 This project undertakes a comprehensive analysis of car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights. The analysis workflow includes essential stages such as data preparation, data modeling, data validation, data visualisation, and data analysis. Furthermore, to facilitate effective communication of the findings, compelling visualisations and analytical models have been developed within Excel. These tools provide an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the Excel analysis.
 
@@ -66,7 +66,7 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 
 ### Pokemon Generation 1-8
 
-<img src="https://i.postimg.cc/J45YJQmh/Screenshot-1.jpg"/>
+<img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_III/screenshot_0.jpg"/>
 
 This project embarks on a quest to unlock the secrets of Pokemon across Generation 1 to 8, harnessing the power of Python. With the aim of delving into a vast and comprehensive dataset comprising 1072 Pokemon and their alternate forms, we embark on an immersive journey to explore their unique attributes, unravel hidden patterns, and identify intriguing trends. By harnessing the capabilities of Python and leveraging a variety of libraries, we will deftly manipulate the data, create captivating visualizations, and conduct insightful statistical analyses, unearthing valuable insights about the enchanting Pokemon universe.
 
