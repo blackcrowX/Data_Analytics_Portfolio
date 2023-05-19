@@ -62,63 +62,86 @@ The analysis is divided into several sections, each focusing on a specific aspec
 1. **Checking Dataset Responsiveness:** This section retrieves all rows from the `covid_deaths` table where the continent is not null. The purpose is to verify if the dataset is responsive and can be accessed correctly.
 
 ```
-Select *
-From covid_deaths
-Where continent is not null 
-Order by 3,4;
+SELECT *
+FROM covid_deaths
+WHERE continent IS NOT null 
+ORDER BY 3, 4;
 ```
 
 2. **Selecting Data from Germany:** This section selects specific columns from the `covid_deaths` table for the location 'Germany', providing information about total cases, new cases, total deaths, and population. The data is sorted in descending order based on the date column.
 
 ```
-Select Location, date, total_cases, new_cases, total_deaths, population
-From covid_deaths
-Where location = 'Germany'
-Order by 2 DESC;
+SELECT location, date, total_cases, new_cases, total_deaths, population
+FROM covid_deaths
+WHERE location = 'Germany'
+AND new_cases IS NOT null
+ORDER BY 2 DESC;
 
 ```
 
 3. **Total Cases vs Total Deaths in Germany:** This section calculates the death percentage in Germany by dividing the total deaths by the total cases and multiplying by 100. It provides insights into the severity of the disease in terms of deaths relative to the total number of cases.
 
 ```
-Select Location, date, total_cases,total_deaths, (total_deaths/total_cases)*100 as death_percentage
-From covid_deaths
-Where location = 'Germany'
-Order by 2 DESC;
+SELECT Location, date, total_cases,total_deaths, (total_deaths/total_cases)*100 AS death_percentage
+FROM covid_deaths
+WHERE location = 'Germany'
+AND new_cases IS NOT null
+ORDER BY 2 DESC;
 ```
 
 4. **Total Cases vs Population in Germany:** This section calculates the percentage of the population infected with COVID-19 in Germany by dividing the total cases by the population and multiplying by 100. It helps understand the extent of the disease's spread in relation to the overall population.
 
 ```
-Select location, date, population, total_cases,  (total_cases/population)*100 as percent_population_infected
-From covid_deaths
-Where location = 'Germany'
-Order by 2 DESC;
+SELECT location, date, population, total_cases, (total_cases/population)*100 AS percent_population_infected
+FROM covid_deaths
+WHERE location = 'Germany'
+AND total_cases IS NOT null
+ORDER BY 2 DESC;
 ```
 
-5. **Countries with Highest Infection Rate compared to Population:** This section identifies countries with the highest infection rate compared to their respective populations. It calculates the percentage of the population infected and highlights the countries with the maximum infection count.
+5.  **Global Numbers:** This section provides global statistics related to COVID-19. It calculates the total cases, total deaths, and death percentage worldwide by summing the corresponding values across continents.
 
 ```
-Select location, population, MAX(total_cases) as highest_infection_count,  MAX((total_cases/population))*100 as percent_population_infected
-From covid_deaths
-Where continent is not null
-And total_cases is not null
-Group by Location, Population
-Order by percent_population_infected DESC;
+SELECT SUM(new_cases) AS total_cases, SUM(new_deaths) AS total_deaths, SUM(new_deaths)/SUM(new_cases)*100 AS death_percentage
+FROM covid_deaths
+WHERE continent IS NOT null 
+ORDER BY 1, 2;
 ```
 
-6. **Countries with Highest Death Count per Population:** This section determines the countries with the highest death count per population. It calculates the total death count for each country and ranks them accordingly.
+6. **Countries with Highest Infection Rate compared to Population:** This section identifies countries with the highest infection rate compared to their respective populations. It calculates the percentage of the population infected and highlights the countries with the maximum infection count.
 
 ```
-Select Location, MAX(total_deaths) as total_death_count
-From covid_deaths
-Where continent is not null
-And total_deaths is not null
-Group by Location
-Order by total_death_count DESC;
+SELECT location, population, SUM(new_cases) as highest_infection_count,  (SUM(new_cases)/MAX(population))*100 as percent_population_infected
+FROM covid_deaths
+WHERE continent IS NOT null
+AND new_cases IS NOT null
+GROUP BY location, population
+ORDER BY percent_population_infected DESC;
 ```
 
-7. **Showing Continents with the Highest Death Count per Population:** This section focuses on continents and presents the continents with the highest death count per population. It calculates the total death count for each continent and ranks them accordingly.
+7. **Countries and Date with Highest Infection Rate compared to Population:** This section identifies countries with the highest infection rate compared to their respective populations. It calculates the percentage of the population infected and highlights the countries with the maximum infection count.
+
+```
+SELECT location, date, population, MAX(total_cases) AS highest_infection_count,  MAX((total_cases/population))*100 AS percent_population_infected
+FROM covid_deaths
+WHERE continent IS NOT null
+AND new_cases IS NOT null
+GROUP BY location, date, population
+ORDER BY percent_population_infected DESC;
+```
+
+8. **Countries with Highest Death Count per Population:** This section determines the countries with the highest death count per population. It calculates the total death count for each country and ranks them accordingly.
+
+```
+SELECT location, SUM(new_deaths) AS total_death_count
+FROM covid_deaths
+WHERE continent IS NOT null
+AND new_deaths IS NOT null
+GROUP BY location
+ORDER BY total_death_count DESC;
+```
+
+9. **Showing Continents with the Highest Death Count per Population:** This section focuses on continents and presents the continents with the highest death count per population. It calculates the total death count for each continent and ranks them accordingly.
 
 ```
 Select continent, MAX(total_deaths) as total_death_count
@@ -128,32 +151,25 @@ Group by continent
 Order by total_death_count DESC;
 ```
 
-8. **Global Numbers:** This section provides global statistics related to COVID-19. It calculates the total cases, total deaths, and death percentage worldwide by summing the corresponding values across continents.
+10. **Total Population vs Vaccinations:** This section explores the relationship between the total population and the number of vaccinations in each country. It combines data from the `covid_deaths` and `covid_vaccinations` tables, calculates rolling counts of vaccinated people, and displays the relevant information.
 
 ```
-Select SUM(new_cases) as total_cases, SUM(new_deaths) as total_deaths, SUM(new_deaths)/SUM(new_cases)*100 as death_percentage
-From covid_deaths
-Where continent is not null 
-Order by 1,2;
+SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations,
+ SUM(vac.new_vaccinations) OVER (PARTITION BY dea.Location ORDER BY dea.location, dea.Date) AS rolling_people_vaccinated
+FROM covid_deaths dea
+JOIN covid_vaccinations vac
+	ON dea.location = vac.location
+	AND dea.date = vac.date
+WHERE dea.continent IS NOT null 
+AND new_vaccinations IS NOT null
+ORDER BY 2,3;
 ```
 
-9. **Total Population vs Vaccinations:** This section explores the relationship between the total population and the number of vaccinations in each country. It combines data from the `covid_deaths` and `covid_vaccinations` tables, calculates rolling counts of vaccinated people, and displays the relevant information.
+11. **Using Temp Table to Perform Calculation on Partition By in Previous Query:** This section creates a temporary table named `percent_population_vaccinated` to store data related to population, vaccinations, and rolling counts of vaccinated people. It uses the temporary table to calculate the percentage of rolling people vaccinated and displays the results.
 
 ```
-Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations,
- SUM(vac.new_vaccinations) OVER (Partition by dea.Location Order by dea.location, dea.Date) as rolling_people_vaccinated
-From covid_deaths dea
-Join covid_vaccinations vac
-	On dea.location = vac.location
-	and dea.date = vac.date
-where dea.continent is not null 
-order by 2,3;
-```
-
-10. **Using Temp Table to Perform Calculation on Partition By in Previous Query:** This section creates a temporary table named `percent_population_vaccinated` to store data related to population, vaccinations, and rolling counts of vaccinated people. It uses the temporary table to calculate the percentage of rolling people vaccinated and displays the results.
-
-```
-Create table if not exists percent_population_vaccinated (
+DROP TABLE IF EXISTS percent_population_vaccinated;
+CREATE TABLE IF NOT EXISTS percent_population_vaccinated (
 	Continent varchar,
 	location varchar,
 	date date,
@@ -162,16 +178,18 @@ Create table if not exists percent_population_vaccinated (
 	rolling_people_vaccinated numeric
 );
 
-Insert into percent_population_vaccinated
-Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
-, SUM(vac.new_vaccinations) OVER(Partition by dea.Location order by dea.location, dea.Date) as rolling_people_vaccinated
-From covid_deaths dea
-Join covid_vaccinations vac
-	on dea.location = vac.location
-	and dea.date = vac.date;
+INSERT INTO percent_population_vaccinated
+SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
+, SUM(vac.new_vaccinations) OVER(PARTITION BY dea.Location ORDER BY dea.location, dea.Date) AS rolling_people_vaccinated
+FROM covid_deaths dea
+JOIN covid_vaccinations vac
+	ON dea.location = vac.location
+	AND dea.date = vac.date;
 
-Select *, (rolling_people_vaccinated/Population)*100 as percentage_rolling_people_vaccinated
-From percent_population_vaccinated;
+SELECT *, (rolling_people_vaccinated/population)*100 as percentage_rolling_people_vaccinated
+FROM percent_population_vaccinated
+WHERE continent IS NOT null
+AND new_vaccinations IS NOT null;
 ```
 
 ## Preprocessing
@@ -179,19 +197,21 @@ From percent_population_vaccinated;
 1. **Creating View to Store Data for Later Visualizations:** This section creates a view named `view_percent_population_vaccinated` to store data related to COVID-19 vaccinations and rolling counts of vaccinated people. The view can be used for later visualizations or to simplify complex queries. The skills used in this analysis showcase a variety of SQL techniques that allow for data exploration, aggregation, and calculation of meaningful metrics. These skills are essential for data analysts to derive insights and draw conclusions from large datasets. The analysis presented in this portfolio demonstrates the application of these skills in the context of COVID-19 data exploration.
 
 ```
-Create view view_percent_population_vaccinated as
-Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
-, SUM(vac.new_vaccinations) OVER (Partition by dea.Location Order by dea.location, dea.Date) as rolling_people_vaccinated
---, (RollingPeopleVaccinated/population)*100
-From covid_deaths dea
-Join covid_vaccinations vac
-	On dea.location = vac.location
-	and dea.date = vac.date
-where dea.continent is not null " pleasse write  a dokumentation highlighting the used skills and making it readable.
+DROP VIEW IF EXISTS view_percent_population_vaccinated;
+CREATE VIEW view_percent_population_vaccinated AS
+SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
+, SUM(vac.new_vaccinations) OVER(PARTITION BY dea.Location ORDER BY dea.location, dea.Date) AS rolling_people_vaccinated
+FROM covid_deaths dea
+JOIN covid_vaccinations vac
+	ON dea.location = vac.location
+	AND dea.date = vac.date
+WHERE dea.continent IS NOT null;
 ```
 
 With this we have explored the dataset and can continue with the data visualisation
 
 ## Visualisation
+
+For the visualisation we
 
 ## Conclusion
