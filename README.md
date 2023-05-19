@@ -53,23 +53,18 @@ This project undertakes a comprehensive analysis of car insurance claim fraud us
 
 This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data loading, data cleaning, data preprocessing, data analysis, and data visualization. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis.
 
-**Code:** [`covid_analysis_queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/covid_analysis_queries.sql)
+**Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
 
 **Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
 **Skills:**  Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views and Converting Data Types
 
-**Technology:** PostgreSQL (SQL)
+**Technology:** PostgreSQL (SQL) & Tableau Desktop (Tableau)
 
 
 ### Pokemon Generation 1-8
 
 <img src="https://i.postimg.cc/J45YJQmh/Screenshot-1.jpg"/>
-<!-----
-<img src="https://i.postimg.cc/mZR2ZfQJ/Screenshot-2.jpg"/>
-<img src="https://i.postimg.cc/qJwzWvKg/Screenshot-2.jpg"/>
-<img src="https://i.postimg.cc/hnHqLB7q/Screenshot-3.jpg"/>
---------->
 
 This project embarks on a quest to unlock the secrets of Pokemon across Generation 1 to 8, harnessing the power of Python. With the aim of delving into a vast and comprehensive dataset comprising 1072 Pokemon and their alternate forms, we embark on an immersive journey to explore their unique attributes, unravel hidden patterns, and identify intriguing trends. By harnessing the capabilities of Python and leveraging a variety of libraries, we will deftly manipulate the data, create captivating visualizations, and conduct insightful statistical analyses, unearthing valuable insights about the enchanting Pokemon universe.
 
@@ -92,7 +87,7 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
 
 **Data:** [`bundesliga_players.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/bundesliga_players.csv)
 
-**Technology:** Tableau Desktop
+**Technology:** Tableau Desktop (Tableau)
 
 
 ## Certificates
