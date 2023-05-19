@@ -1,11 +1,7 @@
-<h1 align="center">Data Analytics Portfolio</h1>
-
-<p align="center">
+<div align="center>
+<h1>Data Analytics Portfolio</h1>
 <img src="https://i.postimg.cc/r85wBCbf/Screenshot-0.jpg"/>
-<!----
-<img src="https://i.postimg.cc/K8mbkyhz/Logo-Black.png"/>
----->
-</p>
+</div>
 
 ## Table of Contents
 
