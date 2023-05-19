@@ -14,11 +14,14 @@ Moreover, to facilitate effective communication of the findings, a visually appe
 ## Table of Contents
 - [Case](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Case)
 - [Dataset](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Data)
-- [Loading](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Loading)
-- [Cleaning](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Cleaning)
-- [Preprocessing](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Preprocessing)
-- [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Visualisation)
-- [Analysis](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Analysis)
+- SQL
+  - [Loading](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Loading)
+  - [Cleaning](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Cleaning)
+  - [Preprocessing](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Preprocessing)
+  - [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Visualisation)
+  - [Analysis](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Analysis)
+- Tableu
+  - 
 
 ## Case
 
