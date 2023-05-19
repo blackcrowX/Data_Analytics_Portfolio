@@ -46,7 +46,7 @@ The dataset used in this project comprises records of car insurance claims from 
 The data preparation stage for this Excel project commenced by opening the CSV file using PowerQuery, enabling seamless integration of the dataset into the analysis workflow. PowerQuery was further utilized to execute preliminary data cleaning operations, ensuring the data's integrity and reliability.
 
 <p align="center">
-  <img src="https://i.postimg.cc/t90wXBJ8/Screenshot-3.jpg"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_1.jpg"/>
   <em>Figure 1: Data Loaded in PowerQuery</em>
 </p>
 
