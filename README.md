@@ -1,6 +1,6 @@
-<div align="center>
-<h1>Data Analytics Portfolio</h1>
-<img src="https://i.postimg.cc/r85wBCbf/Screenshot-0.jpg"/>
+<div align='center'>
+  <h1>Data Analytics Portfolio</h1>
+  <img src='https://i.postimg.cc/r85wBCbf/Screenshot-0.jpg'/>
 </div>
 
 ## Table of Contents
