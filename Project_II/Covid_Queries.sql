@@ -27,6 +27,12 @@ WHERE location = 'Germany'
 AND total_cases IS NOT null
 ORDER BY 2 DESC;
 
+-- Global Numbers
+SELECT SUM(new_cases) AS total_cases, SUM(new_deaths) AS total_deaths, SUM(new_deaths)/SUM(new_cases)*100 AS death_percentage
+FROM covid_deaths
+WHERE continent IS NOT null 
+ORDER BY 1, 2;
+
 -- Countries with Highest Infection Rate compared to Population
 SELECT location, population, SUM(new_cases) as highest_infection_count,  (SUM(new_cases)/MAX(population))*100 as percent_population_infected
 FROM covid_deaths
@@ -52,18 +58,11 @@ GROUP BY location
 ORDER BY total_death_count DESC;
 
 -- Contintents with Highest Death Count per Population
-SELECT location, SUM(new_deaths) AS total_death_count
+SELECT continent, SUM(new_deaths) AS total_death_count
 FROM  covid_deaths
-WHERE continent IS null 
-AND location NOT IN ('World', 'European Union', 'International', 'High income', 'Upper middle income', 'Lower middle income', 'Low income')
-GROUP BY location
+WHERE continent IS NOT null
+GROUP BY continent
 ORDER BY total_death_count DESC;
-
--- Global Numbers
-SELECT SUM(new_cases) AS total_cases, SUM(new_deaths) AS total_deaths, SUM(new_deaths)/SUM(new_cases)*100 AS death_percentage
-FROM covid_deaths
-WHERE continent IS NOT null 
-ORDER BY 1, 2;
 
 -- Total Population vs Vaccinations
 Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations,
@@ -96,13 +95,15 @@ JOIN covid_vaccinations vac
 	AND dea.date = vac.date;
 
 SELECT *, (rolling_people_vaccinated/population)*100 as percentage_rolling_people_vaccinated
-FROM percent_population_vaccinated;
+FROM percent_population_vaccinated
+WHERE continent IS NOT null
+AND new_vaccinations IS NOT null;
 
 -- Data View for Later Visualisations
 DROP VIEW IF EXISTS view_percent_population_vaccinated;
 CREATE VIEW view_percent_population_vaccinated AS
 SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
-, SUM(vac.new_vaccinations) OVER (PARTITION BY dea.Location ORDER BY dea.location, dea.Date) AS rolling_people_vaccinated
+, SUM(vac.new_vaccinations) OVER(PARTITION BY dea.Location ORDER BY dea.location, dea.Date) AS rolling_people_vaccinated
 FROM covid_deaths dea
 JOIN covid_vaccinations vac
 	ON dea.location = vac.location
