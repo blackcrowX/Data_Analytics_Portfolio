@@ -109,12 +109,12 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
   - [Advanced SQL](https://drive.google.com/file/d/1qgN8Kpyg9EZq9FrRviwgU6r8mX_vOXiP/view?usp=sharing)
 
 - freeCodeCamp
-  - [Data Analysis with Python](https://drive.google.com/file/d/19ypqfgxTY2jiYo4Ex2E-TOMUkCM2D6b5/view?usp=sharing) - freeCodeCamp
+  - [Data Analysis with Python](https://drive.google.com/file/d/19ypqfgxTY2jiYo4Ex2E-TOMUkCM2D6b5/view?usp=sharing)
 
 - Tableau
-  - [Interact with Dashboards and Reports (Consumer)](https://www.credly.com/badges/49c55edf-b0ab-4068-aa22-4266dd0b6df6) - Tableau
-  - [Get Started with Tableau (Author)](https://www.credly.com/badges/dc320779-9bf4-4d59-971a-553daa63d6f7) - Tableau
-  - [Connect to Data and Work with Views (Author)](https://www.credly.com/badges/b29245da-649d-4655-9096-678b8dba3953) - Tableau 
+  - [Interact with Dashboards and Reports (Consumer)](https://www.credly.com/badges/49c55edf-b0ab-4068-aa22-4266dd0b6df6)
+  - [Get Started with Tableau (Author)](https://www.credly.com/badges/dc320779-9bf4-4d59-971a-553daa63d6f7)
+  - [Connect to Data and Work with Views (Author)](https://www.credly.com/badges/b29245da-649d-4655-9096-678b8dba3953)
 
 ## Contact
 
