@@ -37,7 +37,7 @@ ORDER BY 1, 2;
 SELECT location, population, SUM(new_cases) as highest_infection_count,  (SUM(new_cases)/MAX(population))*100 as percent_population_infected
 FROM covid_deaths
 WHERE continent IS NOT null
-AND total_cases IS NOT null
+AND new_cases IS NOT null
 GROUP BY location, population
 ORDER BY percent_population_infected DESC;
 
@@ -45,7 +45,7 @@ ORDER BY percent_population_infected DESC;
 SELECT location, date, population, MAX(total_cases) AS highest_infection_count,  MAX((total_cases/population))*100 AS percent_population_infected
 FROM covid_deaths
 WHERE continent IS NOT null
-AND total_cases IS NOT null
+AND new_cases IS NOT null
 GROUP BY location, date, population
 ORDER BY percent_population_infected DESC;
 
@@ -53,7 +53,7 @@ ORDER BY percent_population_infected DESC;
 SELECT location, SUM(new_deaths) AS total_death_count
 FROM covid_deaths
 WHERE continent IS NOT null
-AND total_deaths IS NOT null
+AND new_deaths IS NOT null
 GROUP BY location
 ORDER BY total_death_count DESC;
 
