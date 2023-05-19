@@ -59,6 +59,7 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 **Skills:**  Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions and Creating Views
 
 **Technology:** PostgreSQL (SQL) & 
+
               Tableau Desktop (Tableau)
 
 
