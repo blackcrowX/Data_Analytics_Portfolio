@@ -9,7 +9,7 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 
 Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
 
-**Code:** [`covid_analysis_queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/covid_analysis_queries.sql)
+**Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
 
 ## Table of Contents
 - [Case](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Case)
