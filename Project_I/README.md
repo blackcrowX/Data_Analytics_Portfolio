@@ -5,16 +5,12 @@
 
 ## Introduction
 
-This project focuses on analyzing car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights for insurance companies. Detecting and mitigating insurance fraud is crucial for the industry, and this project seeks to provide actionable strategies through a comprehensive analysis. By leveraging advanced Excel skills, including PowerQuery, PowerPivot, PivotTable, PivotChart, and Regression Analysis, this portfolio project showcases a sophisticated approach to derive meaningful conclusions.
-
-## Objective
-
-The objective of this project is to identify key indicators and patterns associated with car insurance claim fraud to enhance fraud detection and prevention strategies for insurance companies.
+This project focuses on analyzing car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights for insurance companies. Detecting and mitigating insurance fraud is crucial for the industry, and this project seeks to provide actionable strategies through a comprehensive analysis. By leveraging advanced Excel skills, including PowerQuery, PowerPivot, PivotTable, PivotChart, and Regression Analysis, this portfolio project showcases a sophisticated approach to derive meaningful conclusion and how to visualise this via a dashboard in Excel.
 
 **File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
 
 ## Table of Contents
-- [Case](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#case)
+- [Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#Objective)
 - [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#dataset)
 - [Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#preparation)
 - [Modeling](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#modeling)
@@ -23,7 +19,7 @@ The objective of this project is to identify key indicators and patterns associa
 - [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#analysis)
 - [Conclusion](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#Conclusion)
 
-## Case
+## Objective
 
 Insurance fraud poses significant challenges within the industry, making the identification of fraudulent claims a complex task. In this project, our objective is to assist an insurer in gaining a deeper understanding of the key characteristics associated with fraudulent claims and visually represent the findings. Additionally, we aim to determine if a correlation exists between the duration of the policyholder's tenure and the likelihood of a fraudulent claim. To address these objectives, the following pivotal questions guide our analysis:
 
