@@ -24,7 +24,7 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 - Tableu
   - [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Analysis)
 
-## Case
+## Objective
 
 The COVID-19 pandemic has had a profound impact on societies worldwide, prompting the need for rigorous data analysis to guide decision-making processes. The OWID COVID-19 dataset offers a comprehensive collection of daily updates on cases, deaths, vaccinations, testing, and other relevant variables for countries across the globe. This case study aims to explore this rich dataset and uncover valuable insights that can help shape public health strategies, policies, and interventions. Through this data exploration, we anticipate uncovering several interesting insights, such as:
 
