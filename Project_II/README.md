@@ -21,7 +21,7 @@ Moreover, to facilitate effective communication of the findings, a visually appe
   - [Visualisation](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Visualisation)
   - [Analysis](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Analysis)
 - Tableu
-  - 
+  - X
 
 ## Case
 
@@ -48,6 +48,13 @@ The data contains records of Covid-19 cases, deaths and vaccine records by count
 The analysis is divided into several sections, each focusing on a specific aspect of COVID-19 data exploration. Here is a brief summary of each section:
 
 1. **Checking Dataset Responsiveness:** This section retrieves all rows from the `covid_deaths` table where the continent is not null. The purpose is to verify if the dataset is responsive and can be accessed correctly.
+
+```
+Select *
+From covid_deaths
+Where continent is not null 
+Order by 3,4;
+```
 
 2. **Selecting Data from Germany:** This section selects specific columns from the `covid_deaths` table for the location 'Germany', providing information about total cases, new cases, total deaths, and population. The data is sorted in descending order based on the date column.
 
