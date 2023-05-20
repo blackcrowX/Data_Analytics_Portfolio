@@ -14,7 +14,7 @@ AND new_cases IS NOT null
 ORDER BY 2 DESC;
 
 -- Total Cases vs Total Deaths in Germany
-SELECT Location, date, total_cases,total_deaths, (total_deaths/total_cases)*100 AS death_percentage
+SELECT location, date, total_cases,total_deaths, (total_deaths/total_cases)*100 AS death_percentage
 FROM covid_deaths
 WHERE location = 'Germany'
 AND new_cases IS NOT null
@@ -45,7 +45,7 @@ ORDER BY percent_population_infected DESC;
 SELECT location, date, population, MAX(total_cases) AS highest_infection_count,  MAX((total_cases/population))*100 AS percent_population_infected
 FROM covid_deaths
 WHERE continent IS NOT null
-AND new_cases IS NOT null
+-- AND new_cases IS NOT null
 GROUP BY location, date, population
 ORDER BY percent_population_infected DESC;
 
