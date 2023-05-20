@@ -41,7 +41,7 @@ This project undertakes a comprehensive analysis of car insurance claim fraud us
 
 **Data:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
 
-**Skills:** Excel Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis
+**Skills:** Excel Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis --- (let() filter() xlookup())
 
 **Technology:** Microsoft Excel Office 365
 
