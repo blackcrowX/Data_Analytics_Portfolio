@@ -43,12 +43,12 @@ This project undertakes a comprehensive analysis of car insurance claim fraud us
 
 **Skills:** Excel Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis
 
-**Technology:** Microsoft Excel Office 365 (Excel)
+**Technology:** Microsoft Excel Office 365
 
 
 ### Covid-19 Cases
 
-<img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_6.png"/>
+<img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_0.png"/>
 
 This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data loading, data cleaning, data preprocessing, data analysis, and data visualization. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis.
 
@@ -58,7 +58,7 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 
 **Skills:**  Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions and Creating Views
 
-**Technology:** PostgreSQL (SQL) & Tableau Desktop (Tableau)
+**Technology:** PostgreSQL & Tableau Desktop
 
 
 ### Pokemon Generation 1-8
@@ -73,7 +73,7 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
 
 **Skills:**  NumPy, Pandas, MatlotLib and Seaborn (SciPy, Scikit-learn SQLAlchemy)
 
-**Technology:** Jupyter Notebook (Python)
+**Technology:** Jupyter Notebook
 
 
 ### Bundesliga Players
