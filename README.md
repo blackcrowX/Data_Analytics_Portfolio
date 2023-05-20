@@ -95,11 +95,9 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
   - [Data Analytics using Excel](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing)
 
 - Microsoft
-  - [Get Started with Microsoft Data Analytics](https://drive.google.com/file/d/1BN-oPF54H449OeDzqHEILfNDnIm_PEGt/view?usp=sharing)
   - [Prepare Data for Analysis](https://drive.google.com/file/d/1MgqCMepoWdivyLRF6EMntMsLuT01AGWS/view?usp=sharing)
 
 - Kaggle
-  - [Intro to Programming](https://drive.google.com/file/d/1lEvutGzPx-sImRc-4AsDfYhur9ECAw47/view?usp=sharing)
   - [Python](https://drive.google.com/file/d/1bjLL5KQW5mhoCssiieLc6o3UiZlWSgvZ/view?usp=sharing)
   - [Pandas](https://drive.google.com/file/d/1_f-nrECmFXzFkyCggpNgnvXRtvNp8cTs/view?usp=sharing)
   - [Data Cleaning](https://drive.google.com/file/d/1Decrj1EYXereU86odjVACyGam25ogXRC/view?usp=sharing)
@@ -112,9 +110,9 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
   - [Data Analysis with Python](https://drive.google.com/file/d/19ypqfgxTY2jiYo4Ex2E-TOMUkCM2D6b5/view?usp=sharing)
 
 - Tableau
-  - [Interact with Dashboards and Reports (Consumer)](https://www.credly.com/badges/49c55edf-b0ab-4068-aa22-4266dd0b6df6)
-  - [Get Started with Tableau (Author)](https://www.credly.com/badges/dc320779-9bf4-4d59-971a-553daa63d6f7)
-  - [Connect to Data and Work with Views (Author)](https://www.credly.com/badges/b29245da-649d-4655-9096-678b8dba3953)
+  - [Interact with Dashboards and Reports](https://www.credly.com/badges/49c55edf-b0ab-4068-aa22-4266dd0b6df6)
+  - [Connect to Data and Work with Views](https://www.credly.com/badges/b29245da-649d-4655-9096-678b8dba3953)
+  - [Explore, Analyze, and Share Data](https://www.credly.com/badges/b29245da-649d-4655-9096-678b8dba3953)
 
 ## Contact
 
