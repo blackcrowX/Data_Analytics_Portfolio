@@ -54,6 +54,8 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 
 **Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
 
+**Visualisation:** [`Covid_Visualisation.twb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Visualisation.twb)
+
 **Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
 **Skills:**  Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions and Creating Views
