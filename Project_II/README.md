@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL and Tableau, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data loading, data preparation, data preprocessing and data analysis. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
+This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL and Tableau, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data preparation, data loading, data analysis, data preprocessing and data visualisation. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
 
 **Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
 
@@ -56,16 +56,22 @@ Once the data has been split and formatted correctly, the next step is to conver
 
 By completing these preparation and conversion steps, we have now split the initial data, formatted the date column, and converted the relevant files into CSV format. We are now ready to proceed with the analysis in PostgreSQL using the prepared data.
 
+
 ## Loading
 
-Then we will create two tables in PostgreSQL and load the converted files into PostgreSQL.
+To analyze the data in PostgreSQL, we need to load the prepared DataFrames into separate tables. We will create two tables: `covid_deaths` and `covid_vaccinations` in PostgreSQL.
+
+For the `covid_deaths` table, the columns will be manually defined. It will include columns such as `date` of type `DATE`, `country` of type `VARCHAR(255)`, `total_deaths` of type `INTEGER` anc numerous other columns. Similarly, we will create the `covid_vaccinations` table in PostgreSQL, ensuring that the columns match the structure and data types of the `covid_vaccinations_df` DataFrame.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_2.png"/>
   <em>Figure 2: The columns of the table covid_Deaths in PostgreSQL.</em>
 </p>
 
-Now we can start the analysis with SQL.
+Once the tables are created, we will import the data from the corresponding CSV files (`covid_deaths.csv` and `covid_vaccinations.csv`) into the respective tables in PostgreSQL. This can be done using the import functionality of the PostgreSQL client tool. During the import process, we need to ensure that the columns of the tables in PostgreSQL are correctly mapped to the columns of the CSV files.
+
+After successfully loading the data into the tables, we can proceed with data analysis using SQL queries. By writing appropriate SQL queries, we can extract insights, perform calculations, and conduct various analyses on the COVID-19 deaths and vaccinations data.
+
 
 ## Analysis
 
