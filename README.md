@@ -23,7 +23,7 @@ My passion for data analysis has driven me to develop a strong skill set in data
 
 ## Skills
 
-- Data Analysis Tools (Excel)
+- Data Analysis Tools (Excel, Power Query)
 - Data Visualisation Tools (Tableau, Power BI)
 - Programming languages (Python, SQL)
 - Descriptive Statistics
