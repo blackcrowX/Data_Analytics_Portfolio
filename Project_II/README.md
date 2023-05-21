@@ -240,7 +240,7 @@ In the exported data, we will replace all occurrences of "." with "," for intege
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_4.png"/>
-  <em>Figure 4: The data loaded into Tableau.
+  <em>Figure 4: The data loaded into Tableau.</em>
 </p>
 	
 By completing these preprocessing steps, we have created a view to store relevant data, made necessary adjustments for compatibility with Tableau, and successfully loaded the data into Tableau for further exploration and visualization.
@@ -251,14 +251,14 @@ For the visualisation we start with creating a KPI table view of relevant key nu
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_5.png"/>
-  <em>Figure 5: The worksheet "Cases" in Tableau.
+  <em>Figure 5: The worksheet "Cases" in Tableau.</em>
 </p>
 
 After creating five worksheets ww3ith the diffrent information.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_6.png"/>
-  <em>Figure 6: The final dashboard in Tableau.
+  <em>Figure 6: The final dashboard in Tableau.</em>
 </p>
 
 The final view can be seen on Tableau Public under the following link: 
