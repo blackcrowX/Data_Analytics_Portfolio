@@ -220,7 +220,7 @@ With this we have explored the dataset and can continue with the data preprocess
 
 ## Preprocessing
 
-As part of the preprocessing phase, we will create a view named view_percent_population_vaccinated to store data related to COVID-19 vaccinations and rolling counts of vaccinated people. This view can be used for later visualizations or to simplify complex queries. The SQL code for creating the view is as follows:
+As part of the preprocessing phase, we will create a view named view_percent_population_vaccinated to store data related to COVID-19 vaccinations and rolling counts of vaccinated people. This view can be used for later visualisations or to simplify complex queries. The SQL code for creating the view is as follows:
 
 ```
 DROP VIEW IF EXISTS view_percent_population_vaccinated;
@@ -236,14 +236,14 @@ WHERE dea.continent IS NOT null;
 
 This view combines data from the `covid_deaths` and `covid_vaccinations` tables, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_vaccinations`, and a calculated column `rolling_people_vaccinated` which represents the rolling count of vaccinated people.
 
-In the exported data, we will replace all occurrences of "." with "," for integer values. This substitution is performed to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognize the appropriate data types for each column during the import process.The resulting preprocessed data can be loaded into Tableau for further analysis and visualization. Figure 4 below shows an example of the data loaded into Tableau.
+In the exported data, we will replace all occurrences of "." with "," for integer values. This substitution is performed to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognize the appropriate data types for each column during the import process.The resulting preprocessed data can be loaded into Tableau for further analysis and visualisation. Figure 4 below shows an example of the data loaded into Tableau.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_4.png"/>
   <em>Figure 4: The data loaded into Tableau.</em>
 </p>
 	
-By completing these preprocessing steps, we have created a view to store relevant data, made necessary adjustments for compatibility with Tableau, and successfully loaded the data into Tableau for further exploration and visualization.
+By completing these preprocessing steps, we have created a view to store relevant data, made necessary adjustments for compatibility with Tableau, and successfully loaded the data into Tableau for further exploration and visualisation.
 
 ## Visualisation
 
@@ -258,7 +258,7 @@ An example of one of the worksheets, called "Cases," is shown in Figure 5 below.
   <em>Figure 5: The worksheet "Cases" in Tableau.</em>
 </p>
 
-Once we have created the individual worksheets, we combine them into a single dashboard in Tableau. This dashboard integrates all the visualizations and provides a comprehensive view of the data. An example of the final dashboard can be seen in Figure 6.
+Once we have created the individual worksheets, we combine them into a single dashboard in Tableau. This dashboard integrates all the visualisations and provides a comprehensive view of the data. An example of the final dashboard can be seen in Figure 6.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_6.png"/>
@@ -268,16 +268,16 @@ Once we have created the individual worksheets, we combine them into a single da
 To share our findings, the final view and dashboard are uploaded to Tableau Public. You can access the interactive dashboard using the following link:
 https://public.tableau.com/app/profile/blackcrowx/viz/CovidVisualisation15_05_2023/MainDashboard
 
-By following this process, we conduct a thorough analysis of the data and present key insights through engaging visualizations. The Tableau dashboard allows stakeholders to explore and interact with the COVID-19 data effectively, gaining a deeper understanding of the trends and patterns within the dataset.
+By following this process, we conduct a thorough analysis of the data and present key insights through engaging visualisations. The Tableau dashboard allows stakeholders to explore and interact with the COVID-19 data effectively, gaining a deeper understanding of the trends and patterns within the dataset.
 
 ## Conclusion
 
-In conclusion, this data analysis and visualization project utilized PostgreSQL and Tableau to explore COVID-19 data. The project involved preprocessing the data, loading it into PostgreSQL, and creating visualizations in Tableau.
+In conclusion, this data analysis and visualisation project utilized PostgreSQL and Tableau to explore COVID-19 data. The project involved preprocessing the data, loading it into PostgreSQL, and creating visualisations in Tableau.
 
 The data was preprocessed by splitting the initial DataFrame into separate DataFrames for COVID-19 deaths and vaccinations, with the date column formatted correctly. The DataFrames were loaded into PostgreSQL by creating tables and importing the data. A view was created to combine relevant data for vaccinations and rolling counts of vaccinated people.
 
-In Tableau, visualizations were created including KPI table views, location diagrams, bar charts by continents, and cases charts showing new cases and total cases over time. These visualizations were integrated into a final dashboard, providing a comprehensive view of the data.
+In Tableau, visualisations were created including KPI table views, location diagrams, bar charts by continents, and cases charts showing new cases and total cases over time. These visualisations were integrated into a final dashboard, providing a comprehensive view of the data.
 
-The findings and visualizations were shared through Tableau Public, enabling wider access to the analysis results and fostering interactive exploration.
+The findings and visualisations were shared through Tableau Public, enabling wider access to the analysis results and fostering interactive exploration.
 
-Overall, this project demonstrated the power of data analysis and visualization in extracting insights from COVID-19 data. It showcased the capabilities of PostgreSQL and Tableau in analyzing and communicating complex datasets effectively.
+Overall, this project demonstrated the power of data analysis and visualisation in extracting insights from COVID-19 data. It showcased the capabilities of PostgreSQL and Tableau in analyzing and communicating complex datasets effectively.
