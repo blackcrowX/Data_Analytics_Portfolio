@@ -64,7 +64,7 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 
 **Skills:**  Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions and Creating Views
 
-**Technology:** PostgreSQL & Tableau Desktop
+**Technology:** PostgreSQL (and Tableau Desktop)
 
 
 ### III. Pokemon Generation 1-8
