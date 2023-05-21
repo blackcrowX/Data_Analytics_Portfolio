@@ -11,7 +11,7 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 
 **Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
 
-**Visualisation:** 
+**Visualisation:** [`Covid_Visualisation.twb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Visualisation.twb)
 
 ## Table of Contents
 - [Objective](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-II/readme.md#Objective)
@@ -37,7 +37,7 @@ By examining various dimensions of the data, we will gain a comprehensive unders
 
 ## Dataset
 
-The data contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023. The CSV file columns are separated into country, date and population followed by various informations regarding the covid cases, deaths and the vaccine. The dataset is published by OWID and is continously kept uptodate. The version of the dataset used was downloaded on the 17.05.2023.
+The data contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023. The CSV file columns are separated into country, date and population followed by various informations regarding the covid cases, deaths and the vaccine. The dataset is published by OWID and is continously kept updated. The version of the dataset used was downloaded on the 17.05.2023.
 
 **Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
@@ -45,16 +45,16 @@ The data contains records of Covid-19 cases, deaths and vaccine records by count
 
 ## Preparation
 
-Before we can start the analysis in PostgreSQL we will seperate the initial dataframe `owid_covid_data.csv` into two seperate dataframes named `covid_deaths.xlsx` and `covid_vaccinations.xlsx` and format the date column to represent the YYYY-MM-DD format.
+To begin the analysis in PostgreSQL, the first step is to prepare the data by splitting the initial dataframe `owid_covid_data.csv` into two separate dataframes named `covid_deaths.xlsx` and `covid_vaccinations.xlsx`. Additionally, we need to format the date column to represent the YYYY-MM-DD format. 
+
+Once the data has been split and formatted correctly, the next step is to convert the Excel files into CSV files using the `Converter_Excel_CSV.ipynb` notebook. This conversion is necessary to facilitate the subsequent analysis in PostgreSQL.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_1.png"/>
   <em>Figure 1: The excel file covid_Deaths as CSV.</em>
 </p>
 
-Furthermore we will replace all "." in the integer values with ",". This will make the following step of data loading easier.
-
-Then we will use `Converter_Excel_CSV.ipynb` to convert the Excel files into CSV files. 
+By completing these preparation and conversion steps, we have now split the initial data, formatted the date column, and converted the relevant files into CSV format. We are now ready to proceed with the analysis in PostgreSQL using the prepared data.
 
 ## Loading
 
@@ -78,7 +78,7 @@ The analysis is divided into several sections, each focusing on a specific aspec
 
 Here is a brief summary of each section:
 
-1. **Checking Dataset Responsiveness:** This section retrieves all rows from the `covid_deaths` table where the continent is not null. The purpose is to verify if the dataset is responsive and can be accessed correctly.
+1. **Checking Responsiveness:** This section retrieves all rows from the `covid_deaths` table where the continent is not null. The purpose is to verify if the dataset is responsive and can be accessed correctly.
 
 ```
 SELECT *
@@ -226,7 +226,8 @@ JOIN covid_vaccinations vac
 WHERE dea.continent IS NOT null;
 ```
 
-With this we have explored the dataset and can continue with the data visualisation.
+With this we have explored the dataset and can continue with the data visualisation. 
+In the exported data we will replace all "." for all integer values with ",". This will make the following step of data loading in Tableau easier, because Tableau can automatically recognize the datatypes of each individual column.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_4.png"/>
