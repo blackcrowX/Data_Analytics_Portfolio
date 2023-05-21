@@ -98,6 +98,7 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
 
 - Microsoft
   - [Prepare Data for Analysis](https://drive.google.com/file/d/1MgqCMepoWdivyLRF6EMntMsLuT01AGWS/view?usp=sharing)
+  - [Empower modern analytics and business intelligence data cultures with Excel, Power BI, MS Teams, and SharePoint](https://drive.google.com/file/)
 
 - Kaggle
   - [Python](https://drive.google.com/file/d/1bjLL5KQW5mhoCssiieLc6o3UiZlWSgvZ/view?usp=sharing)
