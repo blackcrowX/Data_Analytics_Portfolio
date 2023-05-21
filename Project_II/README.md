@@ -247,20 +247,37 @@ By completing these preprocessing steps, we have created a view to store relevan
 
 ## Visualisation
 
-For the visualisation we start with creating a KPI table view of relevant key numbers viewed. Then we create a location diagram with all the locations. Then we create a bar chart with the continents. Then we create
+For the data visualisation in Tableau, we begin by creating several worksheets to present different aspects of the data. The first worksheet is a KPI table view that highlights key numbers and provides an overview of important metrics. Next, we create a location diagram to visually represent all the locations in the dataset, allowing us to observe the geographical distribution of COVID-19 cases and vaccinations.
+
+To analyze the data by continents, we design a bar chart worksheet that compares various metrics across different continents. This chart helps us identify regional trends and disparities. Additionally, we create a cases chart worksheet to display the trend of new cases and total cases over time. This chart allows us to track the progression of COVID-19 cases and identify any notable patterns or spikes.
+
+An example of one of the worksheets, called "Cases," is shown in Figure 5 below.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_5.png"/>
   <em>Figure 5: The worksheet "Cases" in Tableau.</em>
 </p>
 
-After creating five worksheets ww3ith the diffrent information.
+Once we have created the individual worksheets, we combine them into a single dashboard in Tableau. This dashboard integrates all the visualizations and provides a comprehensive view of the data. An example of the final dashboard can be seen in Figure 6.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_6.png"/>
   <em>Figure 6: The final dashboard in Tableau.</em>
 </p>
 
-The final view can be seen on Tableau Public under the following link: 
+To share our findings, the final view and dashboard are uploaded to Tableau Public. You can access the interactive dashboard using the following link:
+https://public.tableau.com/app/profile/blackcrowx/viz/CovidVisualisation15_05_2023/MainDashboard
+
+By following this process, we conduct a thorough analysis of the data and present key insights through engaging visualizations. The Tableau dashboard allows stakeholders to explore and interact with the COVID-19 data effectively, gaining a deeper understanding of the trends and patterns within the dataset.
 
 ## Conclusion
+
+In conclusion, this data analysis and visualization project utilized PostgreSQL and Tableau to explore COVID-19 data. The project involved preprocessing the data, loading it into PostgreSQL, and creating visualizations in Tableau.
+
+The data was preprocessed by splitting the initial DataFrame into separate DataFrames for COVID-19 deaths and vaccinations, with the date column formatted correctly. The DataFrames were loaded into PostgreSQL by creating tables and importing the data. A view was created to combine relevant data for vaccinations and rolling counts of vaccinated people.
+
+In Tableau, visualizations were created including KPI table views, location diagrams, bar charts by continents, and cases charts showing new cases and total cases over time. These visualizations were integrated into a final dashboard, providing a comprehensive view of the data.
+
+The findings and visualizations were shared through Tableau Public, enabling wider access to the analysis results and fostering interactive exploration.
+
+Overall, this project demonstrated the power of data analysis and visualization in extracting insights from COVID-19 data. It showcased the capabilities of PostgreSQL and Tableau in analyzing and communicating complex datasets effectively.
