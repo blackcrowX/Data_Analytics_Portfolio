@@ -216,9 +216,11 @@ WHERE continent IS NOT null
 AND new_vaccinations IS NOT null;
 ```
 
+With this we have explored the dataset and can continue with the data preprocessing.
+
 ## Preprocessing
 
-1. **Creating View to Store Data for Later Visualizations:** This section creates a view named `view_percent_population_vaccinated` to store data related to COVID-19 vaccinations and rolling counts of vaccinated people. The view can be used for later visualizations or to simplify complex queries. The skills used in this analysis showcase a variety of SQL techniques that allow for data exploration, aggregation, and calculation of meaningful metrics. These skills are essential for data analysts to derive insights and draw conclusions from large datasets. The analysis presented in this portfolio demonstrates the application of these skills in the context of COVID-19 data exploration.
+As part of the preprocessing phase, we will create a view named view_percent_population_vaccinated to store data related to COVID-19 vaccinations and rolling counts of vaccinated people. This view can be used for later visualizations or to simplify complex queries. The SQL code for creating the view is as follows:
 
 ```
 DROP VIEW IF EXISTS view_percent_population_vaccinated;
@@ -232,32 +234,33 @@ JOIN covid_vaccinations vac
 WHERE dea.continent IS NOT null;
 ```
 
-With this we have explored the dataset and can continue with the data visualisation. 
-In the exported data we will replace all "." for all integer values with ",". This will make the following step of data loading in Tableau easier, because Tableau can automatically recognize the datatypes of each individual column.
+This view combines data from the `covid_deaths` and `covid_vaccinations` tables, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_vaccinations`, and a calculated column `rolling_people_vaccinated` which represents the rolling count of vaccinated people.
+
+In the exported data, we will replace all occurrences of "." with "," for integer values. This substitution is performed to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognize the appropriate data types for each column during the import process.The resulting preprocessed data can be loaded into Tableau for further analysis and visualization. Figure 4 below shows an example of the data loaded into Tableau.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_4.png"/>
   <em>Figure 4: The data loaded into Tableau.
 </p>
 	
-xx
+By completing these preprocessing steps, we have created a view to store relevant data, made necessary adjustments for compatibility with Tableau, and successfully loaded the data into Tableau for further exploration and visualization.
 
 ## Visualisation
 
-For the visualisation we start with
+For the visualisation we start with creating a KPI table view of relevant key numbers viewed. Then we create a location diagram with all the locations. Then we create a bar chart with the continents. Then we create
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_5.png"/>
   <em>Figure 5: The worksheet "Cases" in Tableau.
 </p>
 
-xx
+After creating five worksheets ww3ith the diffrent information.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_6.png"/>
   <em>Figure 6: The final dashboard in Tableau.
 </p>
 
-xx
+The final view can be seen on Tableau Public under the following link: 
 
 ## Conclusion
