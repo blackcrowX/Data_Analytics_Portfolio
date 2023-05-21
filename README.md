@@ -86,7 +86,9 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
 
 ### IV. Bundesliga Players
 
+<div align='center'>
 <img src="https://i.postimg.cc/pL6z3Q6W/Screenshot-2.jpg"/>
+</div>
 
 **Description:** This project is an anlysis using Tableau to gain insights into the players. It contains data visualisations to understand the players of the bundesliga season 2022/ 2023. The dataset lists all players of the season and their respective clubs.  The goal of the project was to explore the dataset and take a closer look at the players.
 
