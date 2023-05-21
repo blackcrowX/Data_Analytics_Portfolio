@@ -48,7 +48,7 @@ The data contains records of Covid-19 cases, deaths and vaccine records by count
 Before we can start the analysis in PostgreSQL we will seperate the initial dataframe `owid_covid_data.csv` into two seperate dataframes named `covid_deaths.xlsx` and `covid_vaccinations.xlsx` and format the date column to represent the YYYY-MM-DD format.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_1.png"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot_1.png"/>
   <em>Figure 1: The excel file covid_Deaths as CSV.</em>
 </p>
 
@@ -61,7 +61,7 @@ Then we will use `Converter_Excel_CSV.ipynb` to convert the Excel files into CSV
 Then we will create two tables in PostgreSQL and load the converted files into PostgreSQL.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_2.png"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot_2.png"/>
   <em>Figure 2: The columns of the table covid_Deaths in PostgreSQL.</em>
 </p>
 
@@ -72,7 +72,7 @@ Now we can start the analysis with SQL.
 The analysis is divided into several sections, each focusing on a specific aspect of COVID-19 data exploration. 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_3.png"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot_3.png"/>
   <em>Figure 3: The SQL queries in PostgreSQL.</em>
 </p>
 
@@ -229,7 +229,7 @@ WHERE dea.continent IS NOT null;
 With this we have explored the dataset and can continue with the data visualisation.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_4.png"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot_4.png"/>
   <em>Figure 4: The data loaded into Tableau.
 </p>
 	
@@ -240,14 +240,14 @@ xx
 For the visualisation we start with
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_5.png"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot_5.png"/>
   <em>Figure 5: The worksheet "Cases" in Tableau.
 </p>
 
 xx
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_6.png"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot_6.png"/>
   <em>Figure 6: The final dashboard in Tableau.
 </p>
 
