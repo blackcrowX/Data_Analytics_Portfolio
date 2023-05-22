@@ -217,8 +217,6 @@ WHERE continent IS NOT null
 AND new_vaccinations IS NOT null;
 ```
 
-Here are some key findings of our data analysis. The country with the highest total death count
-
 With this we have explored the dataset and can continue with the data preprocessing.
 
 ## Preprocessing
@@ -294,7 +292,7 @@ By following this process, we conduct a thorough analysis of the data and presen
 
 ## Conclusion
 
-In conclusion, this data analysis and visualisation project utilized PostgreSQL and Tableau to explore COVID-19 data. We were able to answer our objective as following:
+This data analysis and visualisation project utilized PostgreSQL and Tableau to explore global covid cases. We were able to answer our initial objective as following:
 
 - Which continent has the highest amount of total cases and which has the highest death count?
 
