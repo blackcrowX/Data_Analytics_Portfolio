@@ -27,11 +27,11 @@ This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau
 
 The COVID-19 pandemic has had a profound impact on societies worldwide, prompting the need for rigorous data analysis to guide decision-making processes. The OWID COVID-19 dataset offers a comprehensive collection of daily updates on cases, deaths, vaccinations, testing, and other relevant variables for countries across the globe. This case study aims to explore this rich dataset and uncover valuable insights that can help shape public health strategies, policies, and interventions. Through this data exploration, we anticipate uncovering several interesting insights, such as:
 
-- Identification of countries with outlying data values
-- Examination of the relationship between vaccination rates and infection rates, including the impact of different vaccine types.
-- Evaluation of the effectiveness of testing strategies in controlling the spread of the virus.
-- Analysis of the disparities in COVID-19 outcomes based on socioeconomic factors and healthcare infrastructure.
-- Identification of potential indicators that can predict the severity of outbreaks in different regions.
+- Which country has the highest amount of total cases and death count?
+- Which country has the highest amount of total cases and death count relative to the population?
+- What is the relationship between vaccination rates and infection rates?
+- Are there any questionable data inputs in the dataset?
+- Can we predict the development of new cases and total cases?
 
 By examining various dimensions of the data, we will gain a comprehensive understanding of the factors influencing the spread and control of COVID-19. The findings from this study can help inform public health policies, interventions, and decision-making processes, ultimately contributing to effective pandemic management strategies globally.
 
@@ -293,12 +293,14 @@ By following this process, we conduct a thorough analysis of the data and presen
 
 ## Conclusion
 
-In conclusion, this data analysis and visualisation project utilized PostgreSQL and Tableau to explore COVID-19 data. The project involved preprocessing the data, loading it into PostgreSQL, and creating visualisations in Tableau.
+In conclusion, this data analysis and visualisation project utilized PostgreSQL and Tableau to explore COVID-19 data. We were able to answer our objective as following:
 
-The data was preprocessed by splitting the initial DataFrame into separate DataFrames for COVID-19 deaths and vaccinations, with the date column formatted correctly. The DataFrames were loaded into PostgreSQL by creating tables and importing the data. A view was created to combine relevant data for vaccinations and rolling counts of vaccinated people.
+-
 
-In Tableau, visualisations were created including KPI table views, location diagrams, bar charts by continents, and cases charts showing new cases and total cases over time. These visualisations were integrated into a final dashboard, providing a comprehensive view of the data.
+-
 
-The findings and visualisations were shared through Tableau Public, enabling wider access to the analysis results and fostering interactive exploration.
+-
 
-Overall, this project demonstrated the power of data analysis and visualisation in extracting insights from COVID-19 data. It showcased the capabilities of PostgreSQL and Tableau in analyzing and communicating complex datasets effectively.
+-
+
+-
