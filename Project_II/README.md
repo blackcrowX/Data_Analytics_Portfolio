@@ -25,14 +25,12 @@ This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau
 
 ## Objective
 
-The COVID-19 pandemic has had a profound impact on societies worldwide, prompting the need for rigorous data analysis to guide decision-making processes. The OWID COVID-19 dataset offers a comprehensive collection of daily updates on cases, deaths, vaccinations, testing, and other relevant variables for countries across the globe. This case study aims to explore this rich dataset and uncover valuable insights that can help shape public health strategies, policies, and interventions. Through this data exploration, we anticipate uncovering several interesting insights, such as:
+The COVID-19 pandemic has had a profound impact on societies worldwide, prompting the need for rigorous data analysis to guide decision-making processes. The OWID COVID-19 dataset offers a comprehensive collection of daily updates on cases, deaths, vaccinations, testing, and other relevant variables for countries across the globe. This case study aims to explore this rich dataset and uncover valuable insights that can help shape public health strategies, policies, and interventions. Through this data exploration, we anticipate answering following questions:
 
 - Which continent has the highest amount of total cases and which has the highest death count?
 - Which country has the highest amount of total cases relative to population count and which has the highest death count relative to the population count?
 - Are there any questionable data inputs in the dataset?
 - Can we predict the development of new cases and total cases?
-
-By examining various dimensions of the data, we will gain a comprehensive understanding of the factors influencing the spread and control of COVID-19. The findings from this study can help inform public health policies, interventions, and decision-making processes, ultimately contributing to effective pandemic management strategies globally.
 
 ## Dataset
 
@@ -246,13 +244,13 @@ By completing these preprocessing steps, we have created a view to store relevan
 
 For the data visualisation in Tableau, we begin by creating several worksheets to present different aspects of the data. 
 
-We start by creating a worksheet that highlights key numbers and provides an overview of important metrics. This table serves as a summary of the data, capturing the essential information at a glance.
+We start by creating a worksheet that highlights key numbers and provides an overview of important metrics. This table serves as a summary of the data, capturing the essential information at a glance and utilises multiple calculated field to display the percentages.
 
-Then we construct a visually appealing map that displays all the locations in the dataset, showcasing the geographical distribution of COVID-19 cases and vaccinations. This diagram helps identify regional patterns and variances.
+Then we construct a visually appealing map that displays all the locations in the dataset, showcasing the geographical distribution of COVID-19 cases and vaccinations. This diagram helps identify regional patterns and variances and we implement an action filter which automatically filters the data by the selected country.
 
-Afterwards we design a bar chart worksheet to compare various metrics across different continents. This chart enables the analysis of regional trends and disparities, providing insights into the impact of COVID-19 on different parts of the world.
+Afterwards we design a bar chart worksheet to compare various metrics across different continents. This chart enables the analysis of regional trends and disparities, providing insights into the impact of COVID-19 on different parts of the world. This chart also has an action filter which filters the data by the selected continent.
 
-Develop a chart to depict the trend of new cases and total cases over time. This visualization allows for the tracking of COVID-19 progression and the identification of significant patterns or spikes.
+Last we develop a chart to depict the trend of new cases and total cases over time. This visualisation allows for the tracking of COVID-19 progression and the identification of significant patterns or spikes and implements a prediction of the trend of new cases and total cases.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_5.png"/>
@@ -273,13 +271,14 @@ By following this process, we conduct a thorough analysis of the data and presen
 
 ## Conclusion
 
-This data analysis and visualisation project utilized PostgreSQL and Tableau to explore global covid cases. We were able to answer our initial objective as following:
+In this data analysis and visualization project, we utilized PostgreSQL and Tableau to explore global COVID-19 cases. Our objective was to gain insights from the data, and we have successfully achieved the following key findings:
 
-- Which continent has the highest amount of total cases and which has the highest death count?
+- Continent Analysis: Asia has the highest total number of COVID-19 cases, reaching 2.969 million, while Europe has the highest death count, exceeding 20.5 million. Oceania has the highest case count compared to its population, accounting for 31.16% of its inhabitants, while South America has the highest death count relative to its population at 0.31%.
 
-- Which country has the highest amount of total cases relative to population count and which has the highest death count relative to the population count?
+- Country Analysis: The United States has the highest total number of cases, surpassing 1.033 million, and Cyprus has the highest relative amount of cases, with 73.76% of its population reported as infected. The United States also has the highest absolute death count, reaching 11 million, while Peru has the highest relative death count at 0.65%.
 
-- Are there any questionable data inputs in the dataset?
+- Case Trends: China experienced a significant spike in new cases on December 19, 2022, with over 411 million new cases reported, peaking at 5 million new cases before that. In contrast, most other countries displayed spikes in new cases during January and February 2022. Additionally, the new cases curves for other countries exhibit noticeable fluctuations.
 
-- Can we predict the development of new cases and total cases?
+- Predictive Visualisation: Using Tableau, we successfully implemented a visual prediction of the curve for new cases and total cases, enabling us to anticipate future trends based on historical data.
 
+Through the combined power of PostgreSQL and Tableau, we have gained valuable insights into the global COVID-19 situation. These findings contribute to our understanding of the spread and impact of the virus, aiding in informed decision-making and response efforts.
