@@ -1,4 +1,4 @@
--- Global Covid Cases
+-- Covid 19 Analysis
 
 -- Initial Dataset Check
 SELECT *
