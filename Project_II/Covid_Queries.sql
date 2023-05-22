@@ -99,7 +99,7 @@ FROM percent_population_vaccinated
 WHERE continent IS NOT null
 AND new_vaccinations IS NOT null;
 
--- Data View of Countries for Later Visualisations
+-- View of Countries for Later Visualisations
 DROP VIEW IF EXISTS view_country_cases;
 CREATE VIEW view_country_cases AS
 SELECT dea.continent, dea.location, dea.date, dea.population, dea.new_cases, des.new_deaths, vac.people_vaccinated, vac.people_fully_vaccinated, vac.total_tests
@@ -109,7 +109,7 @@ JOIN covid_vaccinations vac
 	AND dea.date = vac.date
 WHERE dea.continent IS NOT null;
 
--- Data View of Income for Later Visualisations
+-- View of Income for Later Visualisations
 DROP VIEW IF EXISTS view_income_cases;
 CREATE VIEW view_income_cases AS
 SELECT dea.continent, dea.location, dea.date, dea.population, dea.new_cases, des.new_deaths, vac.people_vaccinated, vac.people_fully_vaccinated, vac.total_tests
