@@ -27,7 +27,7 @@ This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau
 
 The COVID-19 pandemic has had a profound impact on societies worldwide, prompting the need for rigorous data analysis to guide decision-making processes. The OWID COVID-19 dataset offers a comprehensive collection of daily updates on cases, deaths, vaccinations, testing, and other relevant variables for countries across the globe. This case study aims to explore this rich dataset and uncover valuable insights that can help shape public health strategies, policies, and interventions. Through this data exploration, we anticipate uncovering several interesting insights, such as:
 
-- Which country has the highest amount of total cases and which has the highest death count?
+- Which continent has the highest amount of total cases and which has the highest death count?
 - Which country has the highest amount of total cases relative to population count and which has the highest death count relative to the population count?
 - What is the relationship between infection rates and death count?
 - Are there any questionable data inputs in the dataset?
@@ -297,8 +297,13 @@ By following this process, we conduct a thorough analysis of the data and presen
 
 In conclusion, this data analysis and visualisation project utilized PostgreSQL and Tableau to explore COVID-19 data. We were able to answer our objective as following:
 
-- Which country has the highest amount of total cases and which has the highest death count?
+- Which continent has the highest amount of total cases and which has the highest death count?
+
 - Which country has the highest amount of total cases relative to population count and which has the highest death count relative to the population count?
+
 - What is the relationship between infection rates and death count?
+
 - Are there any questionable data inputs in the dataset?
+
 - Can we predict the development of new cases and total cases?
+
