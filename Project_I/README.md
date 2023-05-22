@@ -142,6 +142,5 @@ Moving forward, several areas warrant further exploration:
 
 1. Develop advanced predictive models: Utilize machine learning algorithms and techniques to build predictive models that can accurately detect fraudulent claims in real-time.
 2. Expand the dataset: Incorporate a larger and more diverse dataset to increase the robustness and generalizability of the analysis.
-3. Collaborate with domain experts: Engage professionals in the insurance industry to gain additional insights and refine the analysis based on their expertise.
 
 By pursuing these next steps, insurance companies can further strengthen their ability to identify and mitigate car insurance claim fraud, ultimately minimizing financial losses and improving customer trust.
