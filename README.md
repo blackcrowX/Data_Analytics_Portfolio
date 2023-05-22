@@ -80,6 +80,22 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
 
 **Technology:** Jupyter Notebook (Google Colab)
 
+### IV. Project 
+
+<img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_IV"/>
+
+This project ..
+
+**README:** [`README.md`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
+
+**Code:** [`xyz.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/xyz.ipynb)
+
+**Data:** [`xyz.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/xyz.csv)
+
+**Skills:**  xyz
+
+**Technology:** xyz
+
 ## Certificates
 
 - Great Learning Academy
