@@ -47,7 +47,6 @@ This project undertakes a comprehensive analysis of car insurance claim fraud us
 
 **Technology:** Microsoft Excel Office 365
 
-
 ### II. Global Covid Cases
 
 <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_0.png"/>
@@ -64,8 +63,7 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 
 **Skills:**  Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions and Creating Views in SQL and Tableau Author Proficency
 
-**Technology:** PostgreSQL (and Tableau Desktop)
-
+**Technology:** PostgreSQL and Tableau Desktop/ Public
 
 ### III. Pokemon Generation 1-8
 
@@ -81,25 +79,7 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
 
 **Skills:**  NumPy, Pandas, MatlotLib and Seaborn (SciPy, Scikit-learn SQLAlchemy)
 
-**Technology:** Jupyter Notebook
-
-
-### IV. Bundesliga Players
-
-<div align='center'>
-<img src="https://i.postimg.cc/pL6z3Q6W/Screenshot-2.jpg"/>
-</div>
-
-**Description:** This project is an anlysis using Tableau to gain insights into the players. It contains data visualisations to understand the players of the bundesliga season 2022/ 2023. The dataset lists all players of the season and their respective clubs.  The goal of the project was to explore the dataset and take a closer look at the players.
-
-**README:** [`README.md`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
-
-**Code:** [`XXX`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/XXX)
-
-**Data:** [`bundesliga_players.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/bundesliga_players.csv)
-
-**Technology:** Tableau Desktop (Tableau)
-
+**Technology:** Jupyter Notebook (Google Colab)
 
 ## Certificates
 
@@ -129,4 +109,8 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
 
 ## Contact
 
-Feel free to contact me via..
+Feel free to contact me via E-Mail or LinkedIn.
+
+With kind regards
+
+Matthias
