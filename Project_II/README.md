@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL and Tableau, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data preparation, data loading, data analysis, data preprocessing and data visualisation. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
+This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data preparation, data loading, data analysis, data preprocessing and data visualisation. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
 
 **Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
 
@@ -27,7 +27,7 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 
 The COVID-19 pandemic has had a profound impact on societies worldwide, prompting the need for rigorous data analysis to guide decision-making processes. The OWID COVID-19 dataset offers a comprehensive collection of daily updates on cases, deaths, vaccinations, testing, and other relevant variables for countries across the globe. This case study aims to explore this rich dataset and uncover valuable insights that can help shape public health strategies, policies, and interventions. Through this data exploration, we anticipate uncovering several interesting insights, such as:
 
-- Identification of countries with successful containment strategies and their key contributing factors.
+- Identification of countries with outlying data values
 - Examination of the relationship between vaccination rates and infection rates, including the impact of different vaccine types.
 - Evaluation of the effectiveness of testing strategies in controlling the spread of the virus.
 - Analysis of the disparities in COVID-19 outcomes based on socioeconomic factors and healthcare infrastructure.
@@ -216,6 +216,8 @@ WHERE continent IS NOT null
 AND new_vaccinations IS NOT null;
 ```
 
+Here are some key findings of our data analysis.
+
 With this we have explored the dataset and can continue with the data preprocessing.
 
 ## Preprocessing
@@ -223,10 +225,9 @@ With this we have explored the dataset and can continue with the data preprocess
 As part of the preprocessing phase, we will create a view named view_percent_population_vaccinated to store data related to COVID-19 vaccinations and rolling counts of vaccinated people. This view can be used for later visualisations or to simplify complex queries. The SQL code for creating the view is as follows:
 
 ```
-DROP VIEW IF EXISTS view_percent_population_vaccinated;
-CREATE VIEW view_percent_population_vaccinated AS
-SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
-, SUM(vac.new_vaccinations) OVER(PARTITION BY dea.Location ORDER BY dea.location, dea.Date) AS rolling_people_vaccinated
+DROP VIEW IF EXISTS view_country_cases;
+CREATE VIEW view_country_cases AS
+SELECT dea.continent, dea.location, dea.date, dea.population, dea.new_cases, des.new_deaths, vac.people_vaccinated, vac.people_fully_vaccinated, vac.total_tests
 FROM covid_deaths dea
 JOIN covid_vaccinations vac
 	ON dea.location = vac.location
@@ -234,7 +235,23 @@ JOIN covid_vaccinations vac
 WHERE dea.continent IS NOT null;
 ```
 
-This view combines data from the `covid_deaths` and `covid_vaccinations` tables, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_vaccinations`, and a calculated column `rolling_people_vaccinated` which represents the rolling count of vaccinated people.
+The view combines data from the `covid_deaths` and `covid_vaccinations` tables for countries, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_cases`.
+
+```
+DROP VIEW IF EXISTS view_income_cases;
+CREATE VIEW view_income_cases AS
+SELECT dea.continent, dea.location, dea.date, dea.population, dea.new_cases, des.new_deaths, vac.people_vaccinated, vac.people_fully_vaccinated, vac.total_tests
+FROM covid_deaths dea
+JOIN covid_vaccinations vac
+	ON dea.location = vac.location
+	AND dea.date = vac.date
+WHERE dea.continent IS 'high income'
+Or dea.continent IS  'higher middle income'
+Or dea.continent IS  'lower middle income'
+Or dea.continent IS  'low income';
+```
+
+The view combines data from the `covid_deaths` and `covid_vaccinations` tables for income types, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_vaccinations`.
 
 In the exported data, we will replace all occurrences of "." with "," for integer values. This substitution is performed to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognize the appropriate data types for each column during the import process.The resulting preprocessed data can be loaded into Tableau for further analysis and visualisation. Figure 4 below shows an example of the data loaded into Tableau.
 
@@ -247,18 +264,22 @@ By completing these preprocessing steps, we have created a view to store relevan
 
 ## Visualisation
 
-For the data visualisation in Tableau, we begin by creating several worksheets to present different aspects of the data. The first worksheet is a KPI table view that highlights key numbers and provides an overview of important metrics. Next, we create a location diagram to visually represent all the locations in the dataset, allowing us to observe the geographical distribution of COVID-19 cases and vaccinations.
+For the data visualisation in Tableau, we begin by creating several worksheets to present different aspects of the data. 
 
-To analyze the data by continents, we design a bar chart worksheet that compares various metrics across different continents. This chart helps us identify regional trends and disparities. Additionally, we create a cases chart worksheet to display the trend of new cases and total cases over time. This chart allows us to track the progression of COVID-19 cases and identify any notable patterns or spikes.
+We start by creating a worksheet that highlights key numbers and provides an overview of important metrics. This table serves as a summary of the data, capturing the essential information at a glance.
 
-An example of one of the worksheets, called "Cases," is shown in Figure 5 below.
+Then we construct a visually appealing map that displays all the locations in the dataset, showcasing the geographical distribution of COVID-19 cases and vaccinations. This diagram helps identify regional patterns and variances.
+
+Afterwards we design a bar chart worksheet to compare various metrics across different continents. This chart enables the analysis of regional trends and disparities, providing insights into the impact of COVID-19 on different parts of the world.
+
+Develop a chart to depict the trend of new cases and total cases over time. This visualization allows for the tracking of COVID-19 progression and the identification of significant patterns or spikes.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_5.png"/>
   <em>Figure 5: The worksheet "Cases" in Tableau.</em>
 </p>
 
-Once we have created the individual worksheets, we combine them into a single dashboard in Tableau. This dashboard integrates all the visualisations and provides a comprehensive view of the data. An example of the final dashboard can be seen in Figure 6.
+Once we have created the individual worksheets, we combine the individual worksheets into a cohesive dashboard in Tableau. The dashboard integrates all the visualisations, providing a comprehensive view of the data. This unified view allows stakeholders to gain insights from multiple perspectives and understand the data holistically.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_6.png"/>
@@ -266,7 +287,7 @@ Once we have created the individual worksheets, we combine them into a single da
 </p>
 
 To share our findings, the final view and dashboard are uploaded to Tableau Public. You can access the interactive dashboard using the following link:
-https://public.tableau.com/app/profile/blackcrowx/viz/CovidVisualisation15_05_2023/MainDashboard
+https://public.tableau.com/app/profile/blackcrowx/viz/CovidVisualisation_16847540534400/MainDashboard
 
 By following this process, we conduct a thorough analysis of the data and present key insights through engaging visualisations. The Tableau dashboard allows stakeholders to explore and interact with the COVID-19 data effectively, gaining a deeper understanding of the trends and patterns within the dataset.
 
