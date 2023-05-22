@@ -1,6 +1,6 @@
 <div align='center'>
   <h1>Data Analytics Portfolio</h1>
-  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/background_hongkong_black_blur_logo.jpg"/>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/background_hongkong_black_blur_logo_header.png"/>
 </div>
 
 ## Table of Contents
