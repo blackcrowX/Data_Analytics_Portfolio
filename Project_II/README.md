@@ -83,28 +83,9 @@ The analysis is divided into several sections, each focusing on a specific aspec
   <em>Figure 3: The SQL queries in PostgreSQL.</em>
 </p>
 
-Here is a brief summary of each section:
+Here is a brief summary of each relevant section:
 
-1. **Checking Responsiveness:** This section retrieves all rows from the `covid_deaths` table where the continent is not null. The purpose is to verify if the dataset is responsive and can be accessed correctly.
-
-```
-SELECT *
-FROM covid_deaths
-WHERE continent IS NOT null 
-ORDER BY 3, 4;
-```
-
-2. **Selecting Data from Germany:** This section selects specific columns from the `covid_deaths` table for the location 'Germany', providing information about total cases, new cases, total deaths, and population. The data is sorted in descending order based on the date column.
-
-```
-SELECT location, date, total_cases, new_cases, total_deaths, population
-FROM covid_deaths
-WHERE location = 'Germany'
-AND new_cases IS NOT null
-ORDER BY 2 DESC;
-```
-
-3. **Total Cases vs Total Deaths in Germany:** This section calculates the death percentage in Germany by dividing the total deaths by the total cases and multiplying by 100. It provides insights into the severity of the disease in terms of deaths relative to the total number of cases.
+1. **Total Cases vs Total Deaths in Germany:** This section calculates the death percentage in Germany by dividing the total deaths by the total cases and multiplying by 100. It provides insights into the severity of the disease in terms of deaths relative to the total number of cases.
 
 ```
 SELECT Location, date, total_cases,total_deaths, (total_deaths/total_cases)*100 AS death_percentage
@@ -114,7 +95,7 @@ AND new_cases IS NOT null
 ORDER BY 2 DESC;
 ```
 
-4. **Total Cases vs Population in Germany:** This section calculates the percentage of the population infected with COVID-19 in Germany by dividing the total cases by the population and multiplying by 100. It helps understand the extent of the disease's spread in relation to the overall population.
+2. **Total Cases vs Population in Germany:** This section calculates the percentage of the population infected with COVID-19 in Germany by dividing the total cases by the population and multiplying by 100. It helps understand the extent of the disease's spread in relation to the overall population.
 
 ```
 SELECT location, date, population, total_cases, (total_cases/population)*100 AS percent_population_infected
@@ -124,7 +105,7 @@ AND total_cases IS NOT null
 ORDER BY 2 DESC;
 ```
 
-5.  **Global Numbers:** This section provides global statistics related to COVID-19. It calculates the total cases, total deaths, and death percentage worldwide by summing the corresponding values across continents.
+3.  **Global Numbers:** This section provides global statistics related to COVID-19. It calculates the total cases, total deaths, and death percentage worldwide by summing the corresponding values across continents.
 
 ```
 SELECT SUM(new_cases) AS total_cases, SUM(new_deaths) AS total_deaths, SUM(new_deaths)/SUM(new_cases)*100 AS death_percentage
@@ -133,7 +114,7 @@ WHERE continent IS NOT null
 ORDER BY 1, 2;
 ```
 
-6. **Countries with Highest Infection Rate compared to Population:** This section identifies countries with the highest infection rate compared to their respective populations. It calculates the percentage of the population infected and highlights the countries with the maximum infection count.
+4. **Countries with Highest Infection Rate compared to Population:** This section identifies countries with the highest infection rate compared to their respective populations. It calculates the percentage of the population infected and highlights the countries with the maximum infection count.
 
 ```
 SELECT location, population, SUM(new_cases) as highest_infection_count,  (SUM(new_cases)/MAX(population))*100 as percent_population_infected
@@ -144,7 +125,7 @@ GROUP BY location, population
 ORDER BY percent_population_infected DESC;
 ```
 
-7. **Countries and Date with Highest Infection Rate compared to Population:** This section identifies countries with the highest infection rate compared to their respective populations. It calculates the percentage of the population infected and highlights the countries with the maximum infection count.
+5. **Countries and Date with Highest Infection Rate compared to Population:** This section identifies countries with the highest infection rate compared to their respective populations. It calculates the percentage of the population infected and highlights the countries with the maximum infection count.
 
 ```
 SELECT location, date, population, MAX(total_cases) AS highest_infection_count,  MAX((total_cases/population))*100 AS percent_population_infected
@@ -155,7 +136,7 @@ GROUP BY location, date, population
 ORDER BY percent_population_infected DESC;
 ```
 
-8. **Countries with Highest Death Count per Population:** This section determines the countries with the highest death count per population. It calculates the total death count for each country and ranks them accordingly.
+6. **Countries with Highest Death Count per Population:** This section determines the countries with the highest death count per population. It calculates the total death count for each country and ranks them accordingly.
 
 ```
 SELECT location, SUM(new_deaths) AS total_death_count
@@ -166,7 +147,7 @@ GROUP BY location
 ORDER BY total_death_count DESC;
 ```
 
-9. **Showing Continents with the Highest Death Count per Population:** This section focuses on continents and presents the continents with the highest death count per population. It calculates the total death count for each continent and ranks them accordingly.
+7. **Showing Continents with the Highest Death Count per Population:** This section focuses on continents and presents the continents with the highest death count per population. It calculates the total death count for each continent and ranks them accordingly.
 
 ```
 SELECT continent, SUM(new_deaths) AS total_death_count
@@ -176,7 +157,7 @@ GROUP BY continent
 ORDER BY total_death_count DESC;
 ```
 
-10. **Total Population vs Vaccinations:** This section explores the relationship between the total population and the number of vaccinations in each country. It combines data from the `covid_deaths` and `covid_vaccinations` tables, calculates rolling counts of vaccinated people, and displays the relevant information.
+8. **Total Population vs Vaccinations:** This section explores the relationship between the total population and the number of vaccinations in each country. It combines data from the `covid_deaths` and `covid_vaccinations` tables, calculates rolling counts of vaccinated people, and displays the relevant information.
 
 ```
 SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations,
@@ -190,7 +171,7 @@ AND new_vaccinations IS NOT null
 ORDER BY 2,3;
 ```
 
-11. **Using Temp Table to Perform Calculation on Partition By in Previous Query:** This section creates a temporary table named `percent_population_vaccinated` to store data related to population, vaccinations, and rolling counts of vaccinated people. It uses the temporary table to calculate the percentage of rolling people vaccinated and displays the results.
+9. **Using Temp Table to Perform Calculation on Partition By in Previous Query:** This section creates a temporary table named `percent_population_vaccinated` to store data related to population, vaccinations, and rolling counts of vaccinated people. It uses the temporary table to calculate the percentage of rolling people vaccinated and displays the results.
 
 ```
 DROP TABLE IF EXISTS percent_population_vaccinated;
