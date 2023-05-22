@@ -23,10 +23,10 @@ My passion for data analysis has driven me to develop a strong skill set in data
 
 ## Skills
 
-- Data Analysis Tools (Excel, Power Query)
-- Data Visualisation Tools (Tableau, Power BI)
-- Programming languages (Python, SQL)
-- Descriptive Statistics
+- Data Analysis Tools (Excel, Power Query, Pandas)
+- Data Visualisation Tools (Tableau, Power BI, Seaborn)
+- Programming Languages (Python, SQL)
+- Descriptive Statistics (...)
 
 ## Projects
 These are my data analytics projects briefly describing the project, the process and technology stack used to accomplish the projects goal. If you are interested into looking into further projects of mine feel free to check out following repository: [Data_Analytics_Projects](https://github.com/blackcrowX/Data_Analytics_Projects)
