@@ -9,7 +9,7 @@
 - [Skills](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#skills)
 - [Projects](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#Projects)
   - [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
-  - [Covid-19 Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
+  - [Global Covid Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
   - [Pokemon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III)
   - [Bundesliga Players](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
 - [Certificates](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#certificates)
@@ -48,11 +48,11 @@ This project undertakes a comprehensive analysis of car insurance claim fraud us
 **Technology:** Microsoft Excel Office 365
 
 
-### II. Covid-19 Cases
+### II. Global Covid Cases
 
 <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_0.png"/>
 
-This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data loading, data cleaning, data preprocessing, data analysis, and data visualization. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis.
+This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data loading, data cleaning, data preprocessing, data analysis, and data visualisation. To facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analysed data, enhancing the accessibility and usability of the insights gained from the SQL analysis.
 
 **README:** [`README.md`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
 
@@ -62,7 +62,7 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 
 **Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
-**Skills:**  Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions and Creating Views
+**Skills:**  Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions and Creating Views in SQL and Tableau Author Proficency
 
 **Technology:** PostgreSQL (and Tableau Desktop)
 
