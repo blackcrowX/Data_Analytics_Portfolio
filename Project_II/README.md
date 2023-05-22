@@ -27,9 +27,9 @@ This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau
 
 The COVID-19 pandemic has had a profound impact on societies worldwide, prompting the need for rigorous data analysis to guide decision-making processes. The OWID COVID-19 dataset offers a comprehensive collection of daily updates on cases, deaths, vaccinations, testing, and other relevant variables for countries across the globe. This case study aims to explore this rich dataset and uncover valuable insights that can help shape public health strategies, policies, and interventions. Through this data exploration, we anticipate uncovering several interesting insights, such as:
 
-- Which country has the highest amount of total cases and death count?
-- Which country has the highest amount of total cases and death count relative to the population?
-- What is the relationship between vaccination rates and infection rates?
+- Which country has the highest amount of total cases and which has the highest death count?
+- Which country has the highest amount of total cases relative to population count and which has the highest death count relative to the population count?
+- What is the relationship between infection rates and death count?
 - Are there any questionable data inputs in the dataset?
 - Can we predict the development of new cases and total cases?
 
@@ -59,9 +59,11 @@ By completing these preparation and conversion steps, we have now split the init
 
 ## Loading
 
-To analyze the data in PostgreSQL, we need to load the prepared DataFrames into separate tables. We will create two tables: `covid_deaths` and `covid_vaccinations` in PostgreSQL.
+To analyse the data in PostgreSQL, we need to load the prepared DataFrames into separate tables. We will create two tables: `covid_deaths` and `covid_vaccinations` in PostgreSQL.
 
-For the `covid_deaths` table, the columns will be manually defined. It will include columns such as `date` of type `DATE`, `country` of type `VARCHAR(255)`, `total_deaths` of type `INTEGER` anc numerous other columns. Similarly, we will create the `covid_vaccinations` table in PostgreSQL, ensuring that the columns match the structure and data types of the `covid_vaccinations_df` DataFrame.
+For the `covid_deaths` table, the columns will be manually defined. It will include columns such as `date` of type `DATE`, `country` of type `VARCHAR(255)`, `total_deaths` of type `INTEGER` anc numerous other columns. 
+
+Similarly, we will create the `covid_vaccinations` table in PostgreSQL, ensuring that the columns match the structure and data types of the `covid_vaccinations_df` DataFrame.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_2.png"/>
@@ -216,7 +218,7 @@ WHERE continent IS NOT null
 AND new_vaccinations IS NOT null;
 ```
 
-Here are some key findings of our data analysis.
+Here are some key findings of our data analysis. The country with the highest total death count
 
 With this we have explored the dataset and can continue with the data preprocessing.
 
@@ -235,7 +237,7 @@ JOIN covid_vaccinations vac
 WHERE dea.continent IS NOT null;
 ```
 
-The view combines data from the `covid_deaths` and `covid_vaccinations` tables for countries, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_cases`.
+The view `country_cases` combines data from the `covid_deaths` and `covid_vaccinations` tables for countries, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_cases`.
 
 ```
 DROP VIEW IF EXISTS view_income_cases;
@@ -251,9 +253,9 @@ Or dea.continent IS  'lower middle income'
 Or dea.continent IS  'low income';
 ```
 
-The view combines data from the `covid_deaths` and `covid_vaccinations` tables for income types, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_vaccinations`.
+The view `income_cases` combines data from the `covid_deaths` and `covid_vaccinations` tables for income types, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_vaccinations`.
 
-In the exported data, we will replace all occurrences of "." with "," for integer values. This substitution is performed to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognize the appropriate data types for each column during the import process.The resulting preprocessed data can be loaded into Tableau for further analysis and visualisation. Figure 4 below shows an example of the data loaded into Tableau.
+In the exported views, we will replace all occurrences of "." with "," for integer values. This substitution is performed to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognise the appropriate data types for each column during the import process.The resulting preprocessed data can be loaded into Tableau for further analysis and visualisation.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_4.png"/>
@@ -295,12 +297,8 @@ By following this process, we conduct a thorough analysis of the data and presen
 
 In conclusion, this data analysis and visualisation project utilized PostgreSQL and Tableau to explore COVID-19 data. We were able to answer our objective as following:
 
--
-
--
-
--
-
--
-
--
+- Which country has the highest amount of total cases and which has the highest death count?
+- Which country has the highest amount of total cases relative to population count and which has the highest death count relative to the population count?
+- What is the relationship between infection rates and death count?
+- Are there any questionable data inputs in the dataset?
+- Can we predict the development of new cases and total cases?
