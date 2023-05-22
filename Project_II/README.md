@@ -29,7 +29,6 @@ The COVID-19 pandemic has had a profound impact on societies worldwide, promptin
 
 - Which continent has the highest amount of total cases and which has the highest death count?
 - Which country has the highest amount of total cases relative to population count and which has the highest death count relative to the population count?
-- What is the relationship between infection rates and death count?
 - Are there any questionable data inputs in the dataset?
 - Can we predict the development of new cases and total cases?
 
@@ -300,8 +299,6 @@ In conclusion, this data analysis and visualisation project utilized PostgreSQL 
 - Which continent has the highest amount of total cases and which has the highest death count?
 
 - Which country has the highest amount of total cases relative to population count and which has the highest death count relative to the population count?
-
-- What is the relationship between infection rates and death count?
 
 - Are there any questionable data inputs in the dataset?
 
