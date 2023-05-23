@@ -121,7 +121,7 @@ This project ..
 
 - freeCodeCamp
   - [**Data Analysis with Python**](https://drive.google.com/file/d/19ypqfgxTY2jiYo4Ex2E-TOMUkCM2D6b5/view?usp=sharing)
-  - - [XYZ](https://drive.google.com/file/)
+  - [XYZ](https://drive.google.com/file/)
 
 - Tableau
   - [Interact with Dashboards and Reports](https://www.credly.com/badges/49c55edf-b0ab-4068-aa22-4266dd0b6df6)
