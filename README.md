@@ -99,7 +99,7 @@ This project ..
 ## Certificates
 
 - Great Learning Academy
-  - [Data Analytics using Excel](https://drive.google.com/file/d/12xxR2fRpDe17754HfvHfznMdAlEWJ7w_/view?usp=sharing)
+  - [**Data Analytics using Excel**](https://drive.google.com/file/d/12xxR2fRpDe17754HfvHfznMdAlEWJ7w_/view?usp=sharing)
   - [Conditional Formatting in Excel](https://drive.google.com/file/d/1KAyAKEgiWav0HJ-Ld6T3U-qL6TXTDs7h/view?usp=sharing)
   - [Pivot Tables in Excel](https://drive.google.com/file/d/1VYBr6bJGWtPlEC3ez8zX-Ox2LnXR5h8d/view?usp=sharing)
   - [XYZ](https://drive.google.com/file/)
@@ -120,8 +120,8 @@ This project ..
   - [XYZ](https://drive.google.com/file/)
 
 - freeCodeCamp
-  - [XYZ](https://drive.google.com/file/)
-  - [Data Analysis with Python](https://drive.google.com/file/d/19ypqfgxTY2jiYo4Ex2E-TOMUkCM2D6b5/view?usp=sharing)
+  - [**Data Analysis with Python**](https://drive.google.com/file/d/19ypqfgxTY2jiYo4Ex2E-TOMUkCM2D6b5/view?usp=sharing)
+  - - [XYZ](https://drive.google.com/file/)
 
 - Tableau
   - [Interact with Dashboards and Reports](https://www.credly.com/badges/49c55edf-b0ab-4068-aa22-4266dd0b6df6)
