@@ -94,7 +94,7 @@ This project ..
 
 **Skills:**  xyz
 
-**Technology:** xyz
+**Technology:** Tidyverse
 
 ## Certificates
 
