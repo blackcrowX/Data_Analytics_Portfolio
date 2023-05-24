@@ -102,7 +102,7 @@ This project ..
   - [**Data Analytics using Excel**](https://drive.google.com/file/d/12xxR2fRpDe17754HfvHfznMdAlEWJ7w_/view?usp=sharing)
   - [Conditional Formatting in Excel](https://drive.google.com/file/d/1KAyAKEgiWav0HJ-Ld6T3U-qL6TXTDs7h/view?usp=sharing)
   - [Pivot Tables in Excel](https://drive.google.com/file/d/1VYBr6bJGWtPlEC3ez8zX-Ox2LnXR5h8d/view?usp=sharing)
-  - [VLOOKUP in Excel](hhttps://drive.google.com/file/d/1BGLX3ggja9aw4KkNotXZ-J9Nsm3pLXwE/view?usp=sharing)
+  - [VLOOKUP in Excel](https://drive.google.com/file/d/1BGLX3ggja9aw4KkNotXZ-J9Nsm3pLXwE/view?usp=sharing)
 
 - Microsoft
   - [Empower modern analytics and business intelligence data cultures with Excel, Power BI, MS Teams, and SharePoint](https://drive.google.com/file/)
