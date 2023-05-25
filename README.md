@@ -42,7 +42,7 @@ This project undertakes a comprehensive analysis of car insurance claim fraud us
 
 **Data:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
 
-**Skills:** Excel Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis --- (let() filter() xlookup())
+**Skills:** Excel Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis 
 
 **Technology:** Microsoft Excel Office 365
 
@@ -60,9 +60,9 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 
 **Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
-**Skills:**  Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions and Creating Views in SQL and Tableau Author Proficency
+**Skills:**  Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions and Views in SQL & Tableau Author Proficency
 
-**Technology:** PostgreSQL and Tableau Desktop/ Public
+**Technology:** PostgreSQL & Tableau Desktop/ Public
 
 ### III. Pokemon Generation 1-8
 
@@ -76,7 +76,7 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
 
 **Data:** [`pokemon_gen_1-8.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/pokemon_gen_1-8.csv)
 
-**Skills:**  NumPy, Pandas, MatlotLib and Seaborn (SciPy, Scikit-learn SQLAlchemy)
+**Skills:**  NumPy, Pandas, MatlotLib and Seaborn
 
 **Technology:** Jupyter Notebook (Google Colab)
 
