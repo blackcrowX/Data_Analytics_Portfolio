@@ -106,10 +106,10 @@ This project ..
 ## Certificates
 
 - [freeCodeCamp](https://www.freecodecamp.org/)
-  - [**Data Analysis with Python**](https://drive.google.com/file/d/19ypqfgxTY2jiYo4Ex2E-TOMUkCM2D6b5/view?usp=sharing)
+  - [**Data Analysis with Python](https://drive.google.com/file/d/19ypqfgxTY2jiYo4Ex2E-TOMUkCM2D6b5/view?usp=sharing)
 
 - [Great Learning Academy](https://olympus.mygreatlearning.com/)
-  - [**Data Analytics using Excel**](https://drive.google.com/file/d/12xxR2fRpDe17754HfvHfznMdAlEWJ7w_/view?usp=sharing)
+  - [**Data Analytics using Excel](https://drive.google.com/file/d/12xxR2fRpDe17754HfvHfznMdAlEWJ7w_/view?usp=sharing)
   - [Conditional Formatting in Excel](https://drive.google.com/file/d/1KAyAKEgiWav0HJ-Ld6T3U-qL6TXTDs7h/view?usp=sharing)
   - [Pivot Tables in Excel](https://drive.google.com/file/d/1VYBr6bJGWtPlEC3ez8zX-Ox2LnXR5h8d/view?usp=sharing)
   - [VLOOKUP in Excel](https://drive.google.com/file/d/1BGLX3ggja9aw4KkNotXZ-J9Nsm3pLXwE/view?usp=sharing)
@@ -117,23 +117,24 @@ This project ..
 - [Kaggle](https://www.kaggle.com/learn)
   - [Python](https://drive.google.com/file/d/1bjLL5KQW5mhoCssiieLc6o3UiZlWSgvZ/view?usp=sharing)
   - [Pandas](https://drive.google.com/file/d/1_f-nrECmFXzFkyCggpNgnvXRtvNp8cTs/view?usp=sharing)
-  - [Data Cleaning](https://drive.google.com/file/d/1Decrj1EYXereU86odjVACyGam25ogXRC/view?usp=sharing)
-  - [Data Visualisation](https://drive.google.com/file/d/1QRFsv8aJP2JclFOHUCaxcf0WphUjZ_9Y/view?usp=sharing)
+  - [**Data Cleaning](https://drive.google.com/file/d/1Decrj1EYXereU86odjVACyGam25ogXRC/view?usp=sharing)
+  - [**Data Visualisation](https://drive.google.com/file/d/1QRFsv8aJP2JclFOHUCaxcf0WphUjZ_9Y/view?usp=sharing)
   - [Geospatial Analysis](https://drive.google.com/file/d/1-RYQMRWOChjw6w8O8VSU8uggTddS8S3r/view?usp=sharing)
   - [Intro to SQL](https://drive.google.com/file/d/10OjlVjPYCZNBJokupasryf9FYWiRzMp2/view?usp=sharing)
-  - [Advanced SQL](https://drive.google.com/file/d/1qgN8Kpyg9EZq9FrRviwgU6r8mX_vOXiP/view?usp=sharing)
+  - [**Advanced SQL](https://drive.google.com/file/d/1qgN8Kpyg9EZq9FrRviwgU6r8mX_vOXiP/view?usp=sharing)
 
 - [Microsoft Learn](https://learn.microsoft.com/en-gb/training/)
   - [Empower modern analytics and business intelligence data cultures with Excel, Power BI, MS Teams, and SharePoint](https://drive.google.com/file/d/1pzafiQmcQG-C5ma76bCJY7CqaJm8eupQ/view?usp=sharing)
   - [Prepare Data for Analysis](https://drive.google.com/file/d/1MgqCMepoWdivyLRF6EMntMsLuT01AGWS/view?usp=sharing)
   - [Model Data in Power BI](https://drive.google.com/file/d/1vld4_TxnWxYwMJB9hNxeD_OWrFlJtrsl/view?usp=sharing)
   - [Visualize data in Power BI](https://drive.google.com/file/d/1QCztrZXhNJNz7wQ5dfO-CWhwhsiE0Yzd/view?usp=sharing)
-  - [Data analysis in Power BI](https://drive.google.com/file/d/1VubgIDkCOHYvJ0eYLfbgrD_J_CiQOpH6/view?usp=sharing)
+  - [**Data analysis in Power BI](https://drive.google.com/file/d/1VubgIDkCOHYvJ0eYLfbgrD_J_CiQOpH6/view?usp=sharing)
+  - [Manage workspaces and datasets in Power BI](https://drive.google.com/file/d/1RYTKPNs4eJlV58vLExs95OByUrdoexCk/view?usp=sharing)
  
 - [Tableau eLearning](https://elearning-samples.tableau.com/)
   - [Interact with Dashboards and Reports](https://www.credly.com/badges/49c55edf-b0ab-4068-aa22-4266dd0b6df6)
   - [Connect to Data and Work with Views](https://www.credly.com/badges/b29245da-649d-4655-9096-678b8dba3953)
-  - [Explore, Analyze, and Share Data](https://www.credly.com/badges/b29245da-649d-4655-9096-678b8dba3953)
+  - [**Explore, Analyze, and Share Data](https://www.credly.com/badges/b29245da-649d-4655-9096-678b8dba3953)
 
 ## Contact
 
