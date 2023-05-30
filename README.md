@@ -100,7 +100,6 @@ This project ..
 
 - [freeCodeCamp](https://www.freecodecamp.org/)
   - [**Data Analysis with Python**](https://drive.google.com/file/d/19ypqfgxTY2jiYo4Ex2E-TOMUkCM2D6b5/view?usp=sharing)
-  - [XYZ](https://drive.google.com/file/)
 
 - [Great Learning Academy](https://olympus.mygreatlearning.com/)
   - [**Data Analytics using Excel**](https://drive.google.com/file/d/12xxR2fRpDe17754HfvHfznMdAlEWJ7w_/view?usp=sharing)
@@ -116,7 +115,6 @@ This project ..
   - [Geospatial Analysis](https://drive.google.com/file/d/1-RYQMRWOChjw6w8O8VSU8uggTddS8S3r/view?usp=sharing)
   - [Intro to SQL](https://drive.google.com/file/d/10OjlVjPYCZNBJokupasryf9FYWiRzMp2/view?usp=sharing)
   - [Advanced SQL](https://drive.google.com/file/d/1qgN8Kpyg9EZq9FrRviwgU6r8mX_vOXiP/view?usp=sharing)
-  - [XYZ](https://drive.google.com/file/)
 
 - [Microsoft](https://learn.microsoft.com/en-gb/training/)
   - [Empower modern analytics and business intelligence data cultures with Excel, Power BI, MS Teams, and SharePoint](https://drive.google.com/file/)
