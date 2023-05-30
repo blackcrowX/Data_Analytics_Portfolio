@@ -121,7 +121,10 @@ This project ..
 - [Microsoft](https://learn.microsoft.com/en-gb/training/)
   - [Empower modern analytics and business intelligence data cultures with Excel, Power BI, MS Teams, and SharePoint](https://drive.google.com/file/)
   - [Prepare Data for Analysis](https://drive.google.com/file/d/1MgqCMepoWdivyLRF6EMntMsLuT01AGWS/view?usp=sharing)
-  - [Model Data in Power BI](https://drive.google.com/file/)
+  - [Model Data in Power BI](https://drive.google.com/file/d/1vld4_TxnWxYwMJB9hNxeD_OWrFlJtrsl/view?usp=sharing)
+  - [Visualize data in Power BI](https://drive.google.com/file/d/1QCztrZXhNJNz7wQ5dfO-CWhwhsiE0Yzd/view?usp=sharing)
+  - [Data analysis in Power BI](https://drive.google.com/file/d/1VubgIDkCOHYvJ0eYLfbgrD_J_CiQOpH6/view?usp=sharing)
+  - [Manage workspaces and datasets in Power BI](https://drive.google.com/file/)
  
 - [Tableau](https://elearning-samples.tableau.com/)
   - [Interact with Dashboards and Reports](https://www.credly.com/badges/49c55edf-b0ab-4068-aa22-4266dd0b6df6)
