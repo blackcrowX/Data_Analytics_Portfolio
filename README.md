@@ -57,7 +57,7 @@ This project undertakes a comprehensive analysis of car insurance claim fraud us
 
 <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_0.png"/>
 
-This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data loading, data cleaning, data preprocessing, data analysis, and data visualisation. To facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analysed data, enhancing the accessibility and usability of the insights gained from the SQL analysis.
+This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data preparation, data loading, data aexploration, data preprocessing, data visualisation and data analysis. To facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analysed data, enhancing the accessibility and usability of the insights gained from the SQL analysis.
 
 **README:** [`README.md`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
 
