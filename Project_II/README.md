@@ -57,9 +57,9 @@ By completing these preparation steps, including data splitting, date formatting
 
 ## Loading
 
-To analyse the data in PostgreSQL, we need to load the prepared DataFrames into separate tables. We will create two tables: `covid_deaths` and `covid_vaccinations` in PostgreSQL.
+To facilitate the analysis of data in PostgreSQL, the prepared DataFrames, covid_deaths and covid_vaccinations, need to be loaded into separate tables in the database. This process involves creating the tables and importing the data from the corresponding CSV files.
 
-For the `covid_deaths` table, the columns will be manually defined. It will include columns such as `date` of type `DATE`, `country` of type `VARCHAR(255)`, `total_deaths` of type `INTEGER` anc numerous other columns. 
+The `covid_deaths` table is created with manually defined columns to match the structure of the DataFrame. The table includes columns such as `date` of type `DATE`, `country` of type `VARCHAR(255)`, `total_deaths` of type `INTEGER`, and other relevant columns.
 
 Similarly, we will create the `covid_vaccinations` table in PostgreSQL, ensuring that the columns match the structure and data types of the `covid_vaccinations_df` DataFrame.
 
@@ -197,7 +197,7 @@ WHERE continent IS NOT null
 AND new_vaccinations IS NOT null;
 ```
 
-With this we have explored the dataset and can continue with the data preprocessing.
+By performing these analyses and executing the SQL queries, we gain valuable insights into various aspects of COVID-19 data. These insights contribute to a deeper understanding of the impact of the disease on different countries, populations, and regions.
 
 ## Preprocessing
 
