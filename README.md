@@ -20,7 +20,7 @@
 
 ## About
 
-As an undergraduate in Business Administration with a high motivation in data analytics, I have gained experience in various buisness domain knowledge and utilizing programming languages such as SQL and Python to analyse large datasets. 
+As an undergraduate in Business Administration with a high motivation in data analytics, I have gained experience in buisness domain knowledge, utilizing programming languages such as SQL and Python to analyse large datasets and utilizing BI-Tools to visualise the findings.
 
 My passion for data analysis has driven me to develop a strong skill set in the processes of data preparation, data loading, data cleaning, data modelling, data visualisation, and statistical analysis. I am committed to delivering results and insights that will help businesses make informed decisions.
 
