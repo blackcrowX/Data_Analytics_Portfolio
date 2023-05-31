@@ -4,6 +4,18 @@
   <img width="200px" src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/icons/python.png?raw=true"/>
 </p>
 
+This project utilises Juypter Notebooks in Google Colab for comprehensive analysis of Pokemon generation 1-8. The dataset includes various details regarding the pokemon and their respective traits. Key findings highlight a sleight powercreep from generation one till eight and the strongest type in the game being Dragon.
+
+## Table of Contents
+
+- [Introduction](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Introduction)
+- [Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Objective)
+- [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Dataset)
+- [Setup](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Setup)
+- [Cleaning](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Cleaning)
+- [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Analysis)
+- [Conclusion](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Conclusion)
+
 ## Introduction
 
 This project embarks on a quest to unlock the secrets of Pokemon across Generation 1 to 8, harnessing the power of Python and embracing the processes of data loading, data cleaning, data analysis and data visualisation. With the aim of delving into a vast and comprehensive dataset comprising 1072 Pokemon and their alternate forms, we embark on an immersive journey to explore their unique attributes, unravel hidden patterns, and identify intriguing trends. By harnessing the capabilities of Python and leveraging a variety of libraries, we will deftly manipulate the data, create captivating visualizations, and conduct insightful statistical analyses, unearthing valuable insights about the enchanting Pokemon universe.
@@ -18,14 +30,7 @@ For more detailed information, please refer to the `Pokemon_Gen_1-8.ipynb` code.
 
 **Technology:** Jupyter Notebook (Python)
 
-## Table of Contents
 
-- [Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Objective)
-- [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Dataset)
-- [Setup](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Setup)
-- [Cleaning](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Cleaning)
-- [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Analysis)
-- [Conclusion](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Conclusion)
 
 ## Objective
 
