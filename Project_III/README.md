@@ -24,6 +24,8 @@ For more detailed information, please refer to the `Pokemon_Gen_1-8.ipynb` code.
 
 **Project Code:** [`Pokemon_Gen_1-8.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/Pokemon_Gen_1-8.ipynb)
 
+**Project Author:** [blackcrowX](https://github.com/blackcrowX)
+
 ## Objective
 
 Our objective is to find the strongest pokemon, strongest type and explore the datatset for insights and correlations.
