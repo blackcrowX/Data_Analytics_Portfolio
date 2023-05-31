@@ -4,7 +4,7 @@
 </div>
 
 ## Table of Contents
-- [I. Introduction](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#Introduction)
+- [Introduction](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#Introduction)
 - [Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#Objective)
 - [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#Dataset)
 - [Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#preparation)
@@ -14,7 +14,7 @@
 - [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#analysis)
 - [Conclusion](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#Conclusion)
 
-## I. Introduction
+## Introduction
 This project undertakes a comprehensive analysis of car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights. The analysis workflow includes essential stages such as data preparation, data modeling, data validation, data visualisation, and data analysis. Furthermore, to facilitate effective communication of the findings, compelling visualisations and analytical models have been developed within Excel. These tools provide an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the Excel analysis.
 
 **Project File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
