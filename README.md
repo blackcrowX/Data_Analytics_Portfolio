@@ -20,19 +20,19 @@
 
 ## About
 
-As a highly motivated and detail-oriented data analyst and undergraduate in Business Administration, I have gained experience in utilizing programming languages such as SQL and Python to gather and analyse large datasets. 
+As an undergraduate in Business Administration with a high motivation in data analytics, I have gained experience in various buisness domain knowledge and utilizing programming languages such as SQL and Python to analyse large datasets. 
 
-My passion for data analysis has driven me to develop a strong skill set in data preparation, data modelling, data visualization, and statistical analysis. I am committed to delivering results and insights that will help businesses make informed decisions.
+My passion for data analysis has driven me to develop a strong skill set in the processes of data preparation, data loading, data cleaning, data modelling, data visualisation, and statistical analysis. I am committed to delivering results and insights that will help businesses make informed decisions.
 
 ## Skills
 
+- Writing and communication
+- Problem solving
 - Data cleaning and preparation
 - Data analysis and exploration
 - Statistical knowledge
 - Creating data visualizations
 - Creating dashboards and reports
-- Writing and communication
-- Problem solving
 
 ## Projects
 These are my data analytics projects briefly describing the project, the process and technology stack used to accomplish the projects goal. If you are interested into looking into further projects of mine feel free to check out following repository: [Data_Analytics_Projects](https://github.com/blackcrowX/Data_Analytics_Projects)
