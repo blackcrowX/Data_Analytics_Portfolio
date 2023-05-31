@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data preparation, data loading, data analysis, data preprocessing and data visualisation. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
+This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data preparation, data loading, data aexploration, data preprocessing, data visualisation and data analysis. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
 
 **Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
 
@@ -18,9 +18,10 @@ This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau
 - [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Data)
 - [Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Preparation)
 - [Loading](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Loading)
-- [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Analysis)
+- [Exploration](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Exploration)
 - [Preprocessing](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Preprocessing)
-- [Visualisation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Analysis)
+- [Visualisation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Visualisation)
+- [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Analysis)
 - [Conclusion](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Conclusion)
 
 ## Objective
@@ -73,9 +74,9 @@ Once the tables are created, we will import the data from the corresponding CSV 
 After successfully loading the data into the tables, we can proceed with data analysis using SQL queries. By writing appropriate SQL queries, we can extract insights, perform calculations, and conduct various analyses on the COVID-19 deaths and vaccinations data.
 
 
-## Analysis
+## Exploration
 
-The analysis is divided into several sections, each focusing on a specific aspect of COVID-19 data exploration. 
+The exploartion is divided into several sections, each focusing on a specific aspect of COVID-19 data exploration. 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_3.png"/>
@@ -270,7 +271,7 @@ https://public.tableau.com/app/profile/blackcrowx/viz/CovidVisualisation_1684754
 
 By following this visualisation process, we conducted a thorough analysis of the data and presented key insights through engaging visualisations. The Tableau dashboard empowered stakeholders to explore and interact with the COVID-19 data effectively, gaining a deeper understanding of the trends and patterns within the dataset.
 
-## Conclusion
+## Analysis
 
 In this data analysis and visualisation project, we utilized PostgreSQL and Tableau to explore global COVID-19 cases. Our objective was to gain insights from the data, and we have successfully achieved the following key findings:
 
@@ -283,3 +284,16 @@ In this data analysis and visualisation project, we utilized PostgreSQL and Tabl
 - Predictive Visualisation: One of the key achievements of this project was the successful implementation of predictive visualisations in Tableau. By leveraging historical data, we were able to create visual predictions of the curve for new cases and total cases. This powerful feature enables us to anticipate future trends and potential outbreaks. These predictive visualisations can serve as valuable tools for policymakers, healthcare professionals, and researchers to make informed decisions and devise effective strategies in combating the spread of the virus.
 
 Through the combined power of PostgreSQL and Tableau, we have gained valuable insights into the global COVID-19 situation. These findings contribute to our understanding of the spread and impact of the virus, aiding in informed decision-making and response efforts. The analysis and visualizations presented in this project provide a comprehensive overview of the pandemic, enabling stakeholders to take proactive measures to mitigate its effects. By continuously updating and refining our analysis, we can stay informed and adapt our strategies to navigate through these challenging times.
+
+## Conclsuion
+
+Based on the analysis of the COVID-19 data, here are some potential takeaways for future analysis:
+
+1. **Consider additional variables:** In future analyses, it may be valuable to incorporate additional variables such as testing rates, hospitalization rates, and vaccination rates. Including these variables can provide a more comprehensive understanding of the COVID-19 situation and its relationship to various factors.
+
+2. **Consider qualitative data:** In addition to quantitative data, incorporating qualitative data such as government policies, public sentiment, and healthcare capacity can provide a more comprehensive analysis. Qualitative data can help explain certain trends or patterns observed in the quantitative analysis.
+
+3. **Regularly update and analyze data:** As the COVID-19 situation continues to evolve, it is important to regularly update the data and conduct ongoing analyses. Monitoring changes over time and comparing new data with previous findings can provide a more dynamic understanding of the pandemic's impact.
+
+By considering these potential takeaways, future analyses of COVID-19 data can be more insightful, robust, and actionable, leading to a better understanding of the virus and its effects on populations worldwide.
+
