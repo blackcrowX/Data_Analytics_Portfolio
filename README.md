@@ -11,7 +11,7 @@
 - [About](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#about)
 - [Skills](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#skills)
 - [Projects](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#Projects)
-  - [Car Insurance Claims](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
+  - [Car Insurance Claims Fraud](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
   - [Global Covid Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
   - [Pokemon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III)
   - [XYZ](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
@@ -37,7 +37,7 @@ My passion for data analysis has driven me to develop a strong skill set in data
 ## Projects
 These are my data analytics projects briefly describing the project, the process and technology stack used to accomplish the projects goal. If you are interested into looking into further projects of mine feel free to check out following repository: [Data_Analytics_Projects](https://github.com/blackcrowX/Data_Analytics_Projects)
 
-### I. Car Insurance Claims
+### I. Car Insurance Claims Fraud
 
 <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_0.jpg"/>
 
