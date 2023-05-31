@@ -117,7 +117,7 @@ This project ..
 - [Kaggle](https://www.kaggle.com/learn)
   - [Python](https://drive.google.com/file/d/1bjLL5KQW5mhoCssiieLc6o3UiZlWSgvZ/view?usp=sharing)
   - [Pandas](https://drive.google.com/file/d/1_f-nrECmFXzFkyCggpNgnvXRtvNp8cTs/view?usp=sharing)
-  - [**Data Cleaning**](https://drive.google.com/file/d/1Decrj1EYXereU86odjVACyGam25ogXRC/view?usp=sharing)
+  - [Data Cleaning](https://drive.google.com/file/d/1Decrj1EYXereU86odjVACyGam25ogXRC/view?usp=sharing)
   - [Data Visualisation](https://drive.google.com/file/d/1QRFsv8aJP2JclFOHUCaxcf0WphUjZ_9Y/view?usp=sharing)
   - [Geospatial Analysis](https://drive.google.com/file/d/1-RYQMRWOChjw6w8O8VSU8uggTddS8S3r/view?usp=sharing)
   - [Intro to SQL](https://drive.google.com/file/d/10OjlVjPYCZNBJokupasryf9FYWiRzMp2/view?usp=sharing)
