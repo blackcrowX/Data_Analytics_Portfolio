@@ -11,7 +11,7 @@ This project utilises Juypter Notebooks in Google Colab for comprehensive analys
 - [Introduction](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Introduction)
 - [Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Objective)
 - [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Dataset)
-- [Setup](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Setup)
+- [Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Preparation)
 - [Cleaning](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Cleaning)
 - [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Analysis)
 - [Conclusion](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Conclusion)
@@ -36,7 +36,7 @@ This dataset encompasses an astounding collection of all 898 Pokemon species, in
 
 **Data Source:** [Data World](https://data.world/data-society/pokemon-with-stats)
 
-## Setup
+## Preparation
 
 ### Step 1: Import Libraries
 In this initial step, we import and configure the necessary libraries for our data analysis in Jupyter Notebook. Libraries such as Pandas, NumPy, Matplotlib, and Seaborn are essential for data manipulation, numerical computations, and data visualisation.
