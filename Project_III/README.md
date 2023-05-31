@@ -20,9 +20,45 @@ For more detailed information, please refer to the `Pokemon_Gen_1-8.ipynb` code.
 
 ## Table of Contents
 
-- Objective
+- Objective(https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Objective)
 - Dataset
 - Setup
 - Data Cleaning
 - Data Analysis
 - Conclusion
+
+## Objective
+
+Our objective is to find the strongest pokemon, strongest type and explore the datatset for insights and correlations.
+
+## Dataset
+
+This dataset encompasses an astounding collection of all 898 Pokemon species, including 1072 variations, as of the year 2021. Delving deep into the fascinating realm of these mythical creatures, this dataset reveals a treasure trove of information, offering a holistic view of each Pokemon's unique attributes, origins, and legendary status. 
+
+**Data:** [`pokemon_gen_1-8.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
+
+**Source:** [Data World](https://data.world/data-society/pokemon-with-stats)
+
+## Setup
+
+### Step 1: Import Libraries
+In this initial step, we import and configure the necessary libraries for our data analysis in Jupyter Notebook. Libraries such as Pandas, NumPy, Matplotlib, and Seaborn are essential for data manipulation, numerical computations, and data visualisation.
+
+```
+import numpy as np
+import pandas as pd
+pd.plotting.register_matplotlib_converters()
+import matplotlib.pyplot as plt
+%matplotlib inline
+import seaborn as sns
+sns.set(style = "darkgrid")
+sns.set_context('notebook', font_scale=1.1)
+```
+
+### Step 2: Import Dataset
+Load the dataset into Python using Pandas as df for further analysis and exploration.
+
+```
+url = "https://raw.githubusercontent.com/blackcrowX/Data_Analytics_Portfolio/main/Project_III/pokemon_gen_1-8.csv"
+df = pd.read_csv(url)
+```
