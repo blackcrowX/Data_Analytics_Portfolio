@@ -30,7 +30,7 @@ Our objective is to find the strongest pokemon, strongest type and explore the d
 
 ## Dataset
 
-This dataset encompasses an astounding collection of all 898 Pokemon species, including 1072 variations, as of the year 2021. Delving deep into the fascinating realm of these mythical creatures, this dataset reveals a treasure trove of information, offering a holistic view of each Pokemon's unique attributes, origins, and legendary status. 
+This dataset encompasses an astounding collection of all 898 Pokemon species, including 1072 variations, as of the year 2021. Delving deep into the fascinating realm of these mythical creatures, this dataset reveals a treasure trove of information, offering a holistic view of each Pokemon's unique stats, types, and legendary status. 
 
 **Data File:** [`pokemon_gen_1-8.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
