@@ -20,12 +20,12 @@ For more detailed information, please refer to the `Pokemon_Gen_1-8.ipynb` code.
 
 ## Table of Contents
 
-- Objective(https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Objective)
-- Dataset
-- Setup
-- Data Cleaning
-- Data Analysis
-- Conclusion
+- [Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Objective)
+- [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Dataset)
+- [Setup](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Setup)
+- [Cleaning](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Cleaning)
+- [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Analysis)
+- [Conclusion](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/README.md#Conclusion)
 
 ## Objective
 
@@ -62,3 +62,16 @@ Load the dataset into Python using Pandas as df for further analysis and explora
 url = "https://raw.githubusercontent.com/blackcrowX/Data_Analytics_Portfolio/main/Project_III/pokemon_gen_1-8.csv"
 df = pd.read_csv(url)
 ```
+
+## Cleaning
+
+### Step 3: Review Dataframe
+Observe the first and last five rows of the dataframe to gain a quick overview of the data.
+
+```
+df.head()
+```
+
+## Analysis
+
+## Conclusion
