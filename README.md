@@ -45,9 +45,9 @@ This project utilises Microsoft Excel for comprehensive analysis of car insuranc
 
 **README:** [`README.md`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
 
-**File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/Dashboard_Car_Insurance_Claims.xlsx)
+**Project File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/Dashboard_Car_Insurance_Claims.xlsx)
 
-**Data:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
+**Data File:** [`car_insurance_claims.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/car_insurance_claims.csv)
 
 **Skills:** Excel Formulas, PowerQuery, PowerPivot, PivotTable, PivotChart and Regression-Analysis 
 
@@ -61,11 +61,11 @@ This project utilises PostgreSQL and Tableau for comprehensive analysis and visu
 
 **README:** [`README.md`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
 
-**Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
+**Project Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
 
-**Visualisation:** [`Covid_Visualisation.twb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Visualisation.twb)
+**Project Visualisation:** [`Covid_Visualisation.twb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Visualisation.twb)
 
-**Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
+**Data File:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
 **Skills:**  Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions and Views in SQL & Tableau Author Proficency
 
@@ -79,9 +79,9 @@ This project utilises Juypter Notebooks in Google Colab for comprehensive analys
 
 **README:** [`README.md`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III)
 
-**Code:** [`Pokemon_Gen_1-8.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/Pokemon_Gen_1-8.ipynb)
+**Project Code:** [`Pokemon_Gen_1-8.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/Pokemon_Gen_1-8.ipynb)
 
-**Data:** [`pokemon_gen_1-8.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/pokemon_gen_1-8.csv)
+**Data File:** [`pokemon_gen_1-8.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/pokemon_gen_1-8.csv)
 
 **Skills:**  NumPy, Pandas, MatlotLib and Seaborn
 
@@ -95,9 +95,9 @@ This project ..
 
 **README:** [`README.md`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
 
-**Code:** [`xyz.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/xyz.ipynb)
+**Project Code:** [`xyz.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/xyz.ipynb)
 
-**Data:** [`xyz.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/xyz.csv)
+**Data File:** [`xyz.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/xyz.csv)
 
 **Skills:**  xyz
 
