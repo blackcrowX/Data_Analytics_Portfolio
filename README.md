@@ -41,7 +41,7 @@ These are my data analytics projects briefly describing the project, the process
 
 <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_0.jpg"/>
 
-This project undertakes a comprehensive analysis of car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights. The analysis workflow includes essential stages such as data preparation, data modeling, data validation, data visualisation, and data analysis. Furthermore, to facilitate effective communication of the findings, compelling visualisations and analytical models have been developed within Excel. These tools provide an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the Excel analysis.
+This project utilises Microsoft Excel for comprehensive analysis of car insurance claims fraud data. The dataset includes various details regarding the policy, policy holder and incident. Key findings highlight a correlation between the insured hobbies chess and crossfit with the likelihood fraudulent claims and a correlation between women in sales occupation and the likelihood fraudulent claims.
 
 **README:** [`README.md`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
 
@@ -57,7 +57,7 @@ This project undertakes a comprehensive analysis of car insurance claim fraud us
 
 <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_0.png"/>
 
-This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQL, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data preparation, data loading, data aexploration, data preprocessing, data visualisation and data analysis. To facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analysed data, enhancing the accessibility and usability of the insights gained from the SQL analysis.
+This project utilises PostgreSQL and Tableau for comprehensive analysis and visualization of global COVID-19 data. The dataset includes cases and vaccinations across countries and continents. Key findings highlight the highest cases in Asia, highest deaths in Europe, and the United States leading in both cases and deaths.
 
 **README:** [`README.md`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
 
@@ -75,7 +75,7 @@ This project encompasses a comprehensive analysis of COVID-19 cases utilizing SQ
 
 <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_III/Screenshot_0.png"/>
 
-This project embarks on a quest to unlock the secrets of Pokemon across Generation 1 to 8, harnessing the power of Python and embracing the processes of data loading, data cleaning, data analysis and data visualisation. With the aim of delving into a vast and comprehensive dataset comprising 1072 Pokemon and their alternate forms, we embark on an immersive journey to explore their unique attributes, unravel hidden patterns, and identify intriguing trends. By harnessing the capabilities of Python and leveraging a variety of libraries, we will deftly manipulate the data, create captivating visualizations, and conduct insightful statistical analyses, unearthing valuable insights about the enchanting Pokemon universe.
+This project utilises Juypter Notebooks in Google Colab for comprehensive analysis of Pokemon generation 1-8. The dataset includes various details regarding the pokemon and their respective traits. Key findings highlight a sleight powercreep from generation one till eight and the strongest type in the game being Dragon.
 
 **README:** [`README.md`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III)
 
