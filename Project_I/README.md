@@ -3,7 +3,7 @@
   <img width="200px" src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/icons/ms_excel.png"/>
 </div>
 
-This project utilizes Microsoft Excel for comprehensive analysis of car insurance claims fraud data. The dataset includes various details regarding the policy, policy holder and incident. Key findings highlight a correlation between the insured hobbies chess and crossfit with the likelihood fraudulent claims and a correlation between women in sales occupation and the likelihood fraudulent claims.
+This project utilises Microsoft Excel for comprehensive analysis of car insurance claims fraud data. The dataset includes various details regarding the policy, policy holder and incident. Key findings highlight a correlation between the insured hobbies chess and crossfit with the likelihood fraudulent claims and a correlation between women in sales occupation and the likelihood fraudulent claims.
 
 ## Table of Contents
 - [Introduction](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#Introduction)
