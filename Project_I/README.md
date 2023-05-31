@@ -6,7 +6,7 @@
 ## Introduction
 This project undertakes a comprehensive analysis of car insurance claim fraud using Microsoft Excel, aiming to uncover valuable insights. The analysis workflow includes essential stages such as data preparation, data modeling, data validation, data visualisation, and data analysis. Furthermore, to facilitate effective communication of the findings, compelling visualisations and analytical models have been developed within Excel. These tools provide an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the Excel analysis.
 
-**File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
+**Project File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
 
 ## Table of Contents
 - [Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/README.md#Objective)
@@ -32,9 +32,9 @@ Insurance fraud poses significant challenges within the industry, making the ide
 
 The dataset used in this project comprises records of car insurance claims from January 1, 2015, to February 28, 2015. It provides comprehensive information about policy details, insured individuals, incident characteristics, claim details, and whether each claim is fraudulent or not. The dataset was obtained from Databricks Inc.
 
-**Data:** [`car-insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/car-insurance-claims.csv)
+**Data File:** [`car-insurance-claims.csv`](https://github.com/blackcrowX/Data-Analysis-Portfolio/blob/main/Project-I/car-insurance-claims.csv)
 
-**Source:** [Databricks Inc.](https://www.databricks.com/)
+**Data Source:** [Databricks Inc.](https://www.databricks.com/)
 
 ## Data Preparation
 
