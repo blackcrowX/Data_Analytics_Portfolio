@@ -40,7 +40,7 @@ The data contains records of Covid-19 cases, deaths and vaccine records by count
 
 **Data:** [`owid_covid_data.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
-**Source:** [`ourworldindata.org`](https://ourworldindata.org/coronavirus)
+**Source:** [Our World in Data](https://ourworldindata.org/coronavirus)
 
 ## Preparation
 
