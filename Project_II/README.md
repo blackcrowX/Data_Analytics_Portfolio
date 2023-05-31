@@ -5,6 +5,8 @@
   <img width="200px" src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/icons/tableau.png?raw=true"/>
 </p>
 
+This project utilizes PostgreSQL and Tableau for comprehensive analysis and visualization of global COVID-19 data. The dataset includes cases and vaccinations across countries and continents. Key findings highlight the highest cases in Asia, highest deaths in Europe, and the United States leading in both cases and deaths. Trends in new cases and predictive visualizations are explored. The Tableau dashboard provides an interactive view of the data. The project emphasizes the significance of data analysis and visualization in understanding COVID-19 and aiding decision-making. Future iterations can focus on specific regions and incorporate additional variables. The findings contribute to the scientific understanding of COVID-19 and inform public health decision-making.
+
 ## Table of Contents
 - [Introduction](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Introduction)
 - [Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Objective)
