@@ -22,15 +22,7 @@ This project embarks on a quest to unlock the secrets of Pokemon across Generati
 
 For more detailed information, please refer to the `Pokemon_Gen_1-8.ipynb` code.
 
-**Code:** [`Pokemon_Gen_1-8.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/Pokemon_Gen_1-8.ipynb)
-
-**Data:** [`pokemon_gen_1-8.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/pokemon_gen_1-8.csv)
-
-**Skills:**  NumPy, Pandas, MatlotLib and Seaborn
-
-**Technology:** Jupyter Notebook (Python)
-
-
+**Project Code:** [`Pokemon_Gen_1-8.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/Pokemon_Gen_1-8.ipynb)
 
 ## Objective
 
@@ -40,9 +32,9 @@ Our objective is to find the strongest pokemon, strongest type and explore the d
 
 This dataset encompasses an astounding collection of all 898 Pokemon species, including 1072 variations, as of the year 2021. Delving deep into the fascinating realm of these mythical creatures, this dataset reveals a treasure trove of information, offering a holistic view of each Pokemon's unique attributes, origins, and legendary status. 
 
-**Data:** [`pokemon_gen_1-8.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
+**Data File:** [`pokemon_gen_1-8.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
 
-**Source:** [Data World](https://data.world/data-society/pokemon-with-stats)
+**Data Source:** [Data World](https://data.world/data-society/pokemon-with-stats)
 
 ## Setup
 
