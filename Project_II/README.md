@@ -242,43 +242,43 @@ By completing these preprocessing steps, we have created a view to store relevan
 
 ## Visualisation
 
-For the data visualisation in Tableau, we begin by creating several worksheets to present different aspects of the data. 
+The visualisation process in Tableau involved creating multiple worksheets to present different aspects of the data in an informative and visually appealing manner.
 
-We start by creating a worksheet that highlights key numbers and provides an overview of important metrics. This table serves as a summary of the data, capturing the essential information at a glance and utilises multiple calculated field to display the percentages.
+We began by designing a worksheet that provided a summary of the data, highlighting key numbers and important metrics. This table incorporated calculated fields to display percentages, offering a quick overview of the dataset.
 
-Then we construct a visually appealing map that displays all the locations in the dataset, showcasing the geographical distribution of COVID-19 cases and vaccinations. This diagram helps identify regional patterns and variances and we implement an action filter which automatically filters the data by the selected country.
+Next, we developed a visually striking map that showcased the geographical distribution of COVID-19 cases and vaccinations. This map allowed us to identify regional patterns and variances in the data. To enhance usability, we implemented an action filter that automatically filtered the data based on the selected country, providing users with a more focused view.
 
-Afterwards we design a bar chart worksheet to compare various metrics across different continents. This chart enables the analysis of regional trends and disparities, providing insights into the impact of COVID-19 on different parts of the world. This chart also has an action filter which filters the data by the selected continent.
+To compare various metrics across different continents, we constructed a bar chart worksheet. This chart enabled us to analyze regional trends and disparities, offering insights into the impact of COVID-19 on different parts of the world. Similar to the map, the bar chart also featured an action filter that allowed users to filter the data by selecting a specific continent.
 
-Last we develop a chart to depict the trend of new cases and total cases over time. This visualisation allows for the tracking of COVID-19 progression and the identification of significant patterns or spikes and implements a prediction of the trend of new cases and total cases.
+In addition, we developed a chart to depict the trend of new cases and total cases over time. This visualisation provided a comprehensive view of the COVID-19 progression, allowing us to identify significant patterns or spikes. To enhance the usefulness of this chart, we implemented a prediction feature that forecasted the trend of new cases and total cases based on historical data.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_5.png"/>
   <em>Figure 5: The worksheet "Cases" in Tableau.</em>
 </p>
 
-Once we have created the individual worksheets, we combine the individual worksheets into a cohesive dashboard in Tableau. The dashboard integrates all the visualisations, providing a comprehensive view of the data. This unified view allows stakeholders to gain insights from multiple perspectives and understand the data holistically.
+Once the individual worksheets were created, we combined them into a cohesive dashboard in Tableau. This dashboard integrated all the visualisations, providing a comprehensive and interactive view of the data. Stakeholders could explore the data from multiple perspectives and gain insights into the COVID-19 situation.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_6.png"/>
   <em>Figure 6: The final dashboard in Tableau.</em>
 </p>
 
-To share our findings, the final view and dashboard are uploaded to Tableau Public. You can access the interactive dashboard using the following link:
+To share our findings, we uploaded the final view and dashboard to Tableau Public. The interactive dashboard can be accessed using the following link: 
 https://public.tableau.com/app/profile/blackcrowx/viz/CovidVisualisation_16847540534400/MainDashboard
 
-By following this process, we conduct a thorough analysis of the data and present key insights through engaging visualisations. The Tableau dashboard allows stakeholders to explore and interact with the COVID-19 data effectively, gaining a deeper understanding of the trends and patterns within the dataset.
+By following this visualisation process, we conducted a thorough analysis of the data and presented key insights through engaging visualisations. The Tableau dashboard empowered stakeholders to explore and interact with the COVID-19 data effectively, gaining a deeper understanding of the trends and patterns within the dataset.
 
 ## Conclusion
 
-In this data analysis and visualization project, we utilized PostgreSQL and Tableau to explore global COVID-19 cases. Our objective was to gain insights from the data, and we have successfully achieved the following key findings:
+In this data analysis and visualisation project, we utilized PostgreSQL and Tableau to explore global COVID-19 cases. Our objective was to gain insights from the data, and we have successfully achieved the following key findings:
 
-- Continent Analysis: Asia has the highest total number of COVID-19 cases, reaching 2.969 million, while Europe has the highest death count, exceeding 20.5 million. Oceania has the highest case count compared to its population, accounting for 31.16% of its inhabitants, while South America has the highest death count relative to its population at 0.31%.
+- Continent Analysis: Our analysis revealed that Asia has the highest total number of COVID-19 cases, reaching 2.969 million, while Europe has the highest death count, exceeding 20.5 million. This highlights the significant impact of the pandemic on these regions. Furthermore, we found that Oceania has the highest case count compared to its population, accounting for 31.16% of its inhabitants. On the other hand, South America has the highest death count relative to its population, with a rate of 0.31%. These continent-specific insights provide a deeper understanding of the regional dynamics and the challenges faced by different parts of the world.
 
-- Country Analysis: The United States has the highest total number of cases, surpassing 1.033 million, and Cyprus has the highest relative amount of cases, with 73.76% of its population reported as infected. The United States also has the highest absolute death count, reaching 11 million, while Peru has the highest relative death count at 0.65%.
+- Country Analysis: Digging deeper into individual countries, we discovered that the United States has the highest total number of cases, surpassing 1.033 million. This highlights the magnitude of the outbreak within the country. Additionally, Cyprus has the highest relative amount of cases, with a staggering 73.76% of its population reported as infected. These findings shed light on the varying levels of impact experienced by different countries. In terms of deaths, the United States also leads with the highest absolute death count, reaching 11 million. Peru, on the other hand, has the highest relative death count at 0.65%. These country-specific insights help us understand the severity of the pandemic within different national contexts.
 
-- Case Trends: China experienced a significant spike in new cases on December 19, 2022, with over 411 million new cases reported, peaking at 5 million new cases before that. In contrast, most other countries displayed spikes in new cases during January and February 2022. Additionally, the new cases curves for other countries exhibit noticeable fluctuations.
+- Case Trends: By analyzing the data over time, we identified interesting trends in case counts. China experienced a significant spike in new cases on December 19, 2022, with over 411 million new cases reported, peaking at 5 million new cases before that. This observation suggests a localized outbreak within China during that period. In contrast, most other countries displayed spikes in new cases during January and February 2022. Furthermore, the new cases curves for other countries exhibited noticeable fluctuations, indicating variations in the spread of the virus over time. These insights provide a temporal perspective on the progression of the pandemic and can inform decision-making related to containment measures and resource allocation.
 
-- Predictive Visualisation: Using Tableau, we successfully implemented a visual prediction of the curve for new cases and total cases, enabling us to anticipate future trends based on historical data.
+- Predictive Visualisation: One of the key achievements of this project was the successful implementation of predictive visualisations in Tableau. By leveraging historical data, we were able to create visual predictions of the curve for new cases and total cases. This powerful feature enables us to anticipate future trends and potential outbreaks. These predictive visualisations can serve as valuable tools for policymakers, healthcare professionals, and researchers to make informed decisions and devise effective strategies in combating the spread of the virus.
 
-Through the combined power of PostgreSQL and Tableau, we have gained valuable insights into the global COVID-19 situation. These findings contribute to our understanding of the spread and impact of the virus, aiding in informed decision-making and response efforts.
+Through the combined power of PostgreSQL and Tableau, we have gained valuable insights into the global COVID-19 situation. These findings contribute to our understanding of the spread and impact of the virus, aiding in informed decision-making and response efforts. The analysis and visualizations presented in this project provide a comprehensive overview of the pandemic, enabling stakeholders to take proactive measures to mitigate its effects. By continuously updating and refining our analysis, we can stay informed and adapt our strategies to navigate through these challenging times.
