@@ -15,3 +15,12 @@ For more detailed information, please refer to the `Pokemon_Gen_1-8.ipynb` code.
 **Skills:**  NumPy, Pandas, MatlotLib and Seaborn
 
 **Technology:** Jupyter Notebook (Python)
+
+
+## Table of Contents
+- Objective
+- Dataset
+- Setup
+- Data Cleaning
+- Data Analysis
+- Conclusion
