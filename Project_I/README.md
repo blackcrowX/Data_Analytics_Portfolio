@@ -21,6 +21,8 @@ This project undertakes a comprehensive analysis of car insurance claims fraud u
 
 **Project File:** [`Dashboard_Car_Insurance_Claims.xlsx`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I/Car_Insurance_Claims.xlsx)
 
+**Project Author:** [blackcrowX](https://github.com/blackcrowX)
+
 ## Objective
 
 Insurance fraud poses significant challenges within the industry, making the identification of fraudulent claims a complex task. In this project, our objective is to assist an insurer in gaining a deeper understanding of the key characteristics associated with fraudulent claims and visually represent the findings. Additionally, we aim to determine if a correlation exists between the duration of the policyholder's tenure and the likelihood of a fraudulent claim. To address these objectives, the following pivotal questions guide our analysis:
