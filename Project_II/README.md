@@ -42,17 +42,18 @@ The data contains records of Covid-19 cases, deaths and vaccine records by count
 
 ## Preparation
 
-To begin the analysis in PostgreSQL, the first step is to prepare the data by splitting the initial dataframe `owid_covid_data.csv` into two separate dataframes named `covid_deaths.xlsx` and `covid_vaccinations.xlsx`. Additionally, we need to format the date column to represent the YYYY-MM-DD format. 
+To conduct the analysis in PostgreSQL, several steps were undertaken to prepare the data for further processing and analysis. These steps involved data splitting, formatting, and conversion.
 
-Once the data has been split and formatted correctly, the next step is to convert the Excel files into CSV files using the `Converter_Excel_CSV.ipynb` notebook. This conversion is necessary to facilitate the subsequent analysis in PostgreSQL.
+The initial dataset, `owid_covid_data.csv`, was split into two separate dataframes named `covid_deaths.xlsx` and `covid_vaccinations.xlsx`. This splitting allowed for a more focused analysis on specific aspects of the data. Additionally, the date column in the dataset was formatted to follow the YYYY-MM-DD format, ensuring consistency and ease of analysis.
+
+To facilitate the subsequent analysis in PostgreSQL, the Excel files were converted into CSV files using the `Converter_Excel_CSV.ipynb` notebook. This conversion process was essential as PostgreSQL is better suited for handling data in CSV format.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_1.png"/>
   <em>Figure 1: The excel file covid_Deaths as CSV.</em>
 </p>
 
-By completing these preparation and conversion steps, we have now split the initial data, formatted the date column, and converted the relevant files into CSV format. We are now ready to proceed with the analysis in PostgreSQL using the prepared data.
-
+By completing these preparation steps, including data splitting, date formatting, and file conversion to CSV format, we have successfully prepared the data for analysis in PostgreSQL. These initial steps ensure that the data is structured and ready for further exploration and analysis in the database management system.
 
 ## Loading
 
