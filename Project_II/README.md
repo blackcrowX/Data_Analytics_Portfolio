@@ -14,14 +14,14 @@ This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau
 **Visualisation:** [`Covid_Visualisation.twb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Visualisation.twb)
 
 ## Table of Contents
-- [Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/edit/main/Project_II/README.md#Objective)
-- [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/edit/main/Project_II/README.md#Data)
-- [Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/edit/main/Project_II/README.md#Preparation)
-- [Loading](https://github.com/blackcrowX/Data_Analytics_Portfolio/edit/main/Project_II/README.md#Loading)
-- [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/edit/main/Project_II/README.md#Analysis)
-- [Preprocessing](https://github.com/blackcrowX/Data_Analytics_Portfolio/edit/main/Project_II/README.md#Preprocessing)
-- [Visualisation](https://github.com/blackcrowX/Data_Analytics_Portfolio/edit/main/Project_II/README.md#Analysis)
-- [Conclusion](https://github.com/blackcrowX/Data_Analytics_Portfolio/edit/main/Project_II/README.md#Conclusion)
+- [Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Objective)
+- [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Data)
+- [Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Preparation)
+- [Loading](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Loading)
+- [Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Analysis)
+- [Preprocessing](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Preprocessing)
+- [Visualisation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Analysis)
+- [Conclusion](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Conclusion)
 
 ## Objective
 
