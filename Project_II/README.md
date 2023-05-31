@@ -286,7 +286,7 @@ In this data analysis and visualisation project, we utilized PostgreSQL and Tabl
 
 Through the combined power of PostgreSQL and Tableau, we have gained valuable insights into the global COVID-19 situation. These findings contribute to our understanding of the spread and impact of the virus, aiding in informed decision-making and response efforts. The analysis and visualizations presented in this project provide a comprehensive overview of the pandemic, enabling stakeholders to take proactive measures to mitigate its effects. By continuously updating and refining our analysis, we can stay informed and adapt our strategies to navigate through these challenging times.
 
-## Conclsuion
+## Conclusion
 
 Based on the analysis of the COVID-19 data, here are some potential takeaways for future analysis:
 
