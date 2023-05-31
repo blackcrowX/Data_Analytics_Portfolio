@@ -16,7 +16,7 @@ This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau
 
 ## Table of Contents
 - [Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Objective)
-- [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Data)
+- [Dataset](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Dataset)
 - [Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Preparation)
 - [Loading](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Loading)
 - [Exploration](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Exploration)
