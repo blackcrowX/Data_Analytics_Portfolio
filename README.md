@@ -87,22 +87,6 @@ This project utilises Juypter Notebooks in Google Colab for comprehensive analys
 
 **Technology:** Jupyter Notebook (Google Colab)
 
-### IV. Project 
-
-<img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_IV"/>
-
-This project ..
-
-**README:** [`README.md`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
-
-**Project Code:** [`xyz.ipynb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/xyz.ipynb)
-
-**Data File:** [`xyz.csv`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV/xyz.csv)
-
-**Skills:**  xyz
-
-**Technology:** Tidyverse
-
 ## Certificates
 
 - [freeCodeCamp](https://www.freecodecamp.org/)
