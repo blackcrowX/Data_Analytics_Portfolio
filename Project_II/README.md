@@ -1,4 +1,4 @@
-<h1 align="center">Global Covid Cases</h1>
+<h1 align="center">Global Covid Cases</h1> 
 
 <p align="center">
   <img width="200px" src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/icons/postgresql.png?raw=true"/>
