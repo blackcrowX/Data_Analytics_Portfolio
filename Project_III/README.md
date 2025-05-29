@@ -2,7 +2,7 @@
 
 <p align="center">
   <img width="200px" src="https://github.com/blackcrowX/blackcrowX.github.io/blob/main/images/icons/python.png?raw=true"/>
-</p>
+</p> 
 
 This project utilises Juypter Notebooks in Google Colab for comprehensive analysis of Pokemon generation 1-8. The dataset includes various details regarding the pokemon and their respective traits. Key findings highlight a sleight powercreep from generation one till eight and the strongest type in the game being Dragon.
 
