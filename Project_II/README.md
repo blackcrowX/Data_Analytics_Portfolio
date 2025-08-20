@@ -224,12 +224,7 @@ WHERE dea.continent IS NOT null;
 
 The view `country_cases` combines data from the `covid_deaths` and `covid_vaccinations` tables for countries, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_cases`.
 
-In the exported view, we will replace all occurrences of "." with "," for integer values. This substitution is performed with a Python converter using two modules (pandas and io) to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognise the appropriate data types for each column during the import process.The resulting preprocessed data can be loaded into Tableau for further analysis and visualisation.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_4.png"/>
-  <em>Figure 4: The data loaded into Tableau.</em>
-</p>
+In the exported view for integer values all occurrences of "." have to be replaced with ",". This substitution was already performed with a Python converter during the preparation of the data to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognise the appropriate data types for each column during the import process.The resulting preprocessed data can be loaded into Tableau for further analysis and visualisation.
 	
 By completing these preprocessing steps, we have created a view to store relevant data, made necessary adjustments for compatibility with Tableau, and successfully loaded the data into Tableau for further exploration and visualisation.
 
@@ -247,14 +242,14 @@ In addition, we developed a chart to depict the trend of new cases and total cas
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_5.png"/>
-  <em>Figure 5: The worksheet "Cases" in Tableau.</em>
+  <em>Figure 4: The worksheet "Cases" in Tableau.</em>
 </p>
 
 Once the individual worksheets were created, we combined them into a cohesive dashboard in Tableau. This dashboard integrated all the visualisations, providing a comprehensive and interactive view of the data. Stakeholders could explore the data from multiple perspectives and gain insights into the COVID-19 situation.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_6.png"/>
-  <em>Figure 6: The final dashboard in Tableau.</em>
+  <em>Figure 5: The final dashboard in Tableau.</em>
 </p>
 
 To share our findings, we uploaded the final view and dashboard to Tableau Public. The interactive dashboard can be accessed using the following link: 
