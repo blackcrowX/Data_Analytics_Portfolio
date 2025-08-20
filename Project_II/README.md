@@ -78,7 +78,7 @@ This conversion process was essential as PostgreSQL is better suited for handlin
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_1.png"/>
-  <em>Figure 1: The excel file covid_Deaths as CSV.</em>
+  <em>Figure 1: The excel file owid_covid_data as CSV before splitting.</em>
 </p>
 
 By completing these preparation steps, including data splitting, date formatting, and file conversion to CSV format, we have successfully prepared the data for analysis in PostgreSQL. These initial steps ensure that the data is structured and ready for further exploration and analysis in the database management system.
