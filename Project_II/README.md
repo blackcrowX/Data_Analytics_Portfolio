@@ -54,7 +54,27 @@ To conduct the analysis in PostgreSQL, several steps were undertaken to prepare 
 
 The initial dataset, `owid_covid_data.csv`, was split into two separate dataframes named `covid_deaths.xlsx` and `covid_vaccinations.xlsx`. This splitting allowed for a more focused analysis on specific aspects of the data. Additionally, the date column in the dataset was formatted to follow the YYYY-MM-DD format, ensuring consistency and ease of analysis.
 
-To facilitate the subsequent analysis in PostgreSQL, the Excel files were converted into CSV files using the `Converter_Excel_CSV.ipynb` notebook. This conversion process was essential as PostgreSQL is better suited for handling data in CSV format.
+To facilitate the subsequent analysis in PostgreSQL, the Excel files were converted into CSV files using the `Converter_Excel_CSV.ipynb` notebook. 
+
+```
+import pandas as pd
+import io
+```
+
+```
+from google.colab import files
+uploaded = files.upload()
+```
+
+```
+read_file = pd.read_excel (io.BytesIO(uploaded['covid_vaccinations.xlsx']))
+```
+
+```
+read_file.to_csv (r'covid_vaccinations.csv', index = False, header=True)
+```
+
+This conversion process was essential as PostgreSQL is better suited for handling data in CSV format.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_1.png"/>
