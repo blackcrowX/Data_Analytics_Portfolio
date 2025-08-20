@@ -8,18 +8,18 @@
 This project utilises PostgreSQL and Tableau for comprehensive analysis and visualization of global COVID-19 data. The dataset includes cases and vaccinations across countries and continents. Key findings highlight the highest cases in Asia, highest deaths in Europe, and the United States leading in both cases and deaths.
 
 ## Table of Contents
-- [1. Introduction](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Introduction)
-- [2. Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Objective)
-- [3. Initial Data](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Dataset)
-- [4. Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Preparation)
-- [5.1. Loading in SQL](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Loading)
-- [5.2. Exploration in SQL](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Exploration)
-- [6.1. Data for Tableau](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Preprocessing)
-- [6.2. Visualisation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Visualisation)
-- [7. Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Analysis)
-- [8. Conclusion](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Conclusion)
+- [1.2. Introduction](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Introduction)
+- [1.2. Objective](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Objective)
+- [1.3. Initial Data](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Dataset)
+- [2. Preparation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Preparation)
+- [3.1. Loading in SQL](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Loading)
+- [3.2. Exploration in SQL](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Exploration)
+- [4.1. Data for Tableau](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Preprocessing)
+- [4.2. Visualisation](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Visualisation)
+- [5. Analysis](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Analysis)
+- [6. Conclusion](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/README.md#Conclusion)
 
-## 1. Introduction
+## 1.1. Introduction
 
 This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data preparation, data loading, data aexploration, data preprocessing, data visualisation and data analysis. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
 
@@ -31,7 +31,7 @@ This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau
 
 **Project Author:** [blackcrowX](https://github.com/blackcrowX)
 
-## 2. Objective
+## 1.2. Objective
 
 The COVID-19 pandemic has had a profound impact on societies worldwide, prompting the need for rigorous data analysis to guide decision-making processes. The OWID COVID-19 dataset offers a comprehensive collection of daily updates on cases, deaths, vaccinations, testing, and other relevant variables for countries across the globe. This case study aims to explore this rich dataset and uncover valuable insights that can help shape public health strategies, policies, and interventions. Through this data exploration, we anticipate answering following questions:
 
@@ -40,7 +40,7 @@ The COVID-19 pandemic has had a profound impact on societies worldwide, promptin
 - Are there any questionable data inputs in the dataset?
 - Can we predict the development of new cases and total cases?
 
-## 3. Initial Data
+## 1.3. Initial Data
 
 The data contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2023. The CSV file columns are separated into country, date and population followed by various informations regarding the covid cases, deaths and the vaccine. The dataset is published by OWID and is continously kept updated. The version of the dataset used was downloaded on the 17.05.2023.
 
@@ -48,7 +48,7 @@ The data contains records of Covid-19 cases, deaths and vaccine records by count
 
 **Data Source:** [Our World in Data](https://ourworldindata.org/coronavirus)
 
-## 4. Preparation
+## 2. Preparation
 
 To conduct the analysis in PostgreSQL, several steps were undertaken to prepare the data for further processing and analysis. These steps involved data splitting, formatting, and conversion.
 
@@ -83,7 +83,7 @@ This conversion process was essential as PostgreSQL is better suited for handlin
 
 By completing these preparation steps, including data splitting, date formatting, and file conversion to CSV format, we have successfully prepared the data for analysis in PostgreSQL. These initial steps ensure that the data is structured and ready for further exploration and analysis in the database management system.
 
-## 5.1. Loading in SQL
+## 3.1. Loading in SQL
 
 To facilitate the analysis of data in PostgreSQL, the prepared DataFrames, covid_deaths and covid_vaccinations, need to be loaded into separate tables in the database. This process involves creating the tables and importing the data from the corresponding CSV files.
 
@@ -101,7 +101,7 @@ Once the tables are created, we will import the data from the corresponding CSV 
 After successfully loading the data into the tables, we can proceed with data analysis using SQL queries. By writing appropriate SQL queries, we can extract insights, perform calculations, and conduct various analyses on the COVID-19 deaths and vaccinations data.
 
 
-## 5.2. Exploration in SQL
+## 3.2. Exploration in SQL
 
 The exploartion is divided into several sections, each focusing on a specific aspect of COVID-19 data exploration. 
 
@@ -227,7 +227,7 @@ AND new_vaccinations IS NOT null;
 
 By performing these analyses and executing the SQL queries, we gain valuable insights into various aspects of COVID-19 data. These insights contribute to a deeper understanding of the impact of the disease on different countries, populations, and regions.
 
-## 6.1. Data for Tableau
+## 4.1. Data for Tableau
 
 As part of the preprocessing phase, we will create a view named view_percent_population_vaccinated to store data related to COVID-19 vaccinations and rolling counts of vaccinated people. This view can be used for later visualisations or to simplify complex queries. The SQL code for creating the view is as follows:
 
@@ -248,7 +248,7 @@ In the exported view for integer values all occurrences of "." have to be replac
 	
 By completing these preprocessing steps, we have created a view to store relevant data, made necessary adjustments for compatibility with Tableau, and successfully loaded the data into Tableau for further exploration and visualisation.
 
-## 6.2. Visualisation in Tableau
+## 4.2. Visualisation in Tableau
 
 The visualisation process in Tableau involved creating multiple worksheets to present different aspects of the data in an informative and visually appealing manner.
 
@@ -277,7 +277,7 @@ https://public.tableau.com/app/profile/blackcrowx/viz/CovidVisualisation_1684754
 
 By following this visualisation process, we conducted a thorough analysis of the data and presented key insights through engaging visualisations. The Tableau dashboard empowered stakeholders to explore and interact with the COVID-19 data effectively, gaining a deeper understanding of the trends and patterns within the dataset.
 
-## 7. Analysis
+## 5. Analysis
 
 In this data analysis and visualisation project, we utilized PostgreSQL and Tableau to explore global COVID-19 cases. Our objective was to gain insights from the data, and we have successfully achieved the following key findings:
 
@@ -291,7 +291,7 @@ In this data analysis and visualisation project, we utilized PostgreSQL and Tabl
 
 Through the combined power of PostgreSQL and Tableau, we have gained valuable insights into the global COVID-19 situation. These findings contribute to our understanding of the spread and impact of the virus, aiding in informed decision-making and response efforts. The analysis and visualizations presented in this project provide a comprehensive overview of the pandemic, enabling stakeholders to take proactive measures to mitigate its effects. By continuously updating and refining our analysis, we can stay informed and adapt our strategies to navigate through these challenging times.
 
-## 8. Conclusion
+## 6. Conclusion
 
 Based on the analysis of the COVID-19 data, here are some potential takeaways for future analysis:
 
