@@ -244,7 +244,7 @@ WHERE dea.continent IS NOT null;
 
 The view `country_cases` combines data from the `covid_deaths` and `covid_vaccinations` tables for countries, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_cases`.
 
-For integer values all occurrences of "." have to be replaced with "," to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognise the appropriate data types for each column during the import process. This has already been done during the preparation of the data and the resulting view can be loaded into Tableau for further visualisation and analysis.
+For integer values all occurrences of "." have to be replaced with "," to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognise the appropriate data types for each column during the import process. This is done using excel and the resulting data can be loaded into Tableau for further visualisation and analysis.
 	
 By completing these steps, we have created a view to store relevant data, insured necessary adjustments for compatibility with Tableau and successfully loaded the data into Tableau for further exploration with tableu.
 
