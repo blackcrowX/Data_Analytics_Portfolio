@@ -222,23 +222,7 @@ WHERE dea.continent IS NOT null;
 
 The view `country_cases` combines data from the `covid_deaths` and `covid_vaccinations` tables for countries, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_cases`.
 
-```
-DROP VIEW IF EXISTS view_income_cases;
-CREATE VIEW view_income_cases AS
-SELECT dea.continent, dea.location, dea.date, dea.population, dea.new_cases, dea.new_deaths, vac.people_vaccinated, vac.people_fully_vaccinated, vac.total_tests
-FROM covid_deaths dea
-JOIN covid_vaccinations vac
-	ON dea.location = vac.location
-	AND dea.date = vac.date
-WHERE dea.continent IS 'high income'
-Or dea.continent IS  'higher middle income'
-Or dea.continent IS  'lower middle income'
-Or dea.continent IS  'low income';
-```
-
-The view `income_cases` combines data from the `covid_deaths` and `covid_vaccinations` tables for income types, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_vaccinations`.
-
-In the exported views, we will replace all occurrences of "." with "," for integer values. This substitution is performed to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognise the appropriate data types for each column during the import process.The resulting preprocessed data can be loaded into Tableau for further analysis and visualisation.
+In the exported view, we will replace all occurrences of "." with "," for integer values. This substitution is performed with a Python converter using two modules (pandas and io) to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognise the appropriate data types for each column during the import process.The resulting preprocessed data can be loaded into Tableau for further analysis and visualisation.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_4.png"/>
