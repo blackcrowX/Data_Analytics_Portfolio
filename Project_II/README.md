@@ -23,9 +23,11 @@ This project utilises PostgreSQL and Tableau for comprehensive analysis and visu
 
 This project encompasses an analysis of COVID-19 cases utilizing SQL and Tableau, aiming to uncover valuable insights. The analysis pipeline encompasses essential stages such as data preparation, data loading, data aexploration, data preprocessing, data visualisation and data analysis. By leveraging advanced SQL skills, including Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, and Converting Data Types, this project showcases a sophisticated approach to deriving meaningful conclusions. Moreover, to facilitate effective communication of the findings, a visually appealing and interactive Tableau Dashboard has been developed. This dashboard provides an intuitive and user-friendly platform for exploring and interpreting the analyzed data, enhancing the accessibility and usability of the insights gained from the SQL analysis. 
 
-**Project Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
+**Project SQL-Code:** [`Covid_Queries.sql`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Queries.sql)
 
-**Project Visualisation:** [`Covid_Visualisation.twb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Visualisation.twb)
+**Project Tableau-Code:** [`Covid_Visualisation.twb`](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II/Covid_Visualisation.twb)
+
+**Project Tableau-Dashboard:** [`Covid_Dashboard`](https://public.tableau.com/app/profile/blackcrowx/viz/CovidVisualisation_16847540534400/MainDashboard)
 
 **Project Author:** [blackcrowX](https://github.com/blackcrowX)
 
