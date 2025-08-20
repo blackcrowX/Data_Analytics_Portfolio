@@ -212,7 +212,7 @@ As part of the preprocessing phase, we will create a view named view_percent_pop
 ```
 DROP VIEW IF EXISTS view_country_cases;
 CREATE VIEW view_country_cases AS
-SELECT dea.continent, dea.location, dea.date, dea.population, dea.new_cases, des.new_deaths, vac.people_vaccinated, vac.people_fully_vaccinated, vac.total_tests
+SELECT dea.continent, dea.location, dea.date, dea.population, dea.new_cases, dea.new_deaths, vac.people_vaccinated, vac.people_fully_vaccinated, vac.total_tests
 FROM covid_deaths dea
 JOIN covid_vaccinations vac
 	ON dea.location = vac.location
@@ -225,7 +225,7 @@ The view `country_cases` combines data from the `covid_deaths` and `covid_vaccin
 ```
 DROP VIEW IF EXISTS view_income_cases;
 CREATE VIEW view_income_cases AS
-SELECT dea.continent, dea.location, dea.date, dea.population, dea.new_cases, des.new_deaths, vac.people_vaccinated, vac.people_fully_vaccinated, vac.total_tests
+SELECT dea.continent, dea.location, dea.date, dea.population, dea.new_cases, dea.new_deaths, vac.people_vaccinated, vac.people_fully_vaccinated, vac.total_tests
 FROM covid_deaths dea
 JOIN covid_vaccinations vac
 	ON dea.location = vac.location
