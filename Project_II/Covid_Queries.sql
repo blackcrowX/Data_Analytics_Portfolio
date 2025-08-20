@@ -108,16 +108,3 @@ JOIN covid_vaccinations vac
 	ON dea.location = vac.location
 	AND dea.date = vac.date
 WHERE dea.continent IS NOT null;
-
--- View of Income for Later Visualisations
-DROP VIEW IF EXISTS view_income_cases;
-CREATE VIEW view_income_cases AS
-SELECT dea.continent, dea.location, dea.date, dea.population, dea.new_cases, dea.new_deaths, vac.people_vaccinated, vac.people_fully_vaccinated, vac.total_tests
-FROM covid_deaths dea
-JOIN covid_vaccinations vac
-	ON dea.location = vac.location
-	AND dea.date = vac.date
-WHERE dea.continent IS 'high income'
-Or dea.continent IS  'higher middle income'
-Or dea.continent IS  'lower middle income'
-Or dea.continent IS  'low income';
