@@ -242,7 +242,7 @@ JOIN covid_vaccinations vac
 WHERE dea.continent IS NOT null;
 ```
 
-The view `country_cases` combines data from the `covid_deaths` and `covid_vaccinations` tables for countries, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_cases`.
+The view `country_cases` combines data from the `covid_deaths` and `covid_vaccinations` tables for countries, linking them based on location and date. It includes columns such as `continent`, `location`, `date`, `population`, `new_cases`. It excludes data without a continent, because this data is recording income classes and isn't relevant for the further visualisation.
 
 For integer values all occurrences of "." have to be replaced with "," to facilitate the subsequent step of data loading in Tableau. By using commas instead of periods for integer values, Tableau can automatically recognise the appropriate data types for each column during the import process. This is done using excel and the resulting data can be loaded into Tableau for further visualisation and analysis.
 	
