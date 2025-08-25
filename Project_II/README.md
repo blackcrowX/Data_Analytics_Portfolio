@@ -123,7 +123,8 @@ ORDER BY 2 DESC;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__1.png"/>
-  <em>Figure 4: The results from the first query.</em>
+ 
+	<em>Figure 4: The results from the first query.</em>
 </p>
 
 2. **Total Cases vs Population in Germany:** This section calculates the percentage of the population infected with COVID-19 in Germany by dividing the total cases by the population and multiplying by 100. It helps understand the extent of the disease's spread in relation to the overall population.
