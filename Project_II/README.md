@@ -93,7 +93,6 @@ Similarly, we will create the `covid_vaccinations` table in PostgreSQL, ensuring
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_2.png"/>
-  <em>Figure 2: The columns of the table covid_Deaths in PostgreSQL.</em>
 </p>
 
 Once the tables are created, we will import the data from the corresponding CSV files (`covid_deaths.csv` and `covid_vaccinations.csv`) into the respective tables in PostgreSQL. This can be done using the import functionality of the PostgreSQL client tool. During the import process, we need to ensure that the columns of the tables in PostgreSQL are correctly mapped to the columns of the CSV files.
@@ -121,6 +120,10 @@ WHERE location = 'Germany'
 AND new_cases IS NOT null
 ORDER BY 2 DESC;
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_1.png"/>
+  <em>Figure 1: The excel file owid_covid_data as CSV before splitting.</em>
+</p>
 
 2. **Total Cases vs Population in Germany:** This section calculates the percentage of the population infected with COVID-19 in Germany by dividing the total cases by the population and multiplying by 100. It helps understand the extent of the disease's spread in relation to the overall population.
 
@@ -152,18 +155,7 @@ GROUP BY location, population
 ORDER BY percent_population_infected DESC;
 ```
 
-5. **Countries and Date with Highest Infection Rate compared to Population:** This section identifies countries with the highest infection rate compared to their respective populations. It calculates the percentage of the population infected and highlights the countries with the maximum infection count.
-
-```
-SELECT location, date, population, MAX(total_cases) AS highest_infection_count, MAX((total_cases/population))*100 AS percent_population_infected
-FROM covid_deaths
-WHERE continent IS NOT null
-AND new_cases IS NOT null
-GROUP BY location, date, population
-ORDER BY percent_population_infected DESC;
-```
-
-6. **Countries with Highest Death Count per Population:** This section determines the countries with the highest death count per population. It calculates the total death count for each country and ranks them accordingly.
+5. **Countries with Highest Death Count per Population:** This section determines the countries with the highest death count per population. It calculates the total death count for each country and ranks them accordingly.
 
 ```
 SELECT location, SUM(new_deaths) AS total_death_count
@@ -174,7 +166,7 @@ GROUP BY location
 ORDER BY total_death_count DESC;
 ```
 
-7. **Showing Continents with the Highest Death Count per Population:** This section focuses on continents and presents the continents with the highest death count per population. It calculates the total death count for each continent and ranks them accordingly.
+6. **Showing Continents with the Highest Death Count per Population:** This section focuses on continents and presents the continents with the highest death count per population. It calculates the total death count for each continent and ranks them accordingly.
 
 ```
 SELECT continent, SUM(new_deaths) AS total_death_count
@@ -184,7 +176,7 @@ GROUP BY continent
 ORDER BY total_death_count DESC;
 ```
 
-8. **Total Population vs Vaccinations:** This section explores the relationship between the total population and the number of vaccinations in each country. It combines data from the `covid_deaths` and `covid_vaccinations` tables, calculates rolling counts of vaccinated people, and displays the relevant information.
+7. **Total Population vs Vaccinations:** This section explores the relationship between the total population and the number of vaccinations in each country. It combines data from the `covid_deaths` and `covid_vaccinations` tables, calculates rolling counts of vaccinated people, and displays the relevant information.
 
 ```
 SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations,
@@ -198,7 +190,7 @@ AND new_vaccinations IS NOT null
 ORDER BY 2,3;
 ```
 
-9. **Using Temp Table to Perform Calculation on Partition By in Previous Query:** This section creates a temporary table named `percent_population_vaccinated` to store data related to population, vaccinations, and rolling counts of vaccinated people. It uses the temporary table to calculate the percentage of rolling people vaccinated and displays the results.
+8. **Using Temp Table to Perform Calculation on Partition By in Previous Query:** This section creates a temporary table named `percent_population_vaccinated` to store data related to population, vaccinations, and rolling counts of vaccinated people. It uses the temporary table to calculate the percentage of rolling people vaccinated and displays the results.
 
 ```
 DROP TABLE IF EXISTS percent_population_vaccinated;
