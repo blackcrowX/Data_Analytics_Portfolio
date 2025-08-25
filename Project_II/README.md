@@ -93,6 +93,7 @@ Similarly, we will create the `covid_vaccinations` table in PostgreSQL, ensuring
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_2.png"/>
+  <em>Figure 2: The columns of the table covid_Deaths in PostgreSQL.</em>
 </p>
 
 Once the tables are created, we will import the data from the corresponding CSV files (`covid_deaths.csv` and `covid_vaccinations.csv`) into the respective tables in PostgreSQL. This can be done using the import functionality of the PostgreSQL client tool. During the import process, we need to ensure that the columns of the tables in PostgreSQL are correctly mapped to the columns of the CSV files.
@@ -121,8 +122,7 @@ AND new_cases IS NOT null
 ORDER BY 2 DESC;
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_1.png"/>
-  <em>Figure 1: The excel file owid_covid_data as CSV before splitting.</em>
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot__1.png"/>
 </p>
 
 2. **Total Cases vs Population in Germany:** This section calculates the percentage of the population infected with COVID-19 in Germany by dividing the total cases by the population and multiplying by 100. It helps understand the extent of the disease's spread in relation to the overall population.
@@ -134,6 +134,9 @@ WHERE location = 'Germany'
 AND total_cases IS NOT null
 ORDER BY 2 DESC;
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot__2.png"/>
+</p>
 
 3.  **Global Numbers:** This section provides global statistics related to COVID-19. It calculates the total cases, total deaths, and death percentage worldwide by summing the corresponding values across continents.
 
@@ -143,6 +146,9 @@ FROM covid_deaths
 WHERE continent IS NOT null 
 ORDER BY 1, 2;
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot__3.png"/>
+</p>
 
 4. **Countries with Highest Infection Rate compared to Population:** This section identifies countries with the highest infection rate compared to their respective populations. It calculates the percentage of the population infected and highlights the countries with the maximum infection count.
 
@@ -154,6 +160,9 @@ AND new_cases IS NOT null
 GROUP BY location, population
 ORDER BY percent_population_infected DESC;
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot__4.png"/>
+</p>
 
 5. **Countries with Highest Death Count per Population:** This section determines the countries with the highest death count per population. It calculates the total death count for each country and ranks them accordingly.
 
@@ -165,6 +174,9 @@ AND new_deaths IS NOT null
 GROUP BY location
 ORDER BY total_death_count DESC;
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot__5.png"/>
+</p>
 
 6. **Showing Continents with the Highest Death Count per Population:** This section focuses on continents and presents the continents with the highest death count per population. It calculates the total death count for each continent and ranks them accordingly.
 
@@ -175,6 +187,9 @@ WHERE continent IS NOT null
 GROUP BY continent
 ORDER BY total_death_count DESC;
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot__6.png"/>
+</p>
 
 7. **Total Population vs Vaccinations:** This section explores the relationship between the total population and the number of vaccinations in each country. It combines data from the `covid_deaths` and `covid_vaccinations` tables, calculates rolling counts of vaccinated people, and displays the relevant information.
 
@@ -189,6 +204,9 @@ WHERE dea.continent IS NOT null
 AND new_vaccinations IS NOT null
 ORDER BY 2,3;
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot__7.png"/>
+</p>
 
 8. **Using Temp Table to Perform Calculation on Partition By in Previous Query:** This section creates a temporary table named `percent_population_vaccinated` to store data related to population, vaccinations, and rolling counts of vaccinated people. It uses the temporary table to calculate the percentage of rolling people vaccinated and displays the results.
 
@@ -216,6 +234,9 @@ FROM percent_population_vaccinated
 WHERE continent IS NOT null
 AND new_vaccinations IS NOT null;
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot__8.png"/>
+</p>
 
 By performing these analyses and executing the SQL queries, we gain valuable insights into various aspects of COVID-19 data. These insights contribute to a deeper understanding of the impact of the disease on different countries, populations, and regions.
 
