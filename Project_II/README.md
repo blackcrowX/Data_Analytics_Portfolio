@@ -107,6 +107,7 @@ The exploartion is divided into several sections, each focusing on a specific as
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_3.png"/>
+	<em></em>
   <em>Figure 3: The SQL queries in PostgreSQL.</em>
 </p>
 
