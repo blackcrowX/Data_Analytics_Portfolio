@@ -154,7 +154,7 @@ ORDER BY 1, 2;
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__3.png"/>
 	<br>
-  <em>Figure 6: The results from the third query.</em>
+  <em>Figure 6: The result from the third query.</em>
 </p>
 
 4. **Countries with Highest Infection Rate compared to Population:** This section identifies countries with the highest infection rate compared to their respective populations. It calculates the percentage of the population infected and highlights the countries with the maximum infection count.
