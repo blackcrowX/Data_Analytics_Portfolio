@@ -123,7 +123,6 @@ ORDER BY 2 DESC;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__1.png"/>
- 
 	<em>Figure 4: The results from the first query.</em>
 </p>
 
