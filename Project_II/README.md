@@ -123,6 +123,7 @@ ORDER BY 2 DESC;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__1.png"/>
+  <em>Figure 4: The results from the first query.</em>
 </p>
 
 2. **Total Cases vs Population in Germany:** This section calculates the percentage of the population infected with COVID-19 in Germany by dividing the total cases by the population and multiplying by 100. It helps understand the extent of the disease's spread in relation to the overall population.
@@ -136,6 +137,7 @@ ORDER BY 2 DESC;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__2.png"/>
+  <em>Figure 5: The results from the second query.</em>	
 </p>
 
 3.  **Global Numbers:** This section provides global statistics related to COVID-19. It calculates the total cases, total deaths, and death percentage worldwide by summing the corresponding values across continents.
@@ -148,6 +150,7 @@ ORDER BY 1, 2;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__3.png"/>
+  <em>Figure 6: The results from the third query.</em>
 </p>
 
 4. **Countries with Highest Infection Rate compared to Population:** This section identifies countries with the highest infection rate compared to their respective populations. It calculates the percentage of the population infected and highlights the countries with the maximum infection count.
@@ -162,6 +165,7 @@ ORDER BY percent_population_infected DESC;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__4.png"/>
+  <em>Figure 7: The results from the fourth query.</em>
 </p>
 
 5. **Countries with Highest Death Count per Population:** This section determines the countries with the highest death count per population. It calculates the total death count for each country and ranks them accordingly.
@@ -176,6 +180,7 @@ ORDER BY total_death_count DESC;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__5.png"/>
+  <em>Figure 8: The results from the fifth query.</em>
 </p>
 
 6. **Showing Continents with the Highest Death Count per Population:** This section focuses on continents and presents the continents with the highest death count per population. It calculates the total death count for each continent and ranks them accordingly.
@@ -189,6 +194,7 @@ ORDER BY total_death_count DESC;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__6.png"/>
+  <em>Figure 9: The results from the sixth query.</em>
 </p>
 
 7. **Total Population vs Vaccinations:** This section explores the relationship between the total population and the number of vaccinations in each country. It combines data from the `covid_deaths` and `covid_vaccinations` tables, calculates rolling counts of vaccinated people, and displays the relevant information.
@@ -206,6 +212,7 @@ ORDER BY 2,3;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__7.png"/>
+  <em>Figure 10: The results from the seventh query.</em>
 </p>
 
 8. **Using Temp Table to Perform Calculation on Partition By in Previous Query:** This section creates a temporary table named `percent_population_vaccinated` to store data related to population, vaccinations, and rolling counts of vaccinated people. It uses the temporary table to calculate the percentage of rolling people vaccinated and displays the results.
@@ -236,6 +243,7 @@ AND new_vaccinations IS NOT null;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__8.png"/>
+  <em>Figure 11: The results from the eigth query.</em>
 </p>
 
 By performing these analyses and executing the SQL queries, we gain valuable insights into various aspects of COVID-19 data. These insights contribute to a deeper understanding of the impact of the disease on different countries, populations, and regions.
@@ -275,14 +283,14 @@ In addition, we developed a chart to depict the trend of new cases and total cas
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_5.png"/>
-  <em>Figure 4: The worksheet "Cases" in Tableau.</em>
+  <em>Figure 12: The worksheet "Cases" in Tableau.</em>
 </p>
 
 Once the individual worksheets were created, we combined them into a cohesive dashboard in Tableau. This dashboard integrated all the visualisations, providing a comprehensive and interactive view of the data. Stakeholders could explore the data from multiple perspectives and gain insights into the COVID-19 situation.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_6.png"/>
-  <em>Figure 5: The final dashboard in Tableau.</em>
+  <em>Figure 13: The final dashboard in Tableau.</em>
 </p>
 
 To share our findings, we uploaded the final view and dashboard to Tableau Public. The interactive dashboard can be accessed using the following link: 
