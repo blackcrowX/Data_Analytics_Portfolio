@@ -107,7 +107,7 @@ The exploartion is divided into several sections, each focusing on a specific as
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_3.png"/>
-	<em></em>
+	<br>
   <em>Figure 3: The SQL queries in PostgreSQL.</em>
 </p>
 
@@ -124,6 +124,7 @@ ORDER BY 2 DESC;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__1.png"/>
+	<br>
 	<em>Figure 4: The results from the first query.</em>
 </p>
 
@@ -138,6 +139,7 @@ ORDER BY 2 DESC;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__2.png"/>
+	<br>
   <em>Figure 5: The results from the second query.</em>	
 </p>
 
@@ -151,6 +153,7 @@ ORDER BY 1, 2;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__3.png"/>
+	<br>
   <em>Figure 6: The results from the third query.</em>
 </p>
 
@@ -166,6 +169,7 @@ ORDER BY percent_population_infected DESC;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__4.png"/>
+	<br>
   <em>Figure 7: The results from the fourth query.</em>
 </p>
 
@@ -181,6 +185,7 @@ ORDER BY total_death_count DESC;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__5.png"/>
+	<br>
   <em>Figure 8: The results from the fifth query.</em>
 </p>
 
@@ -195,6 +200,7 @@ ORDER BY total_death_count DESC;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__6.png"/>
+	<br>
   <em>Figure 9: The results from the sixth query.</em>
 </p>
 
@@ -213,6 +219,7 @@ ORDER BY 2,3;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__7.png"/>
+	<br>
   <em>Figure 10: The results from the seventh query.</em>
 </p>
 
@@ -244,6 +251,7 @@ AND new_vaccinations IS NOT null;
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__8.png"/>
+	<br>
   <em>Figure 11: The results from the eigth query.</em>
 </p>
 
