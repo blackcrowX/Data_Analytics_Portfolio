@@ -134,11 +134,10 @@ WHERE location = 'Germany'
 AND total_cases IS NOT null
 ORDER BY 2 DESC;
 ```
-```
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/Screenshot__2.png"/>
 </p>
-```
+
 3.  **Global Numbers:** This section provides global statistics related to COVID-19. It calculates the total cases, total deaths, and death percentage worldwide by summing the corresponding values across continents.
 
 ```
