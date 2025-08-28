@@ -299,6 +299,7 @@ Once the individual worksheets were created, we combined them into a cohesive da
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_6.png"/>
+	<br>
   <em>Figure 13: The final dashboard in Tableau.</em>
 </p>
 
