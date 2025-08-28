@@ -143,6 +143,8 @@ ORDER BY 2 DESC;
   <em>Figure 5: The results from the second query.</em>	
 </p>
 
+Here we can already find a faulty point in data which needs to be corrected with the population count being incorrectly entered with an extra zero resulting in a population tens times the actual population of germany. This ill be fixed later to ensure a correct visualisation.
+
 3.  **Global Numbers:** This section provides global statistics related to COVID-19. It calculates the total cases, total deaths, and death percentage worldwide by summing the corresponding values across continents.
 
 ```
