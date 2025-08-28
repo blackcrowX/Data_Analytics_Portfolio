@@ -99,6 +99,10 @@ FROM percent_population_vaccinated
 WHERE continent IS NOT null
 AND new_vaccinations IS NOT null;
 
+-- Correct Faulty Population Data
+UPDATE covid_deaths
+SET population = population / 10
+
 -- View of Countries for Later Visualisations
 DROP VIEW IF EXISTS view_country_cases;
 CREATE VIEW view_country_cases AS
