@@ -259,7 +259,14 @@ By performing these analyses and executing the SQL queries, we gain valuable ins
 
 ## 4.1. Data for Tableau
 
-As part of the preprocessing phase, we will create a view named view_percent_population_vaccinated to store data related to COVID-19 vaccinations and rolling counts of vaccinated people. This view can be used for later visualisations or to simplify complex queries. The SQL code for creating the view is as follows:
+As part of the preprocessing phase, we will create a view named view_percent_population_vaccinated to store data related to COVID-19 vaccinations and rolling counts of vaccinated people. This view can be used for later visualisations or to simplify complex queries. But before creating the view we must correct the faulty population data with following code:
+
+```
+UPDATE covid_deaths
+SET population = population / 10
+```
+
+The SQL code for creating the view is as follows:
 
 ```
 DROP VIEW IF EXISTS view_country_cases;
