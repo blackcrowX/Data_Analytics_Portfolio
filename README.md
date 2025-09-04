@@ -14,7 +14,6 @@
   - [Car Insurance Claims Fraud](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_I)
   - [Global Covid Cases](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_II)
   - [Pokemon Generation 1-8](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III)
-  - [XYZ](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_IV)
 - [Certificates](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#certificates)
 - [Contact](https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/README.md#contact)
 
